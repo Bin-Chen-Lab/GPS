@@ -1,0 +1,2 @@
+size smiles qed sa rges qed sa max_or_val 
+36 C=C1CN(Cc2cc(Cl)c(Cl)cc2C)C=CN1c1ncnc2c1cnn2C(CC)c1ccc(C)cc1 0.27313861199212663 0.6914749623606998 -0.0 0.27313861199212663 0.6914749623606998 1

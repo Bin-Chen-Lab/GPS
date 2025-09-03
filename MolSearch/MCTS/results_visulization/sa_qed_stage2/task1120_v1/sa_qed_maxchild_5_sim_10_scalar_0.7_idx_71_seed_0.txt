@@ -1,0 +1,2 @@
+size smiles sa qed qed sa max_or_val 
+31 Nc1ccc(C=O)nc1N(N)C(c1ccc(Cl)cc1)c1ccc2c(O)ccnc2c1O 0.7080249472458878 0.21184076384940517 0.21184076384940517 0.7080249472458878 1

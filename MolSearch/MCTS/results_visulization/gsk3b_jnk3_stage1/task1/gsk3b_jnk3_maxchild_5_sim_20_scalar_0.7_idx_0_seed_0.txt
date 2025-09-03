@@ -1,0 +1,11 @@
+size smiles gsk3b jnk3 qed sa max_or_val 
+43 C[S@@](=O)c1ccc(-c2nc(-c3ccncc3)c(-c3ccc4cc(-c5ccc(-c6ccc(F)cc6)cc5)ccc4c3)[nH]2)cc1 0.77 0.65 0.21369918932666845 0.7648981622907299 1
+43 C[S@@](=O)c1ccc(-c2nc(-c3ccncc3)c(-c3ccc4cc(-c5ccc(-c6ccc(F)cc6)cc5)ccc4c3)[nH]2)cc1 0.77 0.65 0.21369918932666845 0.7648981622907299 0
+37 C[S@@](=O)c1ccc(-c2nc(-c3ccncc3)c(-c3ccc4cc(-c5ccc(F)cc5)ccc4c3)[nH]2)cc1 0.77 0.65 0.26494085671151 0.775546437019877 0
+55 C[S@@](=O)c1ccc(-c2nc(-c3ccncc3)c(-c3ccc4cc(-c5ccc(-c6ccc(-c7ccc(-c8ccc(F)cc8)cc7)cc6)cc5)ccc4c3)[nH]2)cc1 0.77 0.65 0.16925423114398075 0.7463007921865421 0
+38 C[S@@](=O)c1ccc(-c2nc(-c3ccncc3)c(-c3ccc4cc(-c5cc(F)ccc5I)ccc4c3)[nH]2)cc1 0.77 0.6 0.1962208140842444 0.7490307984411158 0
+44 C[S@@](=O)c1ccc(-c2nc(-c3ccncc3)c(-c3ccc4cc(-c5cc(F)ccc5-c5ccc(F)cc5)ccc4c3)[nH]2)cc1 0.74 0.62 0.2078491734225417 0.7521281407731161 0
+43 C[S@@](=O)c1ccc(-c2nc(-c3ccncc3)c(-c3ccc4cc(-c5cc(F)ccc5-c5ccncc5)ccc4c3)[nH]2)cc1 0.74 0.62 0.21391036056338894 0.7464888826814503 0
+49 C[S@@](=O)c1ccc(-c2nc(-c3ccncc3)c(-c3ccc4cc(-c5ccc(-c6ccc(-c7ccc(F)cc7)cc6)cc5)ccc4c3)[nH]2)cc1 0.77 0.65 0.18587491243681745 0.7539857762756995 0
+46 CS(=O)c1ccc(-c2ccc(F)cc2-c2ccc3cc(-c4[nH]c(-c5ccc([S@@](C)=O)cc5)nc4-c4ccncc4)ccc3c2)cc1 0.74 0.62 0.18863926204836787 0.6983769592249678 0
+50 C[S@@](=O)c1ccc(-c2nc(-c3ccncc3)c(-c3ccc4cc(-c5cc(F)cc(-c6ccc(-c7ccc(F)cc7)cc6)c5)ccc4c3)[nH]2)cc1 0.73 0.61 0.1831722407309916 0.7369039026383116 0

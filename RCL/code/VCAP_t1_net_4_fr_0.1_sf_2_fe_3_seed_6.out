@@ -1,0 +1,447 @@
+nohup: ignoring input
+(532230, 6)
+max_value, max_counts, n_select
+1 471090 30570
+get drug features
+get gene features
+(91710, 1107)
+[32819 30570 28321]
+train_data shape
+(91710, 2131)
+(91710,)
+num_iter_per_epoch 716
+(5650, 6)
+get drug features
+get gene features
+(5650, 1107)
+test_data shape
+(5650, 2131)
+(5650,)
+[0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+ 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+[0.1        0.         0.03333333 0.06666667 0.1        0.1
+ 0.1        0.1        0.1        0.1        0.1        0.1
+ 0.1        0.1        0.1        0.1        0.1        0.1
+ 0.1        0.1        0.1        0.1        0.1        0.1
+ 0.1       ]
+[0.         1.         0.99804688 0.984375   0.94726562 0.875
+ 0.75585938 0.578125   0.33007812 0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.        ]
+loading dataset...
+building model...
+<bound method MLP.parameters of MLP(
+  (fc1): Linear(in_features=2131, out_features=128, bias=True)
+  (fc2): Linear(in_features=128, out_features=32, bias=True)
+  (fc3): Linear(in_features=32, out_features=3, bias=True)
+)>
+<bound method MLP.parameters of MLP(
+  (fc1): Linear(in_features=2131, out_features=128, bias=True)
+  (fc2): Linear(in_features=128, out_features=32, bias=True)
+  (fc3): Linear(in_features=32, out_features=3, bias=True)
+)>
+<bound method MLP.parameters of MLP(
+  (fc1): Linear(in_features=2131, out_features=128, bias=True)
+  (fc2): Linear(in_features=128, out_features=32, bias=True)
+  (fc3): Linear(in_features=32, out_features=3, bias=True)
+)>
+<bound method MLP.parameters of MLP(
+  (fc1): Linear(in_features=2131, out_features=128, bias=True)
+  (fc2): Linear(in_features=128, out_features=32, bias=True)
+  (fc3): Linear(in_features=32, out_features=3, bias=True)
+)>
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[1301   93   45]
+ [2968  187  120]
+ [ 827   72   37]]
+f1_score 0.19
+all test accs
+[26.991150442477878, 31.575221238938052, 25.292035398230087, 41.52212389380531]
+Epoch [1/25] Test Accuracy on the 5650 test images: Model1 26.9912 % F1 0.1888 Pure ratio 0.0000 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+/home/ubuntu/.local/lib/python2.7/site-packages/torch/nn/_reduction.py:43: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+remember rate 1.000 remember # 128 include # 128
+Epoch [1/25], Iter [200/716] Training Accuracy1: 59.3750, Loss1: 0.0070 Pure Ratio1 56.7386
+[0.5783703 0.5783703 0.5783703 0.5783703]
+Epoch [1/25], Iter [400/716] Training Accuracy1: 53.9062, Loss1: 0.0075 Pure Ratio1 56.6729
+[0.57824101 0.57824101 0.57824101 0.57824101]
+Epoch [1/25], Iter [600/716] Training Accuracy1: 57.8125, Loss1: 0.0068 Pure Ratio1 56.6266
+[0.55492181 0.55492181 0.55492181 0.55492181]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 956  350  133]
+ [1069 1279  927]
+ [ 193  177  566]]
+f1_score 0.49
+all test accs
+[49.575221238938056, 49.92920353982301, 48.63716814159292, 50.07079646017699]
+Epoch [2/25] Test Accuracy on the 5650 test images: Model1 49.5752 % F1 0.4894 Pure ratio 56.6412 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.967 remember # 123 include # 125
+Epoch [2/25], Iter [200/716] Training Accuracy1: 67.1875, Loss1: 0.0055 Pure Ratio1 56.5612
+[0.58161641 0.57906149 0.57779754 0.57953348]
+Epoch [2/25], Iter [400/716] Training Accuracy1: 67.1875, Loss1: 0.0061 Pure Ratio1 56.5877
+[0.57617913 0.57731336 0.5765553  0.57842106]
+Epoch [2/25], Iter [600/716] Training Accuracy1: 68.7500, Loss1: 0.0057 Pure Ratio1 56.5750
+[0.57087707 0.57365175 0.57609165 0.57343263]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 917  359  163]
+ [ 987 1276 1012]
+ [ 156  180  600]]
+f1_score 0.49
+all test accs
+[49.43362831858407, 49.575221238938056, 49.38053097345133, 49.27433628318584]
+Epoch [3/25] Test Accuracy on the 5650 test images: Model1 49.4336 % F1 0.4894 Pure ratio 56.5640 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.933 remember # 119 include # 122
+Epoch [3/25], Iter [200/716] Training Accuracy1: 65.6250, Loss1: 0.0054 Pure Ratio1 56.4610
+[0.54757833 0.54643591 0.54579043 0.54642358]
+Epoch [3/25], Iter [400/716] Training Accuracy1: 62.5000, Loss1: 0.0062 Pure Ratio1 56.5642
+[0.55220276 0.54816942 0.55244752 0.54783673]
+Epoch [3/25], Iter [600/716] Training Accuracy1: 67.1875, Loss1: 0.0054 Pure Ratio1 56.5670
+[0.5948939  0.59238744 0.59187312 0.58916038]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 922  385  132]
+ [ 981 1328  966]
+ [ 167  215  554]]
+f1_score 0.49
+all test accs
+[49.6283185840708, 51.575221238938056, 52.08849557522124, 49.575221238938056]
+Epoch [4/25] Test Accuracy on the 5650 test images: Model1 49.6283 % F1 0.4880 Pure ratio 56.5519 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 122
+Epoch [4/25], Iter [200/716] Training Accuracy1: 70.3125, Loss1: 0.0052 Pure Ratio1 56.7085
+[0.59168199 0.59188514 0.59286628 0.58673287]
+Epoch [4/25], Iter [400/716] Training Accuracy1: 67.1875, Loss1: 0.0053 Pure Ratio1 56.6409
+[0.55282132 0.55748146 0.56215256 0.55247978]
+Epoch [4/25], Iter [600/716] Training Accuracy1: 66.4062, Loss1: 0.0047 Pure Ratio1 56.5841
+[0.5653825  0.56536922 0.56467784 0.56676934]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 874  409  156]
+ [ 913 1381  981]
+ [ 131  175  630]]
+f1_score 0.50
+all test accs
+[51.06194690265487, 51.48672566371681, 50.0353982300885, 50.24778761061947]
+Epoch [5/25] Test Accuracy on the 5650 test images: Model1 51.0619 % F1 0.5047 Pure ratio 56.6048 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 120
+Epoch [5/25], Iter [200/716] Training Accuracy1: 63.2812, Loss1: 0.0056 Pure Ratio1 56.5081
+[0.55467759 0.55208733 0.55719557 0.55380683]
+Epoch [5/25], Iter [400/716] Training Accuracy1: 64.0625, Loss1: 0.0057 Pure Ratio1 56.6567
+[0.54981944 0.54950064 0.5560442  0.5496854 ]
+Epoch [5/25], Iter [600/716] Training Accuracy1: 65.6250, Loss1: 0.0054 Pure Ratio1 56.6123
+[0.56154698 0.56520312 0.55905952 0.56252214]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 916  373  150]
+ [ 981 1266 1028]
+ [ 131  178  627]]
+f1_score 0.49
+all test accs
+[49.716814159292035, 51.53982300884956, 51.876106194690266, 49.53982300884956]
+Epoch [6/25] Test Accuracy on the 5650 test images: Model1 49.7168 % F1 0.4944 Pure ratio 56.5836 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 119
+Epoch [6/25], Iter [200/716] Training Accuracy1: 67.9688, Loss1: 0.0052 Pure Ratio1 56.7014
+[0.57316381 0.57757861 0.57463245 0.57390617]
+Epoch [6/25], Iter [400/716] Training Accuracy1: 62.5000, Loss1: 0.0054 Pure Ratio1 56.6620
+[0.56166885 0.5682032  0.56643811 0.56571328]
+Epoch [6/25], Iter [600/716] Training Accuracy1: 67.9688, Loss1: 0.0052 Pure Ratio1 56.6058
+[0.55888286 0.55185237 0.56274231 0.55281344]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 915  395  129]
+ [ 966 1457  852]
+ [ 119  228  589]]
+f1_score 0.52
+all test accs
+[52.4070796460177, 54.30088495575221, 51.89380530973451, 51.716814159292035]
+Epoch [7/25] Test Accuracy on the 5650 test images: Model1 52.4071 % F1 0.5155 Pure ratio 56.6067 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 115
+Epoch [7/25], Iter [200/716] Training Accuracy1: 70.3125, Loss1: 0.0044 Pure Ratio1 56.6276
+[0.55247075 0.55032269 0.54625642 0.54499619]
+Epoch [7/25], Iter [400/716] Training Accuracy1: 71.8750, Loss1: 0.0044 Pure Ratio1 56.6164
+[0.53858636 0.54361265 0.54728257 0.54560444]
+Epoch [7/25], Iter [600/716] Training Accuracy1: 71.0938, Loss1: 0.0034 Pure Ratio1 56.6158
+[0.56346187 0.56417807 0.56374222 0.56401974]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 889  398  152]
+ [ 878 1301 1096]
+ [ 109  176  651]]
+f1_score 0.50
+all test accs
+[50.283185840707965, 51.29203539823009, 51.13274336283186, 50.08849557522124]
+Epoch [8/25] Test Accuracy on the 5650 test images: Model1 50.2832 % F1 0.5003 Pure ratio 56.6224 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 109
+Epoch [8/25], Iter [200/716] Training Accuracy1: 71.0938, Loss1: 0.0045 Pure Ratio1 56.6367
+[0.55128217 0.55078335 0.55470572 0.55135985]
+Epoch [8/25], Iter [400/716] Training Accuracy1: 71.8750, Loss1: 0.0040 Pure Ratio1 56.5956
+[0.5599773  0.56248404 0.55805441 0.56039053]
+Epoch [8/25], Iter [600/716] Training Accuracy1: 70.3125, Loss1: 0.0055 Pure Ratio1 56.6095
+[0.59580728 0.59653153 0.60121247 0.5991856 ]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 878  416  145]
+ [ 874 1413  988]
+ [ 118  201  617]]
+f1_score 0.51
+all test accs
+[51.469026548672566, 51.43362831858407, 51.78761061946903, 50.389380530973455]
+Epoch [9/25] Test Accuracy on the 5650 test images: Model1 51.4690 % F1 0.5076 Pure ratio 56.6245 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 104
+Epoch [9/25], Iter [200/716] Training Accuracy1: 63.2812, Loss1: 0.0050 Pure Ratio1 56.6409
+[0.56979635 0.56946352 0.5718565  0.56743928]
+Epoch [9/25], Iter [400/716] Training Accuracy1: 73.4375, Loss1: 0.0033 Pure Ratio1 56.6494
+[0.55824644 0.5572192  0.56226054 0.55860261]
+Epoch [9/25], Iter [600/716] Training Accuracy1: 74.2188, Loss1: 0.0034 Pure Ratio1 56.6412
+[0.569817   0.56865496 0.56528957 0.56586005]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 869  422  148]
+ [ 857 1428  990]
+ [ 105  205  626]]
+f1_score 0.51
+all test accs
+[51.73451327433628, 51.68141592920354, 53.06194690265487, 53.5929203539823]
+Epoch [10/25] Test Accuracy on the 5650 test images: Model1 51.7345 % F1 0.5103 Pure ratio 56.6364 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 110
+Epoch [10/25], Iter [200/716] Training Accuracy1: 79.6875, Loss1: 0.0023 Pure Ratio1 56.6754
+[0.58231974 0.58153651 0.58642141 0.58464298]
+Epoch [10/25], Iter [400/716] Training Accuracy1: 60.1562, Loss1: 0.0062 Pure Ratio1 56.6888
+[0.57652628 0.57422803 0.57575227 0.5756288 ]
+Epoch [10/25], Iter [600/716] Training Accuracy1: 63.2812, Loss1: 0.0044 Pure Ratio1 56.6606
+[0.55707389 0.55045627 0.55699327 0.55665181]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 905  402  132]
+ [ 921 1331 1023]
+ [ 122  190  624]]
+f1_score 0.50
+all test accs
+[50.61946902654867, 50.991150442477874, 49.75221238938053, 49.663716814159294]
+Epoch [11/25] Test Accuracy on the 5650 test images: Model1 50.6195 % F1 0.5021 Pure ratio 56.6431 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 108
+Epoch [11/25], Iter [200/716] Training Accuracy1: 71.0938, Loss1: 0.0046 Pure Ratio1 56.5788
+[0.58110311 0.58024597 0.58193118 0.57640784]
+Epoch [11/25], Iter [400/716] Training Accuracy1: 71.0938, Loss1: 0.0036 Pure Ratio1 56.6214
+[0.56778322 0.56563301 0.5710621  0.57112429]
+Epoch [11/25], Iter [600/716] Training Accuracy1: 71.8750, Loss1: 0.0030 Pure Ratio1 56.6426
+[0.55794434 0.55355565 0.55466346 0.55831733]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 891  422  126]
+ [ 955 1395  925]
+ [ 123  214  599]]
+f1_score 0.50
+all test accs
+[51.06194690265487, 51.16814159292036, 50.584070796460175, 51.69911504424779]
+Epoch [12/25] Test Accuracy on the 5650 test images: Model1 51.0619 % F1 0.5040 Pure ratio 56.6407 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 107
+Epoch [12/25], Iter [200/716] Training Accuracy1: 73.4375, Loss1: 0.0029 Pure Ratio1 56.6426
+[0.56738268 0.56811667 0.57275525 0.56643506]
+Epoch [12/25], Iter [400/716] Training Accuracy1: 72.6562, Loss1: 0.0040 Pure Ratio1 56.7146
+[0.57254385 0.57363828 0.57471968 0.5776906 ]
+Epoch [12/25], Iter [600/716] Training Accuracy1: 72.6562, Loss1: 0.0036 Pure Ratio1 56.6856
+[0.55424907 0.55612705 0.55252968 0.5616341 ]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 904  368  167]
+ [ 944 1285 1046]
+ [ 116  171  649]]
+f1_score 0.50
+all test accs
+[50.230088495575224, 51.48672566371681, 49.92920353982301, 51.150442477876105]
+Epoch [13/25] Test Accuracy on the 5650 test images: Model1 50.2301 % F1 0.4997 Pure ratio 56.6822 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 108
+Epoch [13/25], Iter [200/716] Training Accuracy1: 77.3438, Loss1: 0.0031 Pure Ratio1 56.6218
+[0.58119615 0.57876945 0.57886121 0.58398558]
+Epoch [13/25], Iter [400/716] Training Accuracy1: 75.7812, Loss1: 0.0037 Pure Ratio1 56.6143
+[0.55925197 0.56211897 0.56067117 0.55683807]
+Epoch [13/25], Iter [600/716] Training Accuracy1: 75.0000, Loss1: 0.0031 Pure Ratio1 56.6631
+[0.56861397 0.56535513 0.56647094 0.56889798]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 850  460  129]
+ [ 788 1581  906]
+ [ 112  210  614]]
+f1_score 0.53
+all test accs
+[53.89380530973451, 54.05309734513274, 51.69911504424779, 51.716814159292035]
+Epoch [14/25] Test Accuracy on the 5650 test images: Model1 53.8938 % F1 0.5268 Pure ratio 56.6575 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 109
+Epoch [14/25], Iter [200/716] Training Accuracy1: 77.3438, Loss1: 0.0027 Pure Ratio1 56.6054
+[0.56568436 0.56575261 0.56686003 0.56545885]
+Epoch [14/25], Iter [400/716] Training Accuracy1: 68.7500, Loss1: 0.0031 Pure Ratio1 56.7311
+[0.58056313 0.58185934 0.58012851 0.5815919 ]
+Epoch [14/25], Iter [600/716] Training Accuracy1: 71.0938, Loss1: 0.0039 Pure Ratio1 56.7095
+[0.5552587  0.55644236 0.55814219 0.55543116]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 856  421  162]
+ [ 882 1368 1025]
+ [ 101  206  629]]
+f1_score 0.50
+all test accs
+[50.49557522123894, 51.575221238938056, 51.203539823008846, 51.68141592920354]
+Epoch [15/25] Test Accuracy on the 5650 test images: Model1 50.4956 % F1 0.4995 Pure ratio 56.6755 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 109
+Epoch [15/25], Iter [200/716] Training Accuracy1: 75.7812, Loss1: 0.0034 Pure Ratio1 56.6119
+[0.58076084 0.57981502 0.57865487 0.57973255]
+Epoch [15/25], Iter [400/716] Training Accuracy1: 70.3125, Loss1: 0.0033 Pure Ratio1 56.6339
+[0.54840535 0.55255664 0.55342103 0.55666766]
+Epoch [15/25], Iter [600/716] Training Accuracy1: 65.6250, Loss1: 0.0046 Pure Ratio1 56.6565
+[0.5613139  0.5674033  0.56608437 0.5658313 ]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 855  430  154]
+ [ 808 1422 1045]
+ [ 113  201  622]]
+f1_score 0.51
+all test accs
+[51.309734513274336, 53.85840707964602, 51.07964601769911, 51.52212389380531]
+Epoch [16/25] Test Accuracy on the 5650 test images: Model1 51.3097 % F1 0.5056 Pure ratio 56.6721 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 107
+Epoch [16/25], Iter [200/716] Training Accuracy1: 68.7500, Loss1: 0.0041 Pure Ratio1 56.6252
+[0.54107052 0.54346537 0.54449272 0.54105295]
+Epoch [16/25], Iter [400/716] Training Accuracy1: 79.6875, Loss1: 0.0028 Pure Ratio1 56.6182
+[0.57104477 0.56698518 0.56825657 0.57313081]
+Epoch [16/25], Iter [600/716] Training Accuracy1: 71.0938, Loss1: 0.0035 Pure Ratio1 56.6299
+[0.56805542 0.56903533 0.56467005 0.56473958]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 923  388  128]
+ [ 975 1375  925]
+ [ 144  218  574]]
+f1_score 0.50
+all test accs
+[50.83185840707964, 51.29203539823009, 51.48672566371681, 51.69911504424779]
+Epoch [17/25] Test Accuracy on the 5650 test images: Model1 50.8319 % F1 0.5005 Pure ratio 56.6653 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 110
+Epoch [17/25], Iter [200/716] Training Accuracy1: 69.5312, Loss1: 0.0035 Pure Ratio1 56.6276
+[0.56455744 0.56223326 0.56395964 0.56386975]
+Epoch [17/25], Iter [400/716] Training Accuracy1: 71.8750, Loss1: 0.0026 Pure Ratio1 56.7002
+[0.55164537 0.54733149 0.55118253 0.54472298]
+Epoch [17/25], Iter [600/716] Training Accuracy1: 70.3125, Loss1: 0.0040 Pure Ratio1 56.6726
+[0.56778793 0.5706148  0.56735125 0.56744433]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 888  395  156]
+ [ 895 1359 1021]
+ [ 103  195  638]]
+f1_score 0.51
+all test accs
+[51.06194690265487, 51.557522123893804, 52.46017699115044, 51.610619469026545]
+Epoch [18/25] Test Accuracy on the 5650 test images: Model1 51.0619 % F1 0.5061 Pure ratio 56.6761 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 111
+Epoch [18/25], Iter [200/716] Training Accuracy1: 71.0938, Loss1: 0.0046 Pure Ratio1 56.4779
+[0.56954689 0.56724252 0.56884294 0.56470857]
+Epoch [18/25], Iter [400/716] Training Accuracy1: 73.4375, Loss1: 0.0046 Pure Ratio1 56.5737
+[0.57055376 0.57359678 0.56827723 0.56965347]
+Epoch [18/25], Iter [600/716] Training Accuracy1: 79.6875, Loss1: 0.0026 Pure Ratio1 56.6947
+[0.57859422 0.5785705  0.57931062 0.57935061]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 894  425  120]
+ [ 908 1475  892]
+ [ 130  224  582]]
+f1_score 0.51
+all test accs
+[52.230088495575224, 53.11504424778761, 51.415929203539825, 52.8141592920354]
+Epoch [19/25] Test Accuracy on the 5650 test images: Model1 52.2301 % F1 0.5123 Pure ratio 56.6594 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 105
+Epoch [19/25], Iter [200/716] Training Accuracy1: 71.8750, Loss1: 0.0041 Pure Ratio1 56.7097
+[0.54530118 0.54819824 0.54685791 0.54966787]
+Epoch [19/25], Iter [400/716] Training Accuracy1: 73.4375, Loss1: 0.0050 Pure Ratio1 56.6872
+[0.55774361 0.5607664  0.56018184 0.56440393]
+Epoch [19/25], Iter [600/716] Training Accuracy1: 73.4375, Loss1: 0.0036 Pure Ratio1 56.6959
+[0.54940733 0.54474744 0.54985516 0.54761862]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 863  435  141]
+ [ 895 1448  932]
+ [ 111  235  590]]
+f1_score 0.50
+all test accs
+[51.34513274336283, 52.72566371681416, 52.14159292035398, 50.60176991150443]
+Epoch [20/25] Test Accuracy on the 5650 test images: Model1 51.3451 % F1 0.5043 Pure ratio 56.6828 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 109
+Epoch [20/25], Iter [200/716] Training Accuracy1: 76.5625, Loss1: 0.0030 Pure Ratio1 56.6183
+[0.58061414 0.57815372 0.58224647 0.5811593 ]
+Epoch [20/25], Iter [400/716] Training Accuracy1: 77.3438, Loss1: 0.0030 Pure Ratio1 56.6340
+[0.56809825 0.56550136 0.56801492 0.56670093]
+Epoch [20/25], Iter [600/716] Training Accuracy1: 69.5312, Loss1: 0.0057 Pure Ratio1 56.6912
+[0.56846334 0.5637272  0.56595594 0.56436996]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 873  433  133]
+ [ 896 1413  966]
+ [ 120  204  612]]
+f1_score 0.51
+all test accs
+[51.29203539823009, 51.94690265486726, 51.36283185840708, 52.35398230088496]
+Epoch [21/25] Test Accuracy on the 5650 test images: Model1 51.2920 % F1 0.5059 Pure ratio 56.6753 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 110
+Epoch [21/25], Iter [200/716] Training Accuracy1: 74.2188, Loss1: 0.0033 Pure Ratio1 56.5488
+[0.57336229 0.57343622 0.57500718 0.57661232]
+Epoch [21/25], Iter [400/716] Training Accuracy1: 71.8750, Loss1: 0.0038 Pure Ratio1 56.6794
+[0.56711157 0.57080653 0.5704089  0.56970951]
+Epoch [21/25], Iter [600/716] Training Accuracy1: 74.2188, Loss1: 0.0028 Pure Ratio1 56.6599
+[0.56763876 0.57205495 0.57338751 0.56671243]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 875  439  125]
+ [ 882 1464  929]
+ [ 106  235  595]]
+f1_score 0.51
+all test accs
+[51.92920353982301, 51.716814159292035, 51.557522123893804, 51.85840707964602]
+Epoch [22/25] Test Accuracy on the 5650 test images: Model1 51.9292 % F1 0.5104 Pure ratio 56.6841 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 106
+Epoch [22/25], Iter [200/716] Training Accuracy1: 75.0000, Loss1: 0.0029 Pure Ratio1 56.6425
+[0.54400113 0.54157115 0.54383664 0.539604  ]
+Epoch [22/25], Iter [400/716] Training Accuracy1: 73.4375, Loss1: 0.0040 Pure Ratio1 56.6778
+[0.58099513 0.57946487 0.57796031 0.58000405]
+Epoch [22/25], Iter [600/716] Training Accuracy1: 67.1875, Loss1: 0.0056 Pure Ratio1 56.6599
+[0.56666644 0.56304732 0.56493734 0.56628156]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 893  426  120]
+ [ 926 1410  939]
+ [ 122  212  602]]
+f1_score 0.51
+all test accs
+[51.415929203539825, 52.3716814159292, 52.54867256637168, 51.85840707964602]
+Epoch [23/25] Test Accuracy on the 5650 test images: Model1 51.4159 % F1 0.5073 Pure ratio 56.6740 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 113
+Epoch [23/25], Iter [200/716] Training Accuracy1: 70.3125, Loss1: 0.0032 Pure Ratio1 56.6856
+[0.57457063 0.57759715 0.58160111 0.57669887]
+Epoch [23/25], Iter [400/716] Training Accuracy1: 76.5625, Loss1: 0.0048 Pure Ratio1 56.6658
+[0.57874887 0.57803441 0.57574319 0.57634598]
+Epoch [23/25], Iter [600/716] Training Accuracy1: 67.9688, Loss1: 0.0050 Pure Ratio1 56.6854
+[0.54919891 0.54482831 0.54506258 0.5513025 ]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 861  409  169]
+ [ 852 1425  998]
+ [ 103  193  640]]
+f1_score 0.51
+all test accs
+[51.78761061946903, 52.08849557522124, 51.11504424778761, 51.309734513274336]
+Epoch [24/25] Test Accuracy on the 5650 test images: Model1 51.7876 % F1 0.5111 Pure ratio 56.6699 % 
+Training VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+remember rate 0.900 remember # 115 include # 106
+Epoch [24/25], Iter [200/716] Training Accuracy1: 75.7812, Loss1: 0.0026 Pure Ratio1 56.6664
+[0.56599577 0.56691763 0.56756539 0.56682768]
+Epoch [24/25], Iter [400/716] Training Accuracy1: 78.1250, Loss1: 0.0024 Pure Ratio1 56.6888
+[0.57550283 0.57932461 0.58074768 0.57311402]
+Epoch [24/25], Iter [600/716] Training Accuracy1: 67.9688, Loss1: 0.0042 Pure Ratio1 56.7119
+[0.58137609 0.57966702 0.5811405  0.57902923]
+Evaluating VCAP_t1_multi_net_4_forget_rate_0.1_stop_fuzzy_2_fuzzy_exp_3_seed_6...
+[[ 863  429  147]
+ [ 846 1469  960]
+ [ 117  216  603]]
+f1_score 0.51
+all test accs
+[51.94690265486726, 52.26548672566372, 53.06194690265487, 51.309734513274336]
+Epoch [25/25] Test Accuracy on the 5650 test images: Model1 51.9469 % F1 0.5099 Pure ratio 56.6902 % 
