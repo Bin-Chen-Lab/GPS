@@ -1,0 +1,2 @@
+size smiles sa qed qed sa max_or_val 
+31 NC#Cc1ccnc(NC(c2ccc(Cl)c(OO)c2)c2ccc3cccnc3c2O)c1 0.7226322829039016 0.16069084086981966 0.16069084086981966 0.7226322829039016 1

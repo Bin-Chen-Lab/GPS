@@ -1,0 +1,2 @@
+size smiles qed sa rges qed sa max_or_val 
+29 Cc1ccc(Cl)cc1Cn1ncc2c(NCc3cc4nccnc4[nH]3)ncnc21 0.4630321207727379 0.7997465119878375 -0.0 0.4630321207727379 0.7997465119878375 1
