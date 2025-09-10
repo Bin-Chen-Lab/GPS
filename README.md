@@ -1,4 +1,4 @@
-# GPS4Drugs Pipelines
+# Deep learning-based screening and design of novel therapeutics that reverse disease-associated transcriptional phenotype<img width="468" height="61" alt="image" src="https://github.com/user-attachments/assets/11ec2749-9dd2-4a9f-a120-b7642b099110" />
 
 ## Table of Contents
 - [Environment Setup](#environment-setup)
