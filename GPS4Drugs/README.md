@@ -1,5 +1,14 @@
 # Deep learning-based screening and design of novel therapeutics that reverse disease-associated transcriptional phenotype
 
+## Table of Contents
+- [Environment Setup](#environment-setup)
+- [GPS Prediction](#gps-prediction)
+  - [Input Format](#input-format)
+  - [Command](#command)
+  - [Flags](#flags)
+- [GPS Drug Screening (Reversal Prediction)](#gps-drug-screening-reversal-prediction)
+- [GPS Prediction Profile Docker Image](#gps-drug-docker)
+
 ## Environment Setup
 
 To run both pipelines, install the Python 2.7 environment:
