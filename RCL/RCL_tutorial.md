@@ -11,7 +11,7 @@ Then, in the RCL/code folder, run [this code file](https://github.com/Bin-Chen-L
 
 # Step 2: Training and evaluating RCL.
 
-
+in the RCL/code folder,
 
 
 
