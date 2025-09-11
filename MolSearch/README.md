@@ -144,14 +144,6 @@ sudo docker run --rm --gpus all \
     leshchi4/molsearch:latest \
     python MCTS/molsearch1_auto.py --num_drugs 1 --sample_name <sample_name> --pool_cores 1 --goals bbbp_rges
 ```
-
-#### Flags for `molsearch1_auto.py`
-- `--num_drugs`, type=int, help='number of drugs in csv file', default=1  
-- `--sample_name`, type=str, help='csv filename no .csv', default='taskdipg'  
-- `--pool_cores`, type=int, help='number of cores to use', default=1  
-- `--goals`, type=str, help='plogp,qed,sa,rges,bbbp use _ to connect', default='bbbp_rges'  
-- `--sig_name`, type=int, help='number of cores to use', default='None'  
-
 ---
 
 ### Stage 2: Optimization (`molsearch2_auto.py`)
@@ -164,14 +156,6 @@ sudo docker run --rm --gpus all \
     leshchi4/molsearch:latest \
     python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_goals bbbp_rges --pool_cores 1 --goals plogp_qed_sa_rges
 ```
-
-#### Flags for `molsearch2_auto.py`
-- `--num_drugs`, type=int, help='number of drugs in csv file', default=1  
-- `--sample_name`, type=str, help='csv filename no .csv', default='mmfdipg'  
-- `--previous_goals`, type=str, help='stage 1 goals', default='bbbp_rges'  
-- `--pool_cores`, type=int, help='number of cores to use', default=1  
-- `--goals`, type=str, help='plogp,qed,sa,rges,bbbp use _ to connect', default='plogp_qed_sa_rges'  
-- `--sig_name`, type=int, help='number of cores to use', default='None'  
 
 The code is used to generate key figures in the following paper:
 Jing Xing, et. al., Deep learning-based screening and design of novel therapeutics that reverse disease-associated transcriptional phenotypes, submitted.

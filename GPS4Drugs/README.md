@@ -145,11 +145,6 @@ sudo docker run --rm \
     python code/GPS_runPredProfile.py --cmpd_input input/cmpd__<sample_name>.csv
 ```
 
-#### Flags for `GPS_runPredProfile.py`
-- `--cmpd_input`, type=str, help='Input csv for compound ID and SMILES', default='../data/input_cmpd_gene/cmpd__TestJob0.csv'  
-- `--gene_input`, type=str, help='Input list of gene symbols', default='preselect'  
-- `--cpu_num`, type=int, help='Number of cpu cores to use', default=10  
-
 ---
 
 ### Using RGES Module in MolSearch
@@ -190,11 +185,6 @@ sudo docker run --rm \
     leshchi4/gpsimage:latest \
     python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__<sample_name>.csv --cmpdLibID input/<sample_name>_MEDIAN_GeneExpressionChange.csv
 ```
-
-#### Flags for `GPS_runDrugScreenRges.py`
-- `--dzSigFile`, type=str, help='Disease signature file', default=GATE + 'data/dzsig/DZSIG__TestJobNotExists.csv'  
-- `--cmpdLibID`, type=str, help='Library to use', default='ZINC'  
-- `--cpu_num`, type=int, help='Number of cpu cores to use', default=10  
 
 ---
 
