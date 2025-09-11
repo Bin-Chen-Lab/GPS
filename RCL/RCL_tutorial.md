@@ -7,6 +7,8 @@ Place the downloaded data in the RCL/code folder, in the same folder, run [this 
 
 It is suggested to do gene predictability estimation before training. To do this, in the RCL/code folder, run [this code file](https://github.com/Bin-Chen-Lab/GPS/blob/main/RCL/code/cal_predictability.py) for gene predictability estimation. For tutorial purpose, we provide a result file which already contains the gene predictability results, this file can be downloaded [here](https://chenlab-data-public.s3.amazonaws.com/GPS4Drugs_RCL/Predictabilities.csv).  
 
+Then, in the RCL/code folder, run [this code file](https://github.com/Bin-Chen-Lab/GPS/blob/main/RCL/code/train_test_split.R) for training and test set splitting.
+
 
 
 
