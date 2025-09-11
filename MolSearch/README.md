@@ -156,12 +156,3 @@ sudo docker run --rm --gpus all \
     leshchi4/molsearch:latest \
     python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_goals bbbp_rges --pool_cores 1 --goals plogp_qed_sa_rges
 ```
-
-The code is used to generate key figures in the following paper:
-Jing Xing, et. al., Deep learning-based screening and design of novel therapeutics that reverse disease-associated transcriptional phenotypes, submitted.
-
-Novel compound screening portal http://apps.octad.org/GPS/.
-
-Drug repurposing web portal is available http://octad.org/ and the R package octad is available in Bioconductor. 
-
-RNA-seq data are deposited in the GEO under accession number (GSE291867, GSE291190, and GSE291833). 
