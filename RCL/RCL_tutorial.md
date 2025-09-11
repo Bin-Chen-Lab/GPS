@@ -9,6 +9,7 @@ It is suggested to do gene predictability estimation before training. To do this
 
 Then, in the RCL/code folder, run [this code file](https://github.com/Bin-Chen-Lab/GPS/blob/main/RCL/code/train_test_split.R) for training and test set splitting.
 
+# Step 2: Training and evaluating RCL.
 
 
 
