@@ -31,16 +31,16 @@ class DrugGene(data.Dataset):
 
     # define train(test)_data, train(test)_label
     # define __getitem__ to return typical data point you want.
-    def __init__(self, root, cl='MCF7', num_classes=3, train=True, random_seed=0):    #chage train=True to false for debug
+    def __init__(self, root, num_classes=3, train=True, random_seed=0):    #chage train=True to false for debug
         self.train = train  # training set or test set
-        self.cl = cl
         self.num_classes = num_classes
         self.random_seed=random_seed
 
         # now load the picked numpy arrays
         if self.train:
-            fn = root + '/CL_' + cl + '/data_train.csv'
+            fn = 'data_train.csv'
             table_train = pd.read_csv(fn)
+            table_train["label"] = table_train["label"].astype("int64")
             print(table_train.shape)
 
             train_labels = table_train['label']
@@ -70,8 +70,9 @@ class DrugGene(data.Dataset):
             print(self.train_labels.shape)
 
         else:
-            fn = root + '/CL_' + cl + '/data_test.csv'
+            fn = 'data_test.csv'
             table_test = pd.read_csv(fn)
+            table_test["label"] = table_test["label"].astype("int64")
             print(table_test.shape)
             test_smiles = table_test['smiles']
             test_genes = table_test['gene']
