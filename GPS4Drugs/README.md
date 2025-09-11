@@ -7,7 +7,7 @@
   - [Command](#command)
   - [Flags](#flags)
 - [GPS Drug Screening (Reversal Prediction)](#gps-drug-screening-reversal-prediction)
-- [GPS Prediction Profile Docker Image](#gps-drug-docker)
+- [GPS Prediction Profile Docker Image](##gps-prediction-profile-docker-image)
 
 ## Environment Setup
 

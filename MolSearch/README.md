@@ -1,5 +1,18 @@
 # Molecular Search
 
+# Table of Contents
+
+- [Molecular Search](#molecular-search)
+  - [Stage 1: molsearch1_autopy](#stage-1-molsearch1_autopy)
+  - [Stage 2: molsearch2_autopy](#stage-2-molsearch2_autopy)
+
+- [Molecular Search Docker Image](#molecular-search-docker-image)
+  - [MolSearch with Docker](#molsearch-with-docker)
+    - [Installation](#installation)
+    - [Input Files](#input-files)
+    - [RGES Module (Optional)](#rges-module-optional)
+    - [Running the Container](#running-the-container)
+
 ### Input Format
 
 Input file for `molsearch1_auto.py`:
