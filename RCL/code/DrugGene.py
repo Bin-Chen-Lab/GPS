@@ -40,7 +40,6 @@ class DrugGene(data.Dataset):
         if self.train:
             fn = 'data_train.csv'
             table_train = pd.read_csv(fn)
-            table_train["label"] = table_train["label"].astype("int64")
             print(table_train.shape)
 
             train_labels = table_train['label']
@@ -72,7 +71,6 @@ class DrugGene(data.Dataset):
         else:
             fn = 'data_test.csv'
             table_test = pd.read_csv(fn)
-            table_test["label"] = table_test["label"].astype("int64")
             print(table_test.shape)
             test_smiles = table_test['smiles']
             test_genes = table_test['gene']
