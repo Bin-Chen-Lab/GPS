@@ -13,6 +13,20 @@
     - [RGES Module (Optional)](#rges-module-optional)
     - [Running the Container](#running-the-container)
 
+### MCTS Environment Setup
+
+```bash
+conda create --name mcts python=3.7 pip 
+conda install -c conda-forge rdkit
+pip install pandas seaborn pickle-mixin
+pip install -U scikit-learn==0.21.3 (RF scorer of GSK3B and JNK3 requires this version of sklearn)
+```
+### In medchem_moves folder
+
+```bash
+python setup.py install
+```
+
 ### Input Format
 
 Input file for `molsearch1_auto.py`:
