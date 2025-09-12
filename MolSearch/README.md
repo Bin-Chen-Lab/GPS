@@ -25,7 +25,7 @@ pip install -U scikit-learn==0.21.3 (RF scorer of GSK3B and JNK3 requires this v
 
 ```bash
 python setup.py install
-```bash
+```
 
 ### Input Format
 
