@@ -1,5 +1,7 @@
 # Deep learning-based screening and design of novel therapeutics that reverse disease-associated transcriptional phenotype
 
+<object data="./docs/GPS_GitHub.pdf" type="application/pdf" width="100%" height="800px">
+</object>
 
 The code is used to generate key figures in the following paper:
 Jing Xing, et. al., Deep learning-based screening and design of novel therapeutics that reverse disease-associated transcriptional phenotypes, submitted.
