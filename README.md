@@ -2,8 +2,6 @@
 
 ![alt text](technical/GPS_GitHub.png)
 
-## Abstract
-
 ## Background
 
 Identifying drugs that reverse expression of disease-associated transcriptomic features has been widely explored as a strategy for discovering drug repurposing candidates, but its potential for novel compound discovery and optimization remains largely underexplored. We developed a deep learning-based platform that predicts gene expression changes from chemical structures, enabling high-throughput screening of large compound libraries. The platform refines compound scoring and employs a Monte Carlo Tree Search (MCTS) for multi-objective optimization and by incorporating Structure-Gene-Activity Relationships (SGAR), it can be used to uncover potential drug mechanisms directly from transcriptomic data, supporting both compound prioritization and lead optimization.
@@ -37,6 +35,8 @@ For ease of use, we provide DockerHub repositories:
 
 - [GPS4Drugs DockerHub](https://hub.docker.com/repository/docker/leshchi4/gpsimage/general)  
 - [MolSearch DockerHub](https://hub.docker.com/repository/docker/leshchi4/molsearch)  
+
+Detailed instructions on how to run Docker available inside respective folders.
 
 ---
 
