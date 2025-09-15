@@ -2,9 +2,9 @@
 
 ![alt text](technical/GPS_GitHub.png)
 
-Identifying drugs that reverse expression of disease-associated transcriptomic features has been widely explored as a strategy for discovering drug repurposing candidates, but its potential for novel compound discovery and optimization remains largely underexplored. 
+## Abstract
 
-Here, we present a **deep learning-based drug discovery platform**, guided by transcriptomic features, that screens large compound libraries and optimizes lead compounds. We first develop a model that predicts gene expression changes solely from chemical structures and deploy it to infer the expression changes of compounds in large screening libraries. We then refine compound scoring and employ a Monte Carlo Tree Search method for multi-objective optimization. By incorporating Structure-Gene-Activity Relationships, we uncover drug mechanisms directly from transcriptomic data.
+Identifying drugs that reverse expression of disease-associated transcriptomic features has been widely explored as a strategy for discovering drug repurposing candidates, but its potential for novel compound discovery and optimization remains largely underexplored. Here, we present a deep learning-based drug discovery platform, guided by transcriptomic features, that screens large compound libraries and optimizes lead compounds. We first develop a model that predicts gene expression changes solely from chemical structures and deploy it to infer the expression changes of compounds in large screening libraries. We then refine compound scoring and employ a Monte Carlo Tree Search method for multi-objective optimization. By incorporating Structure-Gene-Activity Relationships, we uncover drug mechanisms directly from transcriptomic data. To demonstrate the utility of the system, we identify and validate compounds for hepatocellular carcinoma (HCC) and idiopathic pulmonary fibrosis (IPF). In HCC, we design a novel compound that improves the IC50 from 4 µM to 0.5 µM, with increased in vitro selectivity, favorable pharmacokinetics and in vivo activity. In IPF, we identify one repurposing candidate and one novel anti-fibrotic compound by reversing gene expression of mutiple distinct cell types derived from single cell transcriptomics.
 
 ---
 
@@ -37,9 +37,6 @@ Clone the repository with:
 ```bash
 git clone https://github.com/Bin-Chen-Lab/GPS/
 ```
-
-Detailed documentation is available for each component within its respective folder.
-
 ---
 
 ## DockerHub Images
@@ -53,15 +50,29 @@ For ease of use, we provide DockerHub repositories:
 
 ## GPS Documentation and Demo
 
-The main documentation for each component is provided inside its respective folder.  
+Detailed documentation is available for each component within its respective folder.
 
-A demo file is also available in the **`demo`** folder. This file is the recommended starting point, and together with the documentation, can be used as input to run each pipeline starting from the first step.
+A demo file is also available in the **`demo`** folder. 
 
-The code is used to generate key figures in the following paper:
+This file is the recommended starting point, and together with the documentation, can be used as input to run each pipeline starting from the first step.
+
+---
+
+## Figure generation code
+
+The code in the figure_code folder is used to generate key figures in the following paper:
 Jing Xing, et. al., Deep learning-based screening and design of novel therapeutics that reverse disease-associated transcriptional phenotypes, submitted.
+
+---
+
+## Online resources
 
 Novel compound screening portal http://apps.octad.org/GPS/.
 
 Drug repurposing web portal is available http://octad.org/ and the R package octad is available in Bioconductor. 
+
+---
+
+## Sequencing data
 
 RNA-seq data are deposited in the GEO under accession number (GSE291867, GSE291190, and GSE291833). 
