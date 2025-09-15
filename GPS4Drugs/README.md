@@ -215,13 +215,4 @@ For debugging, replace your output mount with logs:
 -v $(pwd)/output:/app/logs
 ```
 
-Send the logfile to the developers to help diagnose issues.
-
-The code is used to generate key figures in the following paper:
-Jing Xing, et. al., Deep learning-based screening and design of novel therapeutics that reverse disease-associated transcriptional phenotypes, submitted.
-
-Novel compound screening portal http://apps.octad.org/GPS/.
-
-Drug repurposing web portal is available http://octad.org/ and the R package octad is available in Bioconductor. 
-
-RNA-seq data are deposited in the GEO under accession number (GSE291867, GSE291190, and GSE291833). 
+Send the logfile to the us at contact@octad.org to help diagnose issues.
