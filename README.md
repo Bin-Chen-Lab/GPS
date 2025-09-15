@@ -61,6 +61,7 @@ This file is the recommended starting point, and together with the documentation
 ## Figure generation code
 
 The code in the figure_code folder is used to generate key figures in the following paper:
+
 Jing Xing, et. al., Deep learning-based screening and design of novel therapeutics that reverse disease-associated transcriptional phenotypes, submitted.
 
 ---
@@ -76,3 +77,24 @@ Drug repurposing web portal is available http://octad.org/ and the R package oct
 ## Sequencing data
 
 RNA-seq data are deposited in the GEO under accession number (GSE291867, GSE291190, and GSE291833). 
+
+---
+
+## Authors
+
+**Jing Xing¹#**, **Mingdian Tan²#**, **Dmitry Leshchiner¹˒³#**, **Mengying Sun⁴#**, **Mohamed Abdelgied¹#**,  
+**Li Huang¹**, **Shreya Paithankar¹**, **Katie Uhl¹**, **Rama Shankar¹**, **Erika Lisabeth⁵**,  
+**Bilal Aleiwi⁵**, **Tara Jager⁶**, **Cameron Lawson⁶**, **Ruoqiao Chen⁵**, **Reda Girgis⁶**, **Richard R. Neubig³˒⁵**,  
+**Samuel So²**, **Edmund Ellsworth³˒⁵**, **Xiaopeng Li¹***, **Mei-Sze Chua²***,  
+**Jiayu Zhou³˒⁴˒⁷***, **Bin Chen¹˒³˒⁴˒⁵\***  
+
+¹ Department of Pediatrics and Human Development, College of Human Medicine, Michigan State University, Grand Rapids, MI 49503, USA  
+² Asian Liver Center, Department of Surgery, School of Medicine, Stanford University, Stanford, CA, 94305, USA  
+³ Center for AI-Enabled Drug Discovery, College of Human Medicine, Michigan State University, Grand Rapids, MI 49503, USA  
+⁴ Department of Computer Science and Engineering, College of Engineering, Michigan State University, East Lansing, MI 48824, USA  
+⁵ Department of Pharmacology and Toxicology, College of Human Medicine, Michigan State University, Grand Rapids, MI 49503, USA  
+⁶ Corewell Health, Grand Rapids, MI 49503, USA  
+⁷ School of Information, University of Michigan, Ann Arbor, MI 48109, USA  
+
+**#: co-first authors**  
+**\*: co-corresponding authors** — XL (lixiao@msu.edu), MC (mchua@stanford.edu), JZ (jiayuz@umich.edu), BC (chenbi12@msu.edu)
