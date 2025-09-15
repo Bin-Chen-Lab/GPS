@@ -60,7 +60,7 @@ This file is the recommended starting point, and together with the documentation
 
 ## Figure generation code
 
-The code in the figure_code folder is used to generate key figures in the following paper:
+The code in the **`figure_code`** folder is used to generate key figures in the following paper:
 
 Jing Xing, et. al., Deep learning-based screening and design of novel therapeutics that reverse disease-associated transcriptional phenotypes, submitted.
 
