@@ -1,4 +1,4 @@
-# Gene expression profile Predictor on chemical Structures (GPS)
+# GPS, an AI-platform for novel compound discovery using transcriptomics
 
 ![alt text](technical/GPS_GitHub.png)
 
