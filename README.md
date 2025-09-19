@@ -1,4 +1,4 @@
-# GPS, an AI-platform for novel compound discovery using transcriptomics
+# GPS: an AI-platform for novel compound discovery using transcriptomics
 
 ![alt text](technical/GPS_GitHub.png)
 
@@ -10,7 +10,7 @@ Identifying drugs that reverse expression of disease-associated transcriptomic f
 
 ## About GPS and other Core Components
 
-The **Gene expression profile Predictor on chemical Structures (GPS)** is an open-source platform that allows researchers to predict the effects of chemical structures on gene expression, screen large-scale compound libraries, and optimize lead compounds for specific medicinal chemistry properties. Users can retrain models with their own data, and the platform is designed for community-driven improvements and adaptations.  
+The **Gene expression profile Predictor on chemical Structures (GPS)** is an open-source platform under the Apache 2.0 Licence that allows researchers to predict the effects of chemical structures on gene expression, screen large-scale compound libraries, and optimize lead compounds for specific medicinal chemistry properties. Users can retrain models with their own data, and the platform is designed for community-driven improvements and adaptations.  
 
 GPS consists of three core components:
 
