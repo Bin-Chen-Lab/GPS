@@ -22,11 +22,24 @@ GPS consists of three core components:
 
 ## Repository
 
+Install Git LFS:
+
+```bash
+git lfs install
+```
+
 Clone the repository with:
 
 ```bash
 git clone https://github.com/Bin-Chen-Lab/GPS/
 ```
+
+Fetch the LFS files:
+
+```bash
+git lfs pull
+```
+
 ---
 
 ## DockerHub Images
