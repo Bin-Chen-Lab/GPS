@@ -164,33 +164,6 @@ flog.write('TOTAL TIME: %.2f seconds.\n'%(time.time() - VERYBGN))
 attm = GATE + 'data/reversal_score/%s_RGES_norm.csv'%job_prefix
 print('Job done. Results saved to file %s'%attm)
 
-
-# print('Job done. Sending an email to the user...')
-# smtp_server, from_addr, passwd = 'smtp.office365.com', 'contact@octad.org', 'Chenlab2018'
-# txt = 'Your submission \'%s\' on GPS4Drugs is done. Here\'s the result file.\n\nBest,\nJing Xing, PhD\nGPS4Drugs Team\n'%job_prefix
-# attm = GATE + 'data/reversal_score/%s_RGES_norm.csv'%job_prefix
-# try:
-#     msg = MIMEMultipart('mixed')
-#     text_load = MIMEText(txt,'plain','utf-8')
-#     msg.attach(text_load)
-#     msg['Subject'] = Header('GPS4Drugs ' + job_prefix, charset='utf-8')
-#     with open(attm, 'rb') as fat:
-#         attm_load = MIMEApplication(fat.read())
-#     attm_load.add_header('Content-Disposition', 'attachment', filename=os.path.basename(attm))
-#     msg.attach(attm_load)
-#     server = smtplib.SMTP(host=smtp_server, port=587)
-#     server.starttls()
-#     server.login(user=from_addr, password=passwd)
-#     server.sendmail(from_addr=from_addr, to_addrs=args.email, msg=msg.as_string())
-#     server.quit()
-# except Exception as e:
-#     flog.write(str(e) + '\n')
-#     print('Got error sending the email. Please check the logfile: %s'%logfilename)
-#     flog.close()
-#     raise e
-# print('Sent an email notification.')
-
-
 flog.close()
 
 
