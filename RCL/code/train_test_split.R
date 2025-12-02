@@ -95,9 +95,9 @@ stop('Too few high-quality profiles!')
 }
 number_of_HQ_DP = length(tmp)
 
-if (number_of_HQ_DP < 200){
-  stop("Not enough samples for training!")
-}
+#if (number_of_HQ_DP < 200){
+#  stop("Not enough samples for training!")
+#}
 
 n_test = round(0.1 * number_of_HQ_DP)
 
