@@ -186,6 +186,24 @@ sudo docker run --rm \
     python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__<sample_name>.csv --cmpdLibID input/<sample_name>_MEDIAN_GeneExpressionChange.csv
 ```
 
+### To use ZINC preprocessed library:
+
+Please download the ZINC library using this link:
+https://chenlab-data-public.s3.amazonaws.com/ZINC_strong.npz
+
+Then create a "library" folder in your working directory and put the ZINC_strong.npz file into it.
+
+Run this command to mount:
+
+```bash
+sudo docker run --rm \
+    -v $(pwd)/input:/app/input \
+    -v $(pwd)/library:/app/data/profile_pred/MEDIAN \
+    -v $(pwd)/output:/app/data/reversal_score \
+    leshchi4/gpsimage:latest \
+    python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__<sample_name>.csv --cmpdLibID ZINC
+```
+
 ---
 
 ## GPU Support
