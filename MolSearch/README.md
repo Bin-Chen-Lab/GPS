@@ -42,7 +42,7 @@ Input file for `molsearch1_auto.py`:
 
 Inputs should be located in MCTS/libs/start_mols.
 
-> ⚠️ If using the **RGES module**, first run `GPS_runDrugScreenRges.py` and prepare the output using `molsearch_rges.ipynb` from [MolSearch](https://github.com/Bin-Chen-Lab/GPS/tree/main/MolSearch).
+> ⚠️ If using the **RGES module**, first run `GPS_runDrugScreenRges.py` and prepare the output using `molsearch_rges.ipynb` from [MolSearch](https://github.com/Bin-Chen-Lab/GPS/tree/main/MolSearch). Further details are in [GPS4Drugs] (https://github.com/Bin-Chen-Lab/GPS/tree/main/GPS4Drugs#gps-drug-screening-reversal-prediction) under 'Using RGES Module in MolSearch'.
 
 
 ---
