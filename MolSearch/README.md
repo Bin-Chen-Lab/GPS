@@ -40,7 +40,10 @@ Input file for `molsearch1_auto.py`:
 | smiles  | Structure of compound in SMILES format |
 | molname | Compound name (string) |
 
+Inputs should be located in MCTS/libs/start_mols.
+
 > ⚠️ If using the **RGES module**, first run `GPS_runDrugScreenRges.py` and prepare the output using `molsearch_rges.ipynb` from [MolSearch](https://github.com/Bin-Chen-Lab/GPS/tree/main/MolSearch).
+
 
 ---
 
@@ -64,7 +67,7 @@ python molsearch1_auto.py --num_drugs 1 --sample_name <sample_name> --pool_cores
 
 ### Stage 2: `molsearch2_auto.py`
 
-Input file: Output of Stage 1 (stored in `output/`).
+Input file: Output of Stage 1 (stored in MCTS/results_visulization).
 
 ```bash
 python molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_goals bbbp_rges --pool_cores 1 --goals plogp_qed_sa_rges
@@ -80,6 +83,9 @@ python molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_g
 | `--pool_cores`   | int  | Number of cores to use   | `1`                 |
 | `--goals`        | str  | Objectives: `plogp`, `qed`, `sa`, `rges`, `bbbp` (use `_` to connect) | `plogp_qed_sa_rges` |
 | `--sig_name`     | int  | Signature name           | `None`              |
+
+Output file: Output of Stage 2 is stored in MCTS/results_visulization.
+
 
 # Molecular Search Docker Image
 
