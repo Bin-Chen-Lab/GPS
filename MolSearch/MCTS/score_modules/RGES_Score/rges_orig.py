@@ -33,11 +33,16 @@ class RGESCalculator():
         # print("reg size: ", reg.shape)
 
         ## load disease signature and background
-        dzde = pd.read_csv(f'score_modules/RGES_Score/DZSIG__puy.csv', index_col='Symbol')
+        # dzde: the disease signature, contains "Symbol" and "Value" columns.
+        # dzde = pd.read_csv('score_modules/RGES_Score/DZSIG__HCC_opt.csv', index_col='Symbol')
+        # dzde = pd.read_csv('score_modules/RGES_Score/DZSIG__Myofibroblasts.csv', index_col='Symbol')
+        dzde = pd.read_csv('score_modules/RGES_Score/DZSIG__metaDIPG.csv', index_col='Symbol')
         dzde['RANK'] = dzde['Value'].rank(ascending=False)
         
         # permt_bgrd: the background distribution of raw rges values for a specific dysregulated gene number of a drug.
-        permt_bgrd = pd.read_csv(f'score_modules/RGES_Score/BGRD__puy.csv', index_col=0)
+        # permt_bgrd = pd.read_csv('score_modules/RGES_Score/BGRD__Myofibroblasts.csv', index_col=0)
+        # permt_bgrd = pd.read_csv('score_modules/RGES_Score/BGRD__HCC_opt.csv', index_col=0)
+        permt_bgrd = pd.read_csv('score_modules/RGES_Score/BGRD__metaDIPG.csv', index_col=0)
 
         # get profile
         profile = reg.iloc[0]
@@ -146,12 +151,16 @@ class RGESCalculator():
         return finger_print
 
     def _get_gene_na_idx(self):
-        with open('score_modules/RGES_Score/NA_IDX_puy.pkl', 'rb') as f:
+        # with open("score_modules/RGES_Score/NA_IDX_HCC.pkl", 'rb') as f:
+        with open("score_modules/RGES_Score/NA_IDX_DIPG.pkl", 'rb') as f:
+        # with open("score_modules/RGES_Score/NA_IDX_Myofibroblasts.pkl", 'rb') as f:
             gene_na_idx = pkl.load(f)
         return gene_na_idx
 
     def _get_gene_df(self):
-        gene_df = pd.read_csv('score_modules/RGES_Score/puy_gene_feature.csv', index_col=0)
+        # gene_df = pd.read_csv("score_modules/RGES_Score/Myofibroblasts_gene_feature.csv", index_col=0)
+        # gene_df = pd.read_csv("score_modules/RGES_Score/sorted_HCC_gene_feature.csv", index_col=0)
+        gene_df = pd.read_csv("score_modules/RGES_Score/DIPG_gene_feature.csv", index_col=0)
         gene_names = gene_df.index
         gene_features = gene_df.to_numpy().astype(np.float32)
         nrow, ncol = gene_features.shape

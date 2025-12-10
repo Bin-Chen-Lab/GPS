@@ -7,11 +7,32 @@ import pandas as pd
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--num_drugs', type=int, help='number of drugs in csv file', default=1)
-parser.add_argument('--sample_name', type=str, help='csv filename no .csv', default='taskdipg')
+parser.add_argument('--sample_name', type=str, help='csv filename no .csv', default='mmfdipg')
 parser.add_argument('--previous_goals', type=str, help='stage 1 goals', default='bbbp_rges')
 parser.add_argument('--pool_cores', type=int, help='number of cores to use', default=1)
 parser.add_argument('--goals', type=str, help='plogp,qed,sa,rges,bbbp use _ to connect', default='plogp_qed_sa_rges')
+parser.add_argument('--sig_name', type=int, help='number of cores to use', default='None')
 args = parser.parse_args()
+
+if args.sig_name != 'None':
+
+    rges_path = Path("score_modules/RGES_Score/rges.py")
+    new_lines = []
+
+    with rges_path.open("r") as f:
+        for line in f:
+            if "dzde = pd.read_csv" in line:
+                line = f"        dzde = pd.read_csv(f'libs/rges_input/DZSIG__{args.sig_name}.csv', index_col='Symbol')\n"
+            elif "permt_bgrd = pd.read_csv" in line:
+                line = f"        permt_bgrd = pd.read_csv(f'libs/rges_input/BGRD__{args.sig_name}.csv', index_col=0)\n"
+            elif "with open('libs/rges_input/NA_IDX" in line:
+                line = f"        with open('libs/rges_input/NA_IDX_{args.sig_name}.pkl', 'rb') as f:\n"
+            elif "gene_df = pd.read_csv" in line:
+                line = f"        gene_df = pd.read_csv('libs/rges_input/{args.sig_name}_gene_feature.csv', index_col=0)\n"
+            new_lines.append(line)
+
+    with rges_path.open("w") as f:
+        f.writelines(new_lines)
 
 currpathname = os.path.dirname(sys.argv[0])        
 curr_path = os.path.abspath(currpathname)
