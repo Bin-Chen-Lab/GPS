@@ -61,7 +61,7 @@ python molsearch1_auto.py --num_drugs 1 --sample_name <sample_name> --pool_cores
 | `--sample_name`| str  | CSV filename (no `.csv`)                         | `taskdipg` |
 | `--pool_cores` | int  | Number of cores to use                           | `1`        |
 | `--goals`      | str  | Objectives: `plogp`, `qed`, `sa`, `rges`, `bbbp` (use `_` to connect) | `bbbp_rges` |
-| `--sig_name`   | int  | Signature name                                   | `None`     |
+| `--sig_name`   | int  | Signature name for RGES module                   | `None`     |
 
 ---
 
@@ -82,7 +82,7 @@ python molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_g
 | `--previous_goals` | str | Stage 1 goals            | `bbbp_rges`         |
 | `--pool_cores`   | int  | Number of cores to use   | `1`                 |
 | `--goals`        | str  | Objectives: `plogp`, `qed`, `sa`, `rges`, `bbbp` (use `_` to connect) | `plogp_qed_sa_rges` |
-| `--sig_name`     | int  | Signature name           | `None`              |
+| `--sig_name`     | int  | Signature name for RGES module       | `None`              |
 
 Output file: Output of Stage 2 is stored in MCTS/results_visulization.
 
@@ -131,14 +131,17 @@ The input file will be the **output of Stage 1**, located in the `output` folder
 ---
 
 ### RGES Module (Optional)
+
+To run demo of the data preparation add contents of 'demo' folder to 'rges_input' folder.
+
 If using the **RGES module**, first run `GPS_runDrugScreenRges.py` with the appropriate directory mounted.  
 Then, prepare output using `molsearch_rges.ipynb`, which can be found in GitHub:  
 [MolSearch RGES Notebook](https://github.com/Bin-Chen-Lab/GPS/tree/main/MolSearch)
 
-After completing that step, place the output of `molsearch_rges.ipynb` into a separate folder called `rges_input` and add this command to your MolSearch Docker run:
+After completing that step, the output of `molsearch_rges.ipynb` should be located in the `rges_input`, as well as data from the GPS run and add this command to your MolSearch Docker run:
 
 ```
--v $(pwd)/rges_input:/app/MCTS/score_modules/RGES_Score
+-v $(pwd)/rges_input:/app/MCTS/libs/rges_input
 ```
 
 ---
@@ -148,7 +151,7 @@ After completing that step, place the output of `molsearch_rges.ipynb` into a se
 First, create the required folders:
 
 ```bash
-mkdir -p input output rges_input
+mkdir -p input output
 ```
 
 ---

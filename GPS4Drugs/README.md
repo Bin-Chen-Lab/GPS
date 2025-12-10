@@ -149,13 +149,15 @@ sudo docker run --rm \
 
 ### Using RGES Module in MolSearch
 
-If using the **RGES module** in MolSearch, create an additional folder and mount it when running `GPS_runDrugScreenRges.py`:
+If using the **RGES module** in MolSearch, create an additional folder called rges_input and mount it when running `GPS_runDrugScreenRges.py`:
 
 ```bash
--v $(pwd)/bgrd_pkl:/app/data/dzsig
+-v $(pwd)/rges_input:/app/data/dzsig
 ```
 
-The `BGRD__<sample_name>.pkl` file will be an input for `molsearch_rges.ipynb` along with `DZSIG__<sample_name>.csv`.  
+The `BGRD__<sample_name>.pkl` file will be an input for `molsearch_rges.ipynb`.
+Copy `DZSIG__<sample_name>.csv` into 'rges_input' folder for data preparation.
+
 You can find `molsearch_rges.ipynb` here:  
 [MolSearch Notebook](https://github.com/Bin-Chen-Lab/GPS/tree/main/MolSearch)
 
