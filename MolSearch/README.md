@@ -144,6 +144,8 @@ After completing that step, the output of `molsearch_rges.ipynb` should be locat
 -v $(pwd)/rges_input:/app/MCTS/libs/rges_input
 ```
 
+> ⚠️ Warning performance of MolSearch Stage 2 varies depending on type of compound and goals used!
+
 ---
 
 ## Running the Container
@@ -165,7 +167,7 @@ sudo docker run --rm --gpus all \
     -v $(pwd)/input:/app/MCTS/libs/start_mols \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     leshchi4/molsearch:latest \
-    python MCTS/molsearch1_auto.py --num_drugs 1 --sample_name <sample_name> --pool_cores 1 --goals bbbp_rges
+    python MCTS/molsearch1_auto.py --num_drugs 1 --sample_name <sample_name> --pool_cores 1 --goals bbbp_rges --sig_name <sig_name>
 ```
 ---
 
@@ -177,5 +179,5 @@ Run the container with your output file mounted:
 sudo docker run --rm --gpus all \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     leshchi4/molsearch:latest \
-    python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_goals bbbp_rges --pool_cores 1 --goals plogp_qed_sa_rges
+    python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_goals bbbp_rges --pool_cores 1 --goals plogp_qed_sa_rges --sig_name <sig_name>
 ```
