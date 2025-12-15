@@ -13,6 +13,8 @@
     - [RGES Module (Optional)](#rges-module-optional)
     - [Running the Container](#running-the-container)
 
+- [Demo](#demo)
+
 ### MCTS Environment Setup
 
 ```bash
@@ -181,3 +183,13 @@ sudo docker run --rm --gpus all \
     leshchi4/molsearch:latest \
     python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_goals bbbp_rges --pool_cores 1 --goals plogp_qed_sa_rges --sig_name <sig_name>
 ```
+
+---
+
+### Demo
+
+To run demo use files in demo folder as inputs to the code.
+
+The files provided allow to run optimization of HCC compound against the HCC disease signature.
+
+---
