@@ -17,7 +17,7 @@ matplotlib.rcParams["font.size"] = 12
 import seaborn as sns
 
 
-wrkdir = '../data/HCC_efficacy_rges/'
+wrkdir = './data_for_code/HCC_efficacy_rges/'
 df = pd.read_csv(wrkdir + 'ZINC_niclosamide_analogs_sim0.3_Z2.csv', index_col=0)
 df['S_uM'] = 10 ** df['LogS'] * 10 ** 6
 
@@ -36,5 +36,5 @@ for k, row in df.loc[mol_sele].iterrows():
 plt.xlabel('Z-RGES')
 plt.ylabel('Similarity to niclosamide')
 plt.tight_layout()
-FIG.savefig('../doc_fig_table/HCC_ZINC_niclosamide_analogs.pdf', transparent=True)
+FIG.savefig('./data_for_code/HCC_ZINC_niclosamide_analogs.pdf', transparent=True)
 

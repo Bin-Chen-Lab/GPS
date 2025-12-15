@@ -60,9 +60,9 @@ def score_rs(gene_up, gene_down, dz_de):
     return la + lb
     
 
-meta = pd.read_csv('../data/example_target_pred/v0/summary20_target_examples.csv', index_col='ID')
-cpd_profiles = pd.read_csv('../data/example_target_pred/v0/exampleTars_MEDIAN_GeneExpressionChange.csv', index_col=0)
-tar_profiles = pd.read_csv('../data/example_target_pred/example_target_profiles_AveStd_12k.csv', index_col=0)
+meta = pd.read_csv('./data_for_code/example_target_pred/v0/summary20_target_examples.csv', index_col='ID')
+cpd_profiles = pd.read_csv('./data_for_code/example_target_pred/v0/exampleTars_MEDIAN_GeneExpressionChange.csv', index_col=0)
+tar_profiles = pd.read_csv('./data_for_code/example_target_pred/example_target_profiles_AveStd_12k.csv', index_col=0)
 tar_profiles = tar_profiles.fillna(0)
 
 ovlp = sorted(set.intersection(set(cpd_profiles.index), set(tar_profiles.index)))
@@ -142,7 +142,7 @@ xx.set_ylabel('Similarity score')
 xx.set_ylim(0, 30)
 #xx.set_title('Similarity between cmpd. profile (GPS) & target shRNA profile (LINCS)')
 plt.tight_layout()
-plt.savefig('../doc_fig_table/boxplot_example_target_pred-B.pdf', transparent=True)
+plt.savefig('./data_for_code/boxplot_example_target_pred-B.pdf', transparent=True)
 '''
 
 FIG, axes = plt.subplots(nrows=10, ncols=1, figsize=(5, 6), sharex=True)

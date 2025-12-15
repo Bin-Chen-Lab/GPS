@@ -185,11 +185,3 @@ sudo docker run --rm --gpus all \
 ```
 
 ---
-
-### Demo
-
-To run demo use files in demo folder as inputs to the code.
-
-The files provided allow to run optimization of HCC compound against the HCC disease signature.
-
----

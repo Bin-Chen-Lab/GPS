@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-wrkdir = '../data/GSAR/'
+wrkdir = './data_for_code/GSAR/'
 rnaseq_dir = wrkdir + 'rna-seq/'
 cpd_sigs = pd.read_csv(wrkdir + 'HCC_cmpds_gps_2types.csv', index_col=0)
 cpd_info = pd.read_csv(wrkdir + 'DataSx_HCC_SAR_2types_cluster.csv', index_col=0)

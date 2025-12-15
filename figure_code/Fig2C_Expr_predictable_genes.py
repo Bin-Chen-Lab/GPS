@@ -19,8 +19,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-inpdir = '/Users/jingxing/Documents/myc_reverse/DL/manuscript_cpdProfilePred/data/predictable_genes/'
-outdir = '/Users/jingxing/Documents/myc_reverse/DL/manuscript_cpdProfilePred/doc_fig_table/'
+inpdir = './data_for_code/predictable_genes/'
+outdir = './data_for_code/'
 CCLE = pd.read_hdf('/Users/jingxing/Documents/Data_Sources/CCLE/CCLE_expression_20Q1.hdf5')
 lmg = set([l.strip() for l in open(inpdir + 'lincs_landmark_genes.txt')])
 

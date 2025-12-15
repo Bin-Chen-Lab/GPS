@@ -15,7 +15,7 @@ matplotlib.rcParams["font.family"] = "Arial"
 import seaborn as sns
 
 
-wrkdir = '/Users/jingxing/Documents/myc_reverse/DL/manuscript_cpdProfilePred/doc_fig_table/'
+wrkdir = './data_for_code/'
 df = pd.read_excel(wrkdir + 'summary_Gorilla_GO_enrichment_2kGenes.xlsx', index_col=0)
 df = pd.concat([df.loc[df.Category == t].iloc[:5] for t in ['BP', 'CC', 'MF']])
 df['x'] = range(df.shape[0], 0, -1)

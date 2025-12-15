@@ -16,11 +16,11 @@ matplotlib.rcParams["font.family"] = "Arial"
 matplotlib.rcParams["font.size"] = 12
 import seaborn as sns
 
-wrkdir = '../data/HCC_efficacy_rges/'
+wrkdir = './data_for_code/HCC_efficacy_rges/'
 dzsig_file = wrkdir + 'DZSIG__HCC_opt.csv'
 dzsig_title = 'HCC Signature'
 profiles_outfile = wrkdir + 'HCC_opt_candidate_GE_profiles.csv'
-reversal_outfile = '../doc_fig_table/HCC_5candidates_reversal_density.pdf'
+reversal_outfile = './data_for_code/HCC_5candidates_reversal_density.pdf'
 M = {'ZINC000067803790': '44443110\n(-9.83)', \
      'ZINC000004631199': '4896-3969\n(-9.65)', \
      'ZINC000000086363': 'PB56874852\n(-9.51)', \

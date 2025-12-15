@@ -20,7 +20,7 @@ mpl.rcParams['ps.fonttype'] = 42
 mpl.rcParams["font.family"] = "Arial"
 
 
-wrkdir = '../data/cmpd_profile_robustness/'
+wrkdir = './data_for_code/cmpd_profile_robustness/'
 profiles_dir = wrkdir + 'LINCS2020_Level5_gold_cmpd_24h_10uM/'
 cpd_cell_smry = pd.read_csv(wrkdir + 'cmpd_cell_line.csv', index_col=0)
 cpd_moas = pd.read_csv(wrkdir + 'cmpd_MoAs.csv', index_col=0)
@@ -80,7 +80,7 @@ xx.set_xlim(-0.9, 0.9)
 xx.set_ylabel(None)
 xx.set_yticklabels(['%s\n(%s pairs)'%(a, b) for a, b in zip(render_order, nums)])
 plt.tight_layout()
-#plt.savefig('../doc_fig_table/boxplot_cmpd_profiles_correlation_A.pdf', transparent=True)
+#plt.savefig('./data_for_code/boxplot_cmpd_profiles_correlation_A.pdf', transparent=True)
 
 
 cpd_gps_cell = cpd_cell_smry[gps_cells]
@@ -141,7 +141,7 @@ xx.set_xlim(-1, 1)
 xx.set_ylabel(None)
 xx.set_yticklabels(['%s\n(%s pairs)'%(a, b) for a, b in zip(render_order, nums)])
 plt.tight_layout()
-#plt.savefig('../doc_fig_table/boxplot_cmpd_profiles_correlation_B.pdf', transparent=True)
+#plt.savefig('./data_for_code/boxplot_cmpd_profiles_correlation_B.pdf', transparent=True)
 
 
 

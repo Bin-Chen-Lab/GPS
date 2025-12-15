@@ -103,7 +103,7 @@ def profile_score(params):
         
 ### Working directory and input files
 ### Use high-throughput dataset to evaluate enrichment, manually curated dataset to evalutate correlation.
-wrkdir = '../data/HCC_efficacy_rges/'
+wrkdir = './data_for_code/HCC_efficacy_rges/'
 
 com_roc = pd.read_hdf(wrkdir + 'HCC_CTRP_MEDIAN_mlp_2kGenes_preds_0.95.hdf5').T
 com_cor = pd.read_hdf(wrkdir + 'HCC_drugs_MEDIAN_mlp_2kGenes_preds_0.95.hdf5').T
@@ -173,7 +173,7 @@ for drug, row in eva_cor_tstd.iterrows():
     x, y = row['pIC50'], row['Z_RGES']
     plt.text(x, y, drug, color='grey')
 plt.tight_layout()
-#FIG.savefig('../doc_fig_table/HCCinSilico_zrges_pIC50.pdf', transparent=True)
+#FIG.savefig('./data_for_code/HCCinSilico_zrges_pIC50.pdf', transparent=True)
 
 Ys = eva_cor_tstd['Raw_RGES']
 FIG = plt.figure(figsize=FS)
@@ -186,7 +186,7 @@ for drug, row in eva_cor_tstd.iterrows():
     x, y = row['pIC50'], row['Raw_RGES']
     plt.text(x, y, drug, color='grey')
 plt.tight_layout()
-#FIG.savefig('../doc_fig_table/HCCinSilico_rges_pIC50.pdf', transparent=True)
+#FIG.savefig('./data_for_code/HCCinSilico_rges_pIC50.pdf', transparent=True)
 
 
 ### Evaluate AUC-ROC: area_under_curve ~ reversal scores
@@ -207,7 +207,7 @@ plt.legend()
 plt.xlabel('False positive rate')
 plt.ylabel('True positive rate')
 plt.tight_layout()
-#FIG.savefig('../doc_fig_table/HCCinSilico_ROC_zrges_rges.pdf', transparent=True)
+#FIG.savefig('./data_for_code/HCCinSilico_ROC_zrges_rges.pdf', transparent=True)
 
 topn = 100        
 ranking_zrges = sorted([(s, yt) for s, yt in zip(score_zrges, y_true)], reverse=True)
@@ -227,7 +227,7 @@ plt.ylabel('Hit Rate')
 plt.ylim(0.0, 1.05)
 plt.text(20, 0.5, 'CTRP HepG2\n%s compounds'%eva_roc.shape[0], size=12, weight='bold')
 plt.tight_layout()
-#FIG.savefig('../doc_fig_table/HCCinSilico_HitRate_zrges_rges.pdf', transparent=True)
+#FIG.savefig('./data_for_code/HCCinSilico_HitRate_zrges_rges.pdf', transparent=True)
     
 print('Number of actives: %s\nActive ratio: %s'%(sum(y_true), ratio))
 
@@ -265,7 +265,7 @@ plt.xlabel('Rank')
 plt.ylabel('Hit Rate')
 plt.ylim(0.0, 1.05)
 plt.tight_layout()
-#FIG.savefig('../doc_fig_table/HCCinSilico_HitRate_zrges_srges.pdf', transparent=True)
+#FIG.savefig('./data_for_code/HCCinSilico_HitRate_zrges_srges.pdf', transparent=True)
 
 
 

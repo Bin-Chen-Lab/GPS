@@ -239,11 +239,3 @@ For debugging, replace your output mount with logs:
 Send the logfile to the us at contact@octad.org to help diagnose issues.
 
 ---
-
-### Demo
-
-To run demo use files in demo folder as inputs to the code.
-
-The files provided allow to run screening of HTS library against MUC5B+ and Myofibroblast disease signature.
-
----

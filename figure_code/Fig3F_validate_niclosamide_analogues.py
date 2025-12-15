@@ -17,7 +17,7 @@ matplotlib.rcParams['figure.dpi'] = 300
 import seaborn as sns
 
 
-wrkdir = '../data/HCC_efficacy_rges/'
+wrkdir = './data_for_code/HCC_efficacy_rges/'
 df = pd.read_csv(wrkdir + 'niclosamideAnalogs_HCC_ZRGES_efficacy.csv', index_col=0)
 
 FIG, axes = plt.subplots(2, 1, figsize=(4, 6))
@@ -42,7 +42,7 @@ axes[1].set_ylabel('Z-RGES')
 axes[1].set_xlim(3.8, 7.5)
 
 plt.tight_layout()
-#FIG.savefig('../doc_fig_table/HCC_rges_niclosamide_analogues.pdf', transparent=True)
+#FIG.savefig('./data_for_code/HCC_rges_niclosamide_analogues.pdf', transparent=True)
 
 s1 = df[['Z_RGES', 'HepG2_pIC50']]
 s1.columns = ['Z_RGES', 'pIC50']
@@ -59,7 +59,7 @@ sns.scatterplot(data=df1, x='pIC50', y='Z_RGES', style='Cell')
 plt.text(4, -6, 'HepG2 Cor = %.2f\nHuh7 Cor = %.2f'%(cor0, cor1), weight='bold', size=12)
 #plt.legend(loc='center', bbox_to_anchor=(0.5, 1.1), ncols=2, frameon=False)
 plt.tight_layout()
-FIG.savefig('../doc_fig_table/HCC_rges_niclosamide_analogues-2.png', transparent=True)
+FIG.savefig('./data_for_code/HCC_rges_niclosamide_analogues-2.png', transparent=True)
 
 
 

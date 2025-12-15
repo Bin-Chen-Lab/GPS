@@ -21,7 +21,7 @@ from rdkit import Chem
 from rdkit.Chem import AllChem
 
 
-wrkdir = '../data/example_pathway_targets/'
+wrkdir = './data_for_code/example_pathway_targets/'
 meta = pd.read_csv(wrkdir + 'summary20_target_pathway_examples.csv', index_col='ID')
 gfp = pd.read_csv(wrkdir + 'examplePwTar_MEDIAN_GeneExpressionChange.csv', index_col=0)
 gfp = gfp.T
@@ -81,7 +81,7 @@ a, b = plt.ylim()
 plt.ylim(a, b + (b - a) * 0.25)
 plt.ylabel('Num. in %s neighbors'%nb)
 plt.tight_layout()
-#plt.savefig('../..//manuscript_cpdProfilePred/doc_fig_table/chem_GE_example_tar_pw.pdf', transparent=True)
+#plt.savefig('./data_for_code/chem_GE_example_tar_pw.pdf', transparent=True)
 
 
 
@@ -97,7 +97,7 @@ a, b = plt.xlim()
 plt.xlim(a, b + (b - a) * 0.4)
 plt.title('Gene Expression Features')
 plt.tight_layout()
-#plt.savefig('../doc_fig_table/umap_GE_example_targets_pathways.pdf', transparent=True)
+#plt.savefig('./data_for_code/umap_GE_example_targets_pathways.pdf', transparent=True)
 
 
 model = UMAP(random_state=1, n_neighbors=cfp.shape[0]-1, min_dist=0.5, metric='jaccard')
@@ -112,5 +112,5 @@ a, b = plt.xlim()
 plt.xlim(a, b + (b - a) * 0.4)
 plt.title('Chemical Features')
 plt.tight_layout()
-#plt.savefig('../doc_fig_table/umap_chem_example_targets_pathways.pdf', transparent=True)
+#plt.savefig('./data_for_code/umap_chem_example_targets_pathways.pdf', transparent=True)
 
