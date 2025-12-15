@@ -8,7 +8,6 @@
   - [Flags](#flags)
 - [GPS Drug Screening (Reversal Prediction)](#gps-drug-screening-reversal-prediction)
 - [GPS Prediction Profile Docker Image](#gps-prediction-profile-docker-image)
-- [Demo](#demo)
 
 ## Environment Setup
 
@@ -23,6 +22,12 @@ The `py27.yml` file can be found on GitHub in the **GPS4Drugs** folder.
 ---
 
 ## GPS Prediction
+
+From the GPS4Drugs folder:
+
+```bash
+cd code
+```
 
 ### Input Format
 

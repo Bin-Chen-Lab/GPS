@@ -13,8 +13,6 @@
     - [RGES Module (Optional)](#rges-module-optional)
     - [Running the Container](#running-the-container)
 
-- [Demo](#demo)
-
 ### MCTS Environment Setup
 
 ```bash
@@ -134,7 +132,7 @@ The input file will be the **output of Stage 1**, located in the `output` folder
 
 ### RGES Module (Optional)
 
-To run demo of the data preparation add contents of 'demo' folder to 'rges_input' folder.
+To run demo of the data preparation use contents of 'rges_input' folder.
 
 If using the **RGES module**, first run `GPS_runDrugScreenRges.py` with the appropriate directory mounted.  
 Then, prepare output using `molsearch_rges.ipynb`, which can be found in GitHub:  
