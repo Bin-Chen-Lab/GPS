@@ -12,7 +12,7 @@ sudo docker run --rm \
     -v $(pwd)/library:/app/data/profile_pred/MEDIAN \
     -v $(pwd)/output:/app/data/reversal_score \
     leshchi4/gpsimage:latest \
-    python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__<sample_name>.csv --cmpdLibID ZINC
+    python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__HCC.csv --cmpdLibID ZINC
 ```
 
 The file HCC_RGES_norm.csv should be located in the output folder.
