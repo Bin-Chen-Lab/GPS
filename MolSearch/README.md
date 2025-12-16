@@ -28,7 +28,7 @@ Download file [here](https://figshare.com/articles/dataset/chemblDB3_sqlitdb/129
 ### Install nvidia-docker
 
 To use MolSearch, install nvidia-docker:
-Installation Guide
+[Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
 ### In medchem_moves folder
 
