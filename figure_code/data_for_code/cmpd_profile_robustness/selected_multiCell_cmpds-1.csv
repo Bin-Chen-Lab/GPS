@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bab07aa60ceb55add2ea1abc451692f97c3df1acb5f9774f2bcd2074326ee391
-size 2107
+pert_id,cmap_name,target,moa,canonical_smiles,inchi_key,compound_aliases,SMILES,StructID
+BRD-K49865102,PD-0325901,MAP2K1,MEK inhibitor,OC[C@@H](O)CONC(=O)c1ccc(F)c(F)c1Nc1ccc(I)cc1F,SUDAHWBOROXANE-SECBINFHSA-N,,O=C(NOC[C@H](O)CO)c1ccc(F)c(F)c1Nc1ccc(I)cc1F,ST25748
+BRD-K77908580,entinostat,HDAC1,HDAC inhibitor,Nc1ccccc1NC(=O)c1ccc(CNC(=O)OCc2cccnc2)cc1,INVTYAOGFAGBOE-UHFFFAOYSA-N,,Nc1ccccc1NC(=O)c1ccc(CNC(=O)OCc2cccnc2)cc1,ST25883
+BRD-U70626184,BI-2536,PLK1,PLK inhibitor,CC[C@@H]1C(=O)N(C2=CN=C(N=C2N1C3CCCC3)NC4=C(C=C(C=C4)C(=O)NC5CCN(CC5)C)OC)C,XQVVPGYIWAGRNI-JOCHJYFZSA-N,,CC[C@@H]1C(=O)N(C)c2cnc(Nc3ccc(C(=O)NC4CCN(C)CC4)cc3OC)nc2N1C1CCCC1,ST25774
+BRD-K21680192,mitoxantrone,TOP2A,Topoisomerase inhibitor,OCCNCCNc1ccc(NCCNCCO)c2C(=O)c3c(O)ccc(O)c3C(=O)c12,KKZJGLLVHKMTCM-UHFFFAOYSA-N,,O=C1c2c(O)ccc(O)c2C(=O)c2c(NCCNCCO)ccc(NCCNCCO)c21,ST26764
+BRD-K02113016,olaparib,PARP2,PARP inhibitor,Fc1ccc(Cc2n[nH]c(=O)c3ccccc23)cc1C(=O)N1CCN(CC1)C(=O)C1CC1,FDLYAMZZIXQODN-UHFFFAOYSA-N,,O=C(c1cc(Cc2n[nH]c(=O)c3ccccc23)ccc1F)N1CCN(C(=O)C2CC2)CC1,ST25945
+BRD-K12184916,NVP-BEZ235,MTOR,MTOR inhibitor,Cn1c2cnc3ccc(cc3c2n(-c2ccc(cc2)C(C)(C)C#N)c1=O)-c1cnc2ccccc2c1,JOGKUKXHTYWRGZ-UHFFFAOYSA-N,dactolisib,Cn1c(=O)n(-c2ccc(C(C)(C)C#N)cc2)c2c3cc(-c4cnc5ccccc5c4)ccc3ncc21,ST621
+BRD-K64052750,gefitinib,EGFR,EGFR inhibitor,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1,XGALLCVXEZPNRQ-UHFFFAOYSA-N,,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1,ST25838
+BRD-K56301217,ABT-737,BCL2,BCL inhibitor,CN(C)CC[C@H](CSc1ccccc1)Nc1ccc(cc1[N+]([O-])=O)S(=O)(=O)NC(=O)c1ccc(cc1)N1CCN(Cc2ccccc2-c2ccc(Cl)cc2)CC1,HPLNQCPCUACXLM-PGUFJCEWSA-N,,CN(C)CC[C@H](CSc1ccccc1)Nc1ccc(S(=O)(=O)NC(=O)c2ccc(N3CCN(Cc4ccccc4-c4ccc(Cl)cc4)CC3)cc2)cc1[N+](=O)[O-],ST25604
+BRD-K07691486,roscovitine,CDK2,CDK inhibitor,CC[C@H](CO)Nc1nc(NCc2ccccc2)c2ncn(C(C)C)c2n1,BTIHMVBBUGXLCJ-OAHLLOKOSA-N,,CC[C@H](CO)Nc1nc(NCc2ccccc2)c2ncn(C(C)C)c2n1,ST25644
+BRD-K37720887,SB-525334,TGFBR1,TGF beta receptor inhibitor,Cc1cccc(n1)-c1[nH]c(nc1-c1ccc2nccnc2c1)C(C)(C)C,DKPQHFZUICCZHF-UHFFFAOYSA-N,,Cc1cccc(-c2[nH]c(C(C)(C)C)nc2-c2ccc3nccnc3c2)n1,ST27418

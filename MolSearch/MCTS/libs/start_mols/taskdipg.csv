@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f07df49372a052ebad2570887a1f4206d15a3e3bc7f29be3084be7535cb8af36
-size 77
+﻿idx,smiles,molname
+0,COC1=CC=NC(NC(=O)C2=CC=C(N(C)C)C=C2F)=C1,Z1535593351

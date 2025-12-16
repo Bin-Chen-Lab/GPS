@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab3fc921e3c6a49a8ab7fbf9bd1a46c3d6327ff8644fb53f5b06b00342de875b
-size 53
+idx,smiles
+0,Fc1ccc(c(c1)Cl)C(=O)NNC(=O)c1cc(Cl)ccc1O

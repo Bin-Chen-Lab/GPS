@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab68dfd5dd0541e12948dfb6fce6c77076bed03d9c41e17ad6236c0314752798
-size 67
+idx,smiles
+0,CC1=NC2=C(C=C1)C=CC(C(NC1=NC=CC=C1C)C1=NC=CC=C1)=C2O
+

@@ -1,3 +1,3070 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c7983de6f5aef890af274ea599e2c8257aef05a2a33eb560a192b4e4f481262b
-size 157222
+StructID,MoAs,Targets
+ST17248,Estrogen receptor antagonist,ESR1
+ST17249,Estrogen receptor antagonist,ESR1
+ST17305,Adrenergic receptor agonist,ADRA2B|ADRA2A
+ST17404,Adrenergic receptor antagonist,HTR1A|HTR1B
+ST176,TNF production inhibitor|HIV integrase inhibitor|Lipoxygenase inhibitor|NFKB pathway inhibitor|Nitric oxide production inhibitor|Tumor necrosis factor production inhibitor|PPAR receptor modulator,ALOX5
+ST17861,Cholinergic receptor agonist,CHRM2
+ST18863,MDM inhibitor,MDM2
+ST25538,Steroid,NR3C1
+ST25539,Diuretic,CA2|SLC12A3
+ST25540,Diuretic,SLC12A1|SLC12A2
+ST25541,Antiviral,IMPDH1
+ST25542,Antiviral,IMPDH1
+ST25543,Antiviral,IMPDH1
+ST25544,Antiviral,ADA
+ST25545,Bile acid|G protein-coupled receptor agonist,CEL
+ST25546,Bile acid,FECH|CES1|PLA2G1B
+ST25547,Vitamin B|Methylmalonyl CoA mutase stimulant,MMUT
+ST25548,Vitamin B|Methylmalonyl CoA mutase stimulant,MMUT
+ST25549,NAD precursor with lipid lowering effects|Vitamin B,HCAR2|HCAR3
+ST25550,NAD precursor with lipid lowering effects|Vitamin B,HCAR2|HCAR3
+ST25551,Vitamin B,SLC19A2
+ST25552,Anti-HCVE2,HTR5A|HTR6|HTR7
+ST25553,Antioxidant,SLC23A1
+ST25554,Antioxidant,SLC23A1
+ST25555,Antioxidant,AGER
+ST25556,Capillary stabilizing agent|Antioxidant|Nitric oxide scavenger,AKR1C3
+ST25557,Capillary stabilizing agent|Antioxidant|Nitric oxide scavenger,AKR1C3
+ST25558,Capillary stabilizing agent|Antioxidant|Nitric oxide scavenger,AKR1C3
+ST25559,NFkB pathway activator|Monoamine oxidase B inhibitor|PPAR receptor agonist|FXR agonist,MAOB
+ST25560,FXR agonist,NR1H4
+ST25561,FXR agonist,NR1H4
+ST25562,FXR agonist,NR1I2
+ST25563,FXR agonist,NR1H4
+ST25564,GSP agonist,SMAD3
+ST25565,LXR agonist,NR1H2|NR1H3
+ST25566,ABC transporter expression enhancer|LXR agonist,NR1H2|NR1H3
+ST25567,ABC transporter expression enhancer|ROR inverse agonist|LXR agonist,NR1H2|NR1H3
+ST25568,PAR agonist,F2RL1
+ST25569,TLR agonist|Interferon inducer,TLR8|TLR7
+ST25570,TLR agonist,TLR7
+ST25571,Potassium channel activator|Vasodilator|KATP activator,KCNJ8|KCNJ11|ABCC9
+ST25572,AP inhibitor,JUN
+ST25573,M5 modulator,CHRM5
+ST25574,Insulin secretagogue|Sulfonylurea|ATP channel blocker,ABCC8|KCNJ8|CFTR|KCNJ5|KCNJ11
+ST25575,Sulfonylurea,ABCC8|KCNJ11
+ST25576,Sulfonylurea,ABCC8
+ST25577,TRPV agonist,TRPV1|CNR1
+ST25578,TRPV agonist,TRPV1
+ST25579,TRPV agonist,TRPV1
+ST25580,Aldehyde dehydrogenase inhibitor|DNA methyltransferase inhibitor|TRPV agonist,ALDH2
+ST25581,ATPase inhibitor|TRPV agonist,TRPV1
+ST25582,TRPV agonist,TRPM8|TRPA1
+ST25583,TRPV agonist,TRPV1|CNR1
+ST25584,AGT inhibitor,MGMT
+ST25585,ALK inhibitor,ALK
+ST25586,ALK inhibitor,ALK
+ST25587,ALK inhibitor,ALK
+ST25588,ALK inhibitor,ALK|MET
+ST25589,ALK inhibitor,ALK
+ST25590,ALK inhibitor,TGFBR1
+ST25591,Androgen receptor antagonist|Akt inhibitor,AR
+ST25592,Akt inhibitor,PIM1
+ST25593,HCV inhibitor|Akt inhibitor,AKT1
+ST25594,Akt inhibitor,AKT2|AKT1|AKT3
+ST25595,Akt inhibitor,AKT2|PRKCQ|AKT1|AKT3
+ST25596,Akt inhibitor,AKT2|PRKCQ|AKT1|AKT3
+ST25597,Akt inhibitor,AKT1
+ST25598,Akt inhibitor,AKT2|AKT1|AKT3
+ST25599,Akt inhibitor,AKT2|AKT1|AKT3
+ST25600,Akt inhibitor,AKT2|AKT1|AKT3
+ST25601,Antihistamine,HRH1
+ST25602,Antihistamine,HRH1
+ST25603,Antihistamine,HRH1
+ST25604,BCL inhibitor,BCL2|BCL2L2|BCL2L1
+ST25605,BCL inhibitor,BCL2L1
+ST25606,BCL inhibitor,BCL2L1
+ST25607,BCL inhibitor,BCL2
+ST25608,MCL1 inhibitor|BCL inhibitor,MCL1|BCL2|BCL2L1
+ST25609,BCL inhibitor,BCL2
+ST25610,BCL inhibitor,BCL2
+ST25611,BCL inhibitor,BCL2|BCL2L2|BCL2L1
+ST25612,BCL inhibitor,BCL2
+ST25613,BCL inhibitor,MCL1|BCL2|BCL2L1
+ST25614,BTK inhibitor,BTK
+ST25615,BTK inhibitor,BTK
+ST25616,BTK inhibitor,BTK
+ST25617,BTK inhibitor,BTK
+ST25618,BTK inhibitor,BTK
+ST25619,CDC inhibitor|Rho associated kinase inhibitor,NFE2
+ST25620,CDC inhibitor,CDC25B|CDC25A
+ST25621,GSK-3 inhibitor|CDK inhibitor,GSK3A|CDK1|CDK5
+ST25622,GSK-3 inhibitor|CDK inhibitor|CFTR channel agonist,CDK2
+ST25623,GSK-3 inhibitor|CDK inhibitor|CFTR channel agonist,CDK2
+ST25624,CDK inhibitor,CDK6|CDK4|CDK2|PYGM|CDK5|CDK9|EGFR|CDK1|CDK8|CDK7
+ST25625,Tyrosine kinase inhibitor|CDK inhibitor,CDK1|CDK2|CDK5
+ST25626,CDK inhibitor,CDK4|CCND1
+ST25627,Cell cycle inhibitor|CDK inhibitor,CDK6|CDK4|CDK2|CDK5|CDK9|CDK1
+ST25628,CDK inhibitor,CDK2|CDK5
+ST25629,CDK inhibitor,CDK1|CDK2
+ST25630,MCL1 inhibitor|Cell cycle inhibitor|CDK inhibitor,CDK9|CDK2|CDK7
+ST25631,CDK inhibitor,CDK1|CDK5
+ST25632,CDK inhibitor,CDK7
+ST25633,CDK inhibitor,CDK1
+ST25634,CDK inhibitor,CDK9|CDK1|CDK2|CDK5
+ST25635,GSK-3 inhibitor|CDK inhibitor,GSK3A|CDK1|CDK5
+ST25636,CDK inhibitor,AURKA|CDK2|CDK1|AURKB
+ST25637,GSK-3 inhibitor|CDK inhibitor,GSK3B|CDK1|CDK5
+ST25638,GSK-3 inhibitor|CDK inhibitor,GSK3A|CDK1|CDK5
+ST25639,CDK inhibitor,CDK1|CDK2|CDK5
+ST25640,CDK inhibitor,CDK6|CDK4
+ST25641,CDK inhibitor,CDK4|CDK2|CDK5|CDK9|CDK1|CDK7
+ST25642,Growth factor receptor inhibitor|CDK inhibitor,NTRK1|CDK4|CDK2|CDK1
+ST25643,DYRK inhibitor|CDK inhibitor,CDK4|CDK2|CDK1|CDK5
+ST25644,CDK inhibitor,CDK9|CDK2|CDK7
+ST25645,FLT3 inhibitor|JAK inhibitor|CDK inhibitor,CDK2|CDK9|FLT3|JAK2|CDK1|CDK7
+ST25646,CHK inhibitor,CHEK2|CHEK1
+ST25647,CHK inhibitor,CHEK2|CHEK1
+ST25648,CHK inhibitor,CHEK1
+ST25649,CHK inhibitor,CHEK1
+ST25650,CHK inhibitor,CHEK1
+ST25651,CHK inhibitor,CHEK1
+ST25652,DYRK inhibitor|CLK inhibitor,DYRK1B|CLK1|DYRK1A|CLK4
+ST25653,DYRK inhibitor|CLK inhibitor,CLK1|DYRK1A|CLK4
+ST25654,DYRK inhibitor|CLK inhibitor,DYRK1B|CLK1|DYRK1A|CLK4
+ST25655,CLK inhibitor,DYRK1B|CLK1|DYRK1A|CLK4
+ST25656,CLK inhibitor,CSNK1E|ULK1|FLT3|CLK2
+ST25657,Progesterone receptor agonist|Steroidal progestin|DNA inhibitor,PGR
+ST25658,DNA alkylating agent|DNA inhibitor,GSR
+ST25659,DNA synthesis inhibitor|DNA alkylating agent|Estrogen receptor agonist|DNA inhibitor|Microtubule inhibitor,MAP2|ESR1|ESR2|MAP1A
+ST25660,Progesterone receptor agonist|Steroidal progestin|DNA inhibitor,PGR
+ST25661,DNA inhibitor,CYP2C9|CYP3A4
+ST25662,Topoisomerase inhibitor|DNA inhibitor,TOP2A
+ST25663,GAT inhibitor,SLC6A1
+ST25664,GAT inhibitor|GABA uptake inhibitor,SLC6A12
+ST25665,GAT inhibitor,SLC6A1
+ST25666,HIV integrase inhibitor|Quorum sensing signaling modulator|HCV inhibitor|Beta-secretase inhibitor|Aldose reductase inhibitor|Glutathione transferase inhibitor|Reverse transcriptase inhibitor,CA4|CA2|CA1|CA12|CA6|CA14|SYK|CA9
+ST25667,HCV inhibitor|XIAP inhibitor,XIAP
+ST25668,HCV inhibitor,CYP1A2|CYP3A4
+ST25669,HIF inhibitor,HIF1A
+ST25670,HIF modulator,HIF1A
+ST25671,HIF modulator,HIF1A
+ST25672,HSP inhibitor,HSP90AA1
+ST25673,HSP inhibitor,HSP90AA1
+ST25674,HSP inhibitor,HSP90AA1
+ST25675,HSP inhibitor,HSP90AA1
+ST25676,HSP inhibitor,HSP90AA1
+ST25677,HSP inhibitor,HSP90AA1
+ST25678,HSP inhibitor,HSP90AA1
+ST25679,HSP inhibitor,HSP90AA1|HSP90AB1
+ST25680,HSP inhibitor,HSP90AA1|HSP90AB1
+ST25681,HSP inhibitor,TP53|HSPA1A
+ST25682,HSP inhibitor,HSP90AA1
+ST25683,HSP inhibitor,HSP90AA1
+ST25684,HSP inhibitor,HSP90AA1
+ST25685,HSP inhibitor,HSPA1A
+ST25686,Telomerase reverse transcriptase expression inhibitor|Topoisomerase inhibitor|Caspase activator|MYC expression inhibitor|HSP inhibitor,BCL2
+ST25687,IKK inhibitor,IKBKB
+ST25688,IKK inhibitor,PDPK1|PDK1
+ST25689,Pregnane X receptor agonist|Estrogen receptor agonist|Progesterone receptor agonist|IKK inhibitor|Cholesterol inhibitor|FXR antagonist,NR1H4|AR|NR3C2|NR3C1|PGR
+ST25690,Pregnane X receptor agonist|Estrogen receptor agonist|Progesterone receptor agonist|IKK inhibitor|Cholesterol inhibitor|FXR antagonist,NR1H4|AR|NR3C2|NR3C1|PGR
+ST25691,IKK inhibitor,IKBKB|IL1B|TNF
+ST25692,IKK inhibitor,IKBKB
+ST25693,IKK inhibitor,IKBKB
+ST25694,IKK inhibitor,IKBKB|NAMPT
+ST25695,IKK inhibitor,IKBKB|NAMPT
+ST25696,IL5 inhibitor,IL5RA
+ST25697,EGFR inhibitor|JAK inhibitor|ErbB2 inhibitor,JAK2|JAK3
+ST25698,FLT3 inhibitor|Abl kinase inhibitor|Aurora kinase inhibitor|Mitotic inhibitor|Protein kinase inhibitor|JAK inhibitor,JAK2|AURKA|AURKB|JAK3
+ST25699,JAK inhibitor,JAK2|JAK1
+ST25700,JAK inhibitor,JAK2|JAK1
+ST25701,JAK inhibitor,JAK2|JAK1
+ST25702,JAK inhibitor,JAK2
+ST25703,JAK inhibitor,JAK2|JAK1
+ST25704,FLT3 inhibitor|JAK inhibitor|Growth factor receptor inhibitor,NTRK1|FLT3
+ST25705,FLT3 inhibitor|JAK inhibitor|Growth factor receptor inhibitor,NTRK1|FLT3
+ST25706,JAK inhibitor,JAK2
+ST25707,FLT3 inhibitor|JAK inhibitor,JAK2|FLT3
+ST25708,JAK inhibitor,JAK2|JAK3
+ST25709,FLT3 inhibitor|JAK inhibitor,JAK2|FLT3
+ST25710,JAK inhibitor,JAK2|JAK1|JAK3
+ST25711,JAK inhibitor,JAK2|JAK1|JAK3
+ST25712,FLT3 inhibitor|Aurora kinase inhibitor|JAK inhibitor|Abl kinase inhibitor,AURKC|AURKB|BCR|FLT3|JAK2|AURKA|ABL1
+ST25713,FLT3 inhibitor|Aurora kinase inhibitor|JAK inhibitor|Abl kinase inhibitor,AURKC|AURKB|BCR|FLT3|JAK2|AURKA|ABL1
+ST25714,JAK inhibitor,EGFR|JAK3
+ST25715,JNK inhibitor,MAPK9|MAPK10|MAPK8
+ST25716,JNK inhibitor,MAPK8
+ST25717,JNK inhibitor,MAPK8
+ST25718,JNK inhibitor,MAPK8
+ST25719,JNK inhibitor,MAPK8
+ST25720,JNK inhibitor,MAPK9|TTK|MAPK10|MAPK8
+ST25721,FLT3 inhibitor|RET tyrosine kinase inhibitor|KIT inhibitor|PDGFR inhibitor|RAD51 inhibitor,PDGFRA|MET|FLT3|KIT
+ST25722,VEGFR inhibitor|KIT inhibitor,PDGFRB|FLT4|KIT|FLT1|KDR
+ST25723,Abl kinase inhibitor|Tyrosine kinase inhibitor|KIT inhibitor|Ephrin inhibitor|Src inhibitor|PDGFR inhibitor,LYN|PDGFRB|EPHA2|LCK|BCR|YES1|FYN|KIT|SRC|ABL1
+ST25724,PDGFR inhibitor|Abl kinase inhibitor|KIT inhibitor,PDGFRB|BCR|CSF1R|PDGFRA|KIT|ABL1
+ST25725,PDGFR inhibitor|VEGFR inhibitor|KIT inhibitor,KDR
+ST25726,PDGFR inhibitor|FGFR inhibitor|VEGFR inhibitor|KIT inhibitor,FGFR1|FLT4|KIT|FLT1|KDR
+ST25727,PDGFR inhibitor|KIT inhibitor|Src inhibitor,LYN|PDGFRB|PDGFRA|KIT|FGFR3
+ST25728,FLT3 inhibitor|PKC inhibitor|KIT inhibitor,FLT3|KIT
+ST25729,PDGFR inhibitor|VEGFR inhibitor|KIT inhibitor,KIT|FLT4|KDR|FLT1
+ST25730,VEGFR inhibitor|KIT inhibitor,KDR|KIT
+ST25731,PDGFR inhibitor|VEGFR inhibitor|KIT inhibitor,PDGFRB|FLT4|PDGFRA|KIT|FLT1|KDR
+ST25732,KIT inhibitor|RET tyrosine kinase inhibitor|FGFR inhibitor|PDGFR inhibitor|VEGFR inhibitor|RAF inhibitor,PDGFRB|FGFR2|FGFR1|FLT4|RET|DDR2|MAPK11|PDGFRA|RAF1|FRK|BRAF|TEK|KIT|FLT1|ABL1|KDR
+ST25733,FLT3 inhibitor|KIT inhibitor|RET tyrosine kinase inhibitor|PDGFR inhibitor|VEGFR inhibitor|RAF inhibitor,PDGFRB|FGFR1|FLT4|RET|DDR2|FLT3|RAF1|BRAF|KIT|FLT1|KDR
+ST25734,FLT3 inhibitor|KIT inhibitor|RET tyrosine kinase inhibitor|PDGFR inhibitor|VEGFR inhibitor|RAF inhibitor,PDGFRB|FGFR1|FLT4|RET|DDR2|FLT3|RAF1|BRAF|KIT|FLT1|KDR
+ST25735,FLT3 inhibitor|PDGFR inhibitor|KIT inhibitor,PDGFRA|PDGFRB|FLT3|KIT
+ST25736,PDGFR inhibitor|VEGFR inhibitor|KIT inhibitor,KDR
+ST25737,PDGFR inhibitor|VEGFR inhibitor|KIT inhibitor,PDGFRB|FLT4|KIT|FLT1|KDR
+ST25738,MDM inhibitor,MDM2
+ST25739,MDM inhibitor,MDM2
+ST25740,MDM inhibitor,MDM2
+ST25741,MDM inhibitor,MDM2
+ST25742,MDM inhibitor,MDM4
+ST25743,MDM inhibitor,MDM2
+ST25744,MEK inhibitor,MAP2K1|CHUK
+ST25745,MEK inhibitor,MAP2K1|MAP2K2
+ST25746,MEK inhibitor,MAP2K5|MAPK7
+ST25747,MEK inhibitor,MAP2K1
+ST25748,Protein kinase inhibitor|MEK inhibitor|MAP kinase inhibitor,MAP2K1
+ST25749,Protein kinase inhibitor|MEK inhibitor|MAP kinase inhibitor,MAP2K1
+ST25750,MEK inhibitor,MAP2K1
+ST25751,MEK inhibitor|MAP kinase inhibitor,MAP2K1|MAP2K2
+ST25752,MEK inhibitor|MAP kinase inhibitor,MAP2K1
+ST25753,MEK inhibitor,MAP2K1|MAP2K2
+ST25754,MEK inhibitor,MAP2K1
+ST25755,MEK inhibitor,MAP2K1
+ST25756,MEK inhibitor,MAP2K1|MAP2K2
+ST25757,MEK inhibitor,MAP2K1|MAP2K2
+ST25758,MEK inhibitor,MAP2K1|MAP2K2
+ST25759,MRP inhibitor|P-glycoprotein inhibitor,ABCC1|ABCB1
+ST25760,PKA activator,PRKG1
+ST25761,PKA inhibitor,PRKACA
+ST25762,PKA inhibitor,PRKACA
+ST25763,PKA inhibitor,PRKACA
+ST25764,PKC activator,PRKCD|PRKCE
+ST25765,PKC activator,PRKCA|PRKCD
+ST25766,PKC inhibitor,SIRT1
+ST25767,EGFR inhibitor|PKC inhibitor,EGFR
+ST25768,PKC inhibitor,PRKCA|PRKCG
+ST25769,PKC inhibitor,PRKCB
+ST25770,PKC inhibitor,PRKCB
+ST25771,PKC inhibitor,PRKCQ|PRKCA|PRKCD|PRKCE|PRKCB|PRKCH
+ST25772,PKC inhibitor,GSK3B|CDK2
+ST25773,PKC inhibitor,GSK3B|CDK2
+ST25774,PLK inhibitor,PLK1
+ST25775,PLK inhibitor,PLK1
+ST25776,PLK inhibitor,PLK3|PLK1
+ST25777,PLK inhibitor,PDGFRB|FLT4|RET|FLT3|CSF1R|KIT|FLT1|KDR
+ST25778,PLK inhibitor|DNA dependent protein kinase inhibitor|Phosphodiesterase inhibitor|MTOR inhibitor,PIK3CA|PIK3CB|MTOR|PLK1|PIK3CG|PRKDC|PIK3CD
+ST25779,PLK inhibitor,PLK1
+ST25780,PLK inhibitor,PLK1|PDGFRA|FYN|PLK2|CDK1|SRC|FLT1
+ST25781,PLK inhibitor|Cell cycle inhibitor,PLK1
+ST25782,PLK inhibitor,PLK1
+ST25783,RAF inhibitor,RAF1|BRAF
+ST25784,RAF inhibitor,BRAF
+ST25785,RAF inhibitor,BRAF
+ST25786,RAF inhibitor,BRAF
+ST25787,Leucine rich repeat kinase inhibitor|RAF inhibitor,RAF1
+ST25788,RAF inhibitor,BRAF
+ST25789,RAF inhibitor,RAF1
+ST25790,RAF inhibitor,BRAF
+ST25791,RAF inhibitor,BRAF
+ST25792,RAF inhibitor,BRAF
+ST25793,Src activator,LYN|SRC
+ST25794,Src inhibitor,LCK
+ST25795,Abl kinase inhibitor|Src inhibitor,LYN|CAMK2G|BCR|SRC|ABL1|HCK
+ST25796,EGFR inhibitor|Src inhibitor,ACE
+ST25797,Src inhibitor,LCK|SRC
+ST25798,Src inhibitor,ABL1|SRC
+ST25799,Src inhibitor,LYN
+ST25800,VEGFR inhibitor|Src inhibitor,FGFR1|KDR|SRC|FLT1
+ST25801,VEGFR inhibitor|Abl kinase inhibitor|Src inhibitor,KDR|FLT1
+ST25802,FLT3 inhibitor|Syk inhibitor,SYK
+ST25803,Syk inhibitor|Mediator release inhibitor,SYK
+ST25804,Syk inhibitor,SYK
+ST25805,Syk inhibitor,SYK
+ST25806,ACAT inhibitor,ACAT1
+ST25807,ACAT inhibitor,ACACB|ACACA
+ST25808,ACAT inhibitor,SOAT1|SOAT2
+ST25809,AMPK inhibitor,PRKAA1|BMPR1A|BMPR1B
+ST25810,APEX inhibitor,APEX1
+ST25811,APEX inhibitor,APEX1
+ST25812,Antiarrhythmic,SCN5A|KCNH2
+ST25813,CAMP stimulant|Adenosine receptor agonist,PRKACA
+ST25814,CAMP stimulant|Adenosine receptor agonist,PRKACA
+ST25815,CAMP stimulant|Adenosine receptor agonist,PRKACA
+ST25816,CAMP stimulant|Adenosine receptor agonist,PRKACA
+ST25817,CAMP stimulant|Adenosine receptor agonist,PRKACA
+ST25818,CCR antagonist,CCR2
+ST25819,DYRK inhibitor,DYRK1B|CLK1|DYRK1A|CLK4
+ST25820,DYRK inhibitor,DYRK1B|CLK1|DYRK1A|CLK4
+ST25821,DYRK inhibitor,CLK1|DYRK1A|CLK4
+ST25822,DYRK inhibitor,MAOA
+ST25823,EGFR inhibitor,ERBB4|EGFR|ERBB2
+ST25824,EGFR inhibitor,ERBB4|EGFR|ERBB2
+ST25825,EGFR inhibitor,EGFR|ERBB2
+ST25826,EGFR inhibitor,EGFR|ERBB2
+ST25827,EGFR inhibitor,EGFR
+ST25828,Tyrosine kinase inhibitor|EGFR inhibitor,EGFR
+ST25829,EGFR inhibitor,EGFR
+ST25830,Receptor tyrosine protein kinase inhibitor|EGFR inhibitor,ERBB4|EGFR|ERBB2
+ST25831,EGFR inhibitor,ERBB4|EGFR|ERBB2
+ST25832,EGFR inhibitor,EGFR
+ST25833,EGFR inhibitor,EGFR|MTOR
+ST25834,Tyrosine kinase inhibitor|EGFR inhibitor,ERBB2
+ST25835,EGFR inhibitor,ERBB4|EGFR|ERBB2
+ST25836,FLT3 inhibitor|FGFR inhibitor|EGFR inhibitor|PDGFR inhibitor|VEGFR inhibitor,PDGFRB|FGFR2|FGFR1|FLT4|EGFR|FLT3|KIT|FLT1|FGFR3|KDR
+ST25837,EGFR inhibitor,EGFR
+ST25838,EGFR inhibitor,EGFR
+ST25839,Receptor tyrosine protein kinase inhibitor|EGFR inhibitor|ErbB2 inhibitor,EGFR|ERBB2
+ST25840,EGFR inhibitor|ErbB2 inhibitor,EGFR|ERBB2
+ST25841,EGFR inhibitor,EGFR|CAMK2A|SRC
+ST25842,EGFR inhibitor,EGFR
+ST25843,EGFR inhibitor,ERBB4|EGFR|ERBB2
+ST25844,EGFR inhibitor,EGFR
+ST25845,EGFR inhibitor,EGFR
+ST25846,EGFR inhibitor,EGFR
+ST25847,EGFR inhibitor,EGFR
+ST25848,EGFR inhibitor,ERBB2
+ST25849,EGFR inhibitor|VEGFR inhibitor|RET tyrosine kinase inhibitor,PTK6|FLT4|RET|EGFR|TEK|FLT1|KDR
+ST25850,EGFR inhibitor,EGFR
+ST25851,EGFR inhibitor,EGFR|ERBB2
+ST25852,FAAH inhibitor|FAAH reuptake inhibitor,FAAH
+ST25853,FAAH inhibitor|Cyclooxygenase inhibitor|TRPV antagonist,TRPV1
+ST25854,FAAH inhibitor,FAAH
+ST25855,FAAH inhibitor,FAAH
+ST25856,FAAH inhibitor,FAAH
+ST25857,FAAH inhibitor,FAAH
+ST25858,FGFR inhibitor|VEGFR inhibitor,FGFR1|KDR|FLT1
+ST25859,FGFR inhibitor|VEGFR inhibitor,FGFR1|KDR|FLT1
+ST25860,FGFR inhibitor|VEGFR inhibitor,FGFR2|FGFR1|FLT4|FLT1|KDR
+ST25861,FGFR inhibitor|VEGFR inhibitor,FGFR2|FGFR1|MET|FLT3|FLT1|FGFR3
+ST25862,FGFR inhibitor|VEGFR inhibitor|PDGFR inhibitor,PDGFRB|FGFR1|FLT4|PDGFRA|FLT1|FGFR3|KDR
+ST25863,FGFR inhibitor,FGFR3|FGFR2|FGFR1|FGFR4
+ST25864,FGFR inhibitor|VEGFR inhibitor|PDGFR inhibitor,PDGFRB|FGFR2|FGFR1|AURKB|PDGFRA|AURKA|KDR
+ST25865,FGFR inhibitor|VEGFR inhibitor,FGFR3|FGFR1
+ST25866,FLT3 inhibitor|Macrophage inhibitor|Tyrosine kinase inhibitor|Hepatocyte growth factor receptor inhibitor|C-Met inhibitor|AXL kinase inhibitor,TYRO3|MET|MERTK|MST1R|AXL
+ST25867,FLT3 inhibitor|Aurora kinase inhibitor|VEGFR inhibitor,FLT3|PDGFRA|AURKA|SRC|KDR
+ST25868,FLT3 inhibitor|Tyrosine kinase inhibitor,FLT3
+ST25869,FLT3 inhibitor|Aurora kinase inhibitor|Abl kinase inhibitor,ABL1|AURKA|FGFR1|FLT3
+ST25870,FLT3 inhibitor|Abl kinase inhibitor|PDGFR inhibitor,FGFR2|FGFR1|RET|FLT3|BCR|TEK|FGFR4|KIT|ABL1|FGFR3
+ST25871,FLT3 inhibitor,RET|KIT|FLT3|CSF1R
+ST25872,FLT3 inhibitor,FLT3
+ST25873,Estrogen receptor agonist|FXR antagonist|Progesterone receptor agonist,NR1H4
+ST25874,FtsZ inhibitor|Apoptosis stimulant|Acetylcholinesterase inhibitor|Caspase activator|Rho associated kinase inhibitor,CASP3
+ST25875,GLI antagonist,GLI1
+ST25876,GLI antagonist,GLI2|GLI1
+ST25877,HDAC inhibitor,HDAC6
+ST25878,HDAC inhibitor,HDAC2|HDAC7|HDAC6|HDAC11|HDAC3|HDAC9|HDAC4|HDAC5|HDAC8|HDAC10|HDAC1
+ST25879,HDAC inhibitor,HDAC2|HDAC7|HDAC6|HDAC11|HDAC3|HDAC9|HDAC4|HDAC5|HDAC8|HDAC10|HDAC1
+ST25880,HDAC inhibitor,HDAC2|HDAC7|HDAC6|HDAC3|HDAC9|HDAC4|HDAC5|HDAC8|HDAC1
+ST25881,HDAC inhibitor,HDAC1
+ST25882,HDAC inhibitor,HDAC6|HDAC8
+ST25883,HDAC inhibitor,HDAC1
+ST25884,HDAC inhibitor,HDAC2
+ST25885,HDAC inhibitor,HDAC2
+ST25886,HDAC inhibitor,HDAC11|HDAC2|HDAC1|HDAC3
+ST25887,HDAC inhibitor,HDAC2|HDAC7|HDAC6|HDAC11|HDAC3|HDAC9|HDAC4|HDAC5|HDAC8|HDAC10|HDAC1
+ST25888,HDAC inhibitor,HDAC1
+ST25889,HDAC inhibitor,HDAC2|HDAC1
+ST25890,HDAC inhibitor,HDAC2|HDAC6|HDAC3|HDAC10|HDAC1
+ST25891,HDAC inhibitor,HDAC6|HDAC10|HDAC8|HDAC1
+ST25892,HDAC inhibitor,HDAC1
+ST25893,HDAC inhibitor,ALOX5|HDAC3
+ST25894,HDAC inhibitor,HDAC2|HDAC1
+ST25895,HDAC inhibitor,HDAC2|HDAC3|HDAC9|HDAC4|HDAC5|HDAC10|HDAC1
+ST25896,HDAC inhibitor,HDAC1
+ST25897,HDAC inhibitor,HDAC1
+ST25898,HDAC inhibitor,HDAC6
+ST25899,HDAC inhibitor,HDAC6
+ST25900,HDAC inhibitor|GABA receptor agonist|Voltage-gated sodium channel blocker|GABAergic transmission enhancer,SCN3A|ALDH5A1|ABAT|SCN1A|HDAC1
+ST25901,HDAC inhibitor,HDAC2|HDAC6|HDAC3|HDAC8|HDAC1
+ST25902,HDAC inhibitor,HDAC6
+ST25903,IRE1 inhibitor,ERN1
+ST25904,MTOR inhibitor,MTOR
+ST25905,MTOR inhibitor,MTOR
+ST25906,MTOR inhibitor,MTOR
+ST25907,MTOR inhibitor,MTOR
+ST25908,MTOR inhibitor,MTOR
+ST25909,MTOR inhibitor,MTOR
+ST25910,PI3K inhibitor|MTOR inhibitor,PIK3CG|MTOR
+ST25911,PI3K inhibitor|MTOR inhibitor,PIK3CG|MTOR
+ST25912,Calcium channel modulator|Sodium channel blocker|MTOR inhibitor,MTOR
+ST25913,MTOR inhibitor,MTOR
+ST25914,DNA dependent protein kinase inhibitor|PI3K inhibitor|MTOR inhibitor,PRKDC
+ST25915,MTOR inhibitor,MTOR
+ST25916,MTOR inhibitor,MTOR
+ST25917,MTOR inhibitor,MTOR
+ST25918,PI3K inhibitor|MTOR inhibitor,PIK3CA|MTOR
+ST25919,PI3K inhibitor|MTOR inhibitor,PIK3CA|MTOR
+ST25920,PI3K inhibitor|MTOR inhibitor,PIK3CA|PIK3CB|MTOR|PIK3CG|PIK3CD
+ST25921,PI3K inhibitor|MTOR inhibitor,MTOR
+ST25922,MTOR inhibitor,TRPA1
+ST25923,PI3K inhibitor|MTOR inhibitor,PIK3CA|PIK3CB|MTOR|PIK3CG|PIK3CD
+ST25924,MTOR inhibitor,FKBP1A|MTOR
+ST25925,MTOR inhibitor,FKBP1A|MTOR
+ST25926,MTOR inhibitor,FKBP1A|MTOR
+ST25927,MTOR inhibitor,FKBP1A|MTOR
+ST25928,MTOR inhibitor,FKBP1A|MTOR
+ST25929,MTOR inhibitor,FKBP1A|MTOR
+ST25930,MTOR inhibitor,MTOR
+ST25931,MTOR inhibitor,MTOR
+ST25932,PI3K inhibitor|MTOR inhibitor,PIK3CA|MTOR
+ST25933,MTOR inhibitor,MTOR
+ST25934,MTOR inhibitor,MTOR
+ST25935,NRF2 activator,NFE2L2
+ST25936,Kelch-like ECH-associated protein ligand|NFKB pathway inhibitor|NRF2 activator,KEAP1|NFE2L2
+ST25937,PARP inhibitor,PARP1
+ST25938,PARP inhibitor,PARP1
+ST25939,PARP inhibitor,PARP1
+ST25940,PARP inhibitor,PARP1
+ST25941,PARP inhibitor,TNKS2|TNKS
+ST25942,PARP inhibitor,PNP
+ST25943,PARP inhibitor,PARP1
+ST25944,DNA dependent protein kinase inhibitor|PARP inhibitor,PARP1
+ST25945,PARP inhibitor,PARP2|PARP1
+ST25946,PARP inhibitor,PARP1
+ST25947,PARP inhibitor,PARP2|PARP1
+ST25948,PARP inhibitor,PARP1
+ST25949,PARP inhibitor,PARP2|PARP1
+ST25950,PARP inhibitor,PARP2
+ST25951,PARP inhibitor,PARP2|PARP1
+ST25952,PARP inhibitor,PARP2|PARP1
+ST25953,PARP inhibitor,PARP2|PARP1
+ST25954,PI3K inhibitor,PIK3CA
+ST25955,PI3K inhibitor,PIK3CG
+ST25956,PI3K inhibitor,PIK3CG
+ST25957,PI3K inhibitor,PIK3CD|PIK3CB|PIK3CG
+ST25958,PI3K inhibitor,PIK3CD
+ST25959,PI3K inhibitor,PIK3CA
+ST25960,PI3K inhibitor,PIK3CD|PIK3CA
+ST25961,PI3K inhibitor,PIK3CG
+ST25962,PI3K inhibitor,PIK3CD|PIK3CG
+ST25963,PI3K inhibitor,PIK3CD|PIK3CG
+ST25964,DNA dependent protein kinase inhibitor|PI3K inhibitor,PIK3CD|PIK3CA|PIK3CB|PRKDC
+ST25965,Casein kinase inhibitor|PI3K inhibitor,BRD3|BRD2|BRD4
+ST25966,DNA protein kinase inhibitor|PI3K inhibitor,PIK3CA
+ST25967,PI3K inhibitor,PI4KB
+ST25968,PI3K inhibitor,PIK3CA
+ST25969,PI3K inhibitor,PIK3CB
+ST25970,PI3K inhibitor,PIK3CA|PIK3CG|PLK1
+ST25971,PI3K inhibitor,PIK3CA|PIK3CG|PLK1
+ST25972,PI3K inhibitor,PIK3CA|PIK3CG|PLK1
+ST25973,PI3K inhibitor,PIK3CD|PIK3CA|PIK3CG
+ST25974,PI3K inhibitor,PIK3CG
+ST25975,ROR antagonist,RORC
+ST25976,ROR antagonist,RORC
+ST25977,Reducing agent|5 alpha reductase inhibitor|Gastrin inhibitor,GAST
+ST25978,Immunosuppressant|GABA receptor antagonist|Reducing agent|Platelet activating factor receptor antagonist|Glycine receptor antagonist|Peptidase inhibitor|Protease inhibitor,GLRB|GLRA1|PTAFR
+ST25979,Immunosuppressant|GABA receptor antagonist|Reducing agent|Platelet activating factor receptor antagonist|Glycine receptor antagonist|Peptidase inhibitor|Protease inhibitor,GLRB|GLRA1|PTAFR
+ST25980,SERT inhibitor,SLC6A3|SLC6A2|SLC6A4
+ST25981,SERT inhibitor,SLC6A2|SLC6A4
+ST25982,SIRT activator,SIRT1
+ST25983,Cytochrome P450 inhibitor|SIRT activator,PTGS1|PTGS2|SIRT1
+ST25984,SIRT inhibitor,SIRT2
+ST25985,SIRT inhibitor,SIRT1
+ST25986,SIRT inhibitor,SIRT1
+ST25987,SIRT inhibitor,SIRT2|SIRT1
+ST25988,SIRT inhibitor,SIRT2|SIRT1
+ST25989,Acetylcholinesterase inhibitor|STAT inhibitor,STAT3
+ST25990,STAT inhibitor,STAT3
+ST25991,DNA replication inhibitor|STAT inhibitor,STAT3
+ST25992,Quorum sensing signaling modulator|HIV protease inhibitor|Tyrosine phosphatase inhibitor|NFKB pathway inhibitor|Acetylcholinesterase inhibitor|Lipid peroxidase inhibitor|11-beta hydroxysteroid dehydrogenase inhibitor|ATPase inhibitor|Caspase inhibitor|Steryl sulfatase inhibitor|STAT inhibitor,PTPN1|HSD11B1
+ST25993,Quorum sensing signaling modulator|HIV protease inhibitor|Tyrosine phosphatase inhibitor|NFKB pathway inhibitor|Acetylcholinesterase inhibitor|Lipid peroxidase inhibitor|11-beta hydroxysteroid dehydrogenase inhibitor|ATPase inhibitor|Caspase inhibitor|Steryl sulfatase inhibitor|STAT inhibitor,PTPN1|HSD11B1
+ST25994,TP53 activator|NFKB pathway inhibitor|Cytokine production inhibitor,TP53
+ST25995,TP53 activator|GABA receptor antagonist,GABRA1
+ST25996,TP53 activator|GABA receptor antagonist,GABRA1
+ST25997,TP53 inhibitor,TP53
+ST25998,XIAP inhibitor,BIRC2|XIAP
+ST25999,XIAP inhibitor|Caspase activator,CASP8|XIAP
+ST26000,XIAP inhibitor,XIAP
+ST26001,XIAP inhibitor,XIAP
+ST26002,XIAP inhibitor,XIAP
+ST26003,XIAP inhibitor,XIAP
+ST26004,XIAP inhibitor,XIAP
+ST26005,C-Met inhibitor,MET
+ST26006,C-Met inhibitor,MET
+ST26007,C-Met inhibitor,MET
+ST26008,CSF1R inhibitor,CSF1R
+ST26009,Chelating agent,CYP3A4
+ST26010,Chelating agent,UGT1A6
+ST26011,Chelating agent,DNMT1
+ST26012,Chelating agent,CES1
+ST26013,DOT1L inhibitor,DOT1L
+ST26014,DOT1L inhibitor,DOT1L
+ST26015,EPHB3 inhibitor,EPHB3
+ST26016,FOXM1 inhibitor|Protein synthesis inhibitor,FOXM1
+ST26017,FOXM1 inhibitor|Protein synthesis inhibitor,FOXM1
+ST26018,GSK-3 inhibitor,GSK3B
+ST26019,GSK-3 inhibitor,GSK3B
+ST26020,GSK-3 inhibitor,GSK3B
+ST26021,GSK-3 inhibitor,GSK3B
+ST26022,GSK-3 inhibitor,GSK3B
+ST26023,HMGCR inhibitor,DPP4|HMGCR
+ST26024,HMGCR inhibitor,DPP4|HMGCR
+ST26025,HMGCR inhibitor,HMGCR
+ST26026,HMGCR inhibitor,HMGCR
+ST26027,HMGCR inhibitor,HMGCR
+ST26028,HMGCR inhibitor,HMGCR
+ST26029,HMGCR inhibitor,HMGCR
+ST26030,HMGCR inhibitor,HMGCR
+ST26031,HMGCR inhibitor,HMGCR
+ST26032,HMGCR inhibitor,HMGCR
+ST26033,HMGCR inhibitor,HMGCR
+ST26034,HMGCR inhibitor,HMGCR
+ST26035,HMGCR inhibitor,HMGCR
+ST26036,HMGCR inhibitor,HMGCR
+ST26037,HMGCR inhibitor,HMGCR
+ST26038,HMGCR inhibitor,HMGCR
+ST26039,HMGCR inhibitor,HMGCR
+ST26040,HMGCR inhibitor,HMGCR
+ST26041,HMGCR inhibitor,HTR3A
+ST26042,HMGCR inhibitor,HMGCR
+ST26043,HMGCR inhibitor,HMGCR
+ST26044,HMGCR inhibitor,HMGCR
+ST26045,HMGCR inhibitor,HMGCR
+ST26046,IGF-1 inhibitor,IGF1R
+ST26047,IGF-1 inhibitor,IGF1R
+ST26048,IGF-1 inhibitor,IGF1R
+ST26049,IGF-1 inhibitor,INSR
+ST26050,IGF-1 inhibitor|Insulin receptor ligand,INSR|IGF1R
+ST26051,IGF-1 inhibitor,INSR|IGF1R
+ST26052,IGF-1 inhibitor,INSR|IGF1R
+ST26053,IGF-1 inhibitor,INSR|IGF1R
+ST26054,IGF-1 inhibitor,IGF1R
+ST26055,IGF-1 inhibitor,IGF1R
+ST26056,IGF-1 inhibitor,IGF1R
+ST26057,IGF-1 inhibitor,IGF1R
+ST26058,IGF-1 inhibitor,IGF1R
+ST26059,IMPDH inhibitor,IMPDH1|IMPDH2
+ST26060,IMPDH inhibitor,IMPDH1
+ST26061,Immunosuppressant|IMPase inhibitor|Hydroxycarboxylic acid receptor agonist|IMPDH inhibitor|Dehydrogenase inhibitor,IMPDH1|IMPDH2
+ST26062,MALT1 inhibitor,MALT1
+ST26063,Muscle relaxant,CA1
+ST26064,NADPH inhibitor,NOX1
+ST26065,NADPH inhibitor,VKORC1|NQO1
+ST26066,NAMPT inhibitor,NAMPT
+ST26067,NAMPT inhibitor,NAMPT
+ST26068,Nootropic agent,TYR
+ST26069,PDGFR inhibitor,PDGFRB
+ST26070,VEGFR inhibitor|PDGFR inhibitor,FLT4|KDR|FLT1
+ST26071,PDGFR inhibitor,PDGFRB
+ST26072,PDGFR inhibitor,PDGFRA|PDGFRB
+ST26073,Dihydroorotate dehydrogenase inhibitor|PDGFR inhibitor,DHODH
+ST26074,VEGFR inhibitor|PDGFR inhibitor,PDGFRB|FLT4|FLT3|CSF1R|FLT1|KDR
+ST26075,Tyrosine kinase inhibitor|VEGFR inhibitor|PDGFR inhibitor,KDR
+ST26076,PDGFR inhibitor,PDGFRA
+ST26077,Protease inhibitor|Renin inhibitor|Anti-hypertensive agent|Peptidase inhibitor,REN
+ST26078,Renin inhibitor,REN
+ST26079,SREBP inhibitor,SREBF1|SREBF2
+ST26080,TRPV antagonist,TRPV1
+ST26081,TRPV antagonist,TRPV1
+ST26082,TRPV antagonist,TRPV1
+ST26083,Aromatase inhibitor|TRPV antagonist,CYP19A1|ESR2
+ST26084,Aromatase inhibitor|TRPV antagonist,CYP19A1|ESR2
+ST26085,TRPV antagonist,PKD2L1
+ST26086,TRPV antagonist,TRPV4
+ST26087,TRPV antagonist,TRPV1
+ST26088,TRPV antagonist,TRPV1
+ST26089,Aurora kinase inhibitor|Pim kinase inhibitor|VEGFR inhibitor,PIM1|AURKB
+ST26090,VEGFR inhibitor|RET tyrosine kinase inhibitor,RET|MET|FLT3|TEK|KIT|KDR
+ST26091,VEGFR inhibitor,MET|KDR
+ST26092,VEGFR inhibitor,MET|KDR
+ST26093,VEGFR inhibitor,FLT4
+ST26094,Aurora kinase inhibitor|Pim kinase inhibitor|VEGFR inhibitor,PIM1|AURKB
+ST26095,VEGFR inhibitor,AXL|MET
+ST26096,VEGFR inhibitor|TIE tyrosine kinase inhibitor|Abl kinase inhibitor,BCR|FLT3|TEK|ABL1|KDR
+ST26097,VEGFR inhibitor,PDGFRB|KDR|KIT|FLT1
+ST26098,VEGFR inhibitor,ERBB2
+ST26099,VEGFR inhibitor,PDGFRB|FLT4|PDGFRA|KIT|FLT1|KDR
+ST26100,VEGFR inhibitor,KDR
+ST26101,ARFGAP inhibitor,ARFGAP1
+ST26102,ATPase inhibitor,ATP4A
+ST26103,ATPase inhibitor,MYH2
+ST26104,ATPase inhibitor,ATP1A1
+ST26105,ATPase inhibitor,ATP1A1
+ST26106,ATPase inhibitor,ATP2A1
+ST26107,ATPase inhibitor,ATP2A1
+ST26108,ATPase inhibitor,ATP1A1
+ST26109,ATPase inhibitor,ATP1A1
+ST26110,ATPase inhibitor,ATP1A1
+ST26111,ATPase inhibitor,ATP1A1
+ST26112,ATPase inhibitor,ATP1A1
+ST26113,ATPase inhibitor,ATP1A1
+ST26114,ATPase inhibitor,ATP1A1
+ST26115,ATPase inhibitor,ATP1A1
+ST26116,ATPase inhibitor,ATP4A
+ST26117,ATPase inhibitor,ATP1A1
+ST26118,ATPase inhibitor,ATP1A1
+ST26119,ATPase inhibitor,ATP4A
+ST26120,ATP synthase inhibitor|ATPase inhibitor,ATP5F1A
+ST26121,ATP synthase inhibitor|ATPase inhibitor,ATP5F1A
+ST26122,ATP synthase inhibitor|ATPase inhibitor,ATP5F1A
+ST26123,ATP synthase inhibitor|ATPase inhibitor,ATP5F1A
+ST26124,ATPase inhibitor,ATP1A1
+ST26125,ATPase inhibitor,ATP1A1
+ST26126,ATPase inhibitor,ATP1A1
+ST26127,ATPase inhibitor,ATP1A1
+ST26128,ATPase inhibitor,ATP4A
+ST26129,ATPase inhibitor,ATP1A1
+ST26130,Gastrin inhibitor|ATPase inhibitor,ATP4A
+ST26131,ATPase inhibitor,ATP4A
+ST26132,ATPase inhibitor,ATP1A1
+ST26133,ATPase inhibitor,IDO1
+ST26134,ATPase inhibitor,ATP2A1
+ST26135,ATPase inhibitor,ATP2A1
+ST26136,ATPase inhibitor,VCP
+ST26137,Plasminogen activator inhibitor|Antifibrinolytic|Fibrinogen stimulant,PLG
+ST26138,Topoisomerase inhibitor|DNA intercalator|Angiotensin converting enzyme activator,AOC1
+ST26139,Ephrin inhibitor,DDR1
+ST26140,Ephrin inhibitor,DDR1
+ST26141,Ephrin inhibitor,EPHB4
+ST26142,GGTase inhibitor,CDKN1A
+ST26143,IMPase inhibitor,TSPO
+ST26144,IMPase inhibitor,IMPA1
+ST26145,IMPase inhibitor,IMPA1
+ST26146,Lipase inhibitor,PNLIP
+ST26147,Lipase inhibitor,PNLIP|DAGLA|FASN|LIPF
+ST26148,Local anesthetic,SCN5A
+ST26149,Local anesthetic,SCN5A
+ST26150,Neurotransmitter|Adrenergic receptor agonist,ADRB2|ADRA1D|ADRA2A|ADRA2B|ADRA2C|ADRB1|ADRA1A|ADRB3|ADRA1B
+ST26151,S100A9 inhibitor|Angiogenesis inhibitor,HDAC4|S100A9
+ST26152,Anti-cancer agent,IKBKB
+ST26153,Anti-cancer agent,TNF|CRBN
+ST26154,Anti-cancer agent,TNF|CRBN
+ST26155,Anti-cancer agent,CYP2E1
+ST26156,Anti-cancer agent|Aryl hydrocarbon receptor antagonist,NFE2L2
+ST26157,Calpain inhibitor,CTSB|CAPN1
+ST26158,Caspase activator,CASP3
+ST26159,SARS coronavirus 3C-like protease inhibitor|HIV integrase inhibitor|Topoisomerase inhibitor|Apoptosis stimulant|NFkB pathway activator|Caspase activator|Diacylglycerol O acyltransferase inhibitor,GPBAR1
+ST26160,SARS coronavirus 3C-like protease inhibitor|HIV integrase inhibitor|Topoisomerase inhibitor|Apoptosis stimulant|NFkB pathway activator|Caspase activator|Diacylglycerol O acyltransferase inhibitor,GPBAR1
+ST26161,Caspase activator,CASP3
+ST26162,Caspase activator,CYCS
+ST26163,Caspase activator,CASP3
+ST26164,Caspase inhibitor,CASP3
+ST26165,Caspase inhibitor,CASP1
+ST26166,Caspase inhibitor,CASP3
+ST26167,Caspase inhibitor,CASP3
+ST26168,Caspase inhibitor,STAT1|CASP3
+ST26169,Caspase inhibitor,CASP3
+ST26170,Caspase inhibitor,CASP3
+ST26171,Caspase inhibitor,CASP1
+ST26172,DNA binding agent,TOP1
+ST26173,Dynamin inhibitor,DNM2|DNM1L|DNM1
+ST26174,Immunosuppressant|Glucocorticoid receptor agonist,NR3C1
+ST26175,Immunosuppressant|Glucocorticoid receptor agonist,NR3C1
+ST26176,Immunosuppressant|Sphingosine 1 phosphate receptor agonist,S1PR5|S1PR1|S1PR4|S1PR3
+ST26177,Kinesin inhibitor,KIF11
+ST26178,Kinesin inhibitor,KIF11
+ST26179,Kinesin inhibitor,KIF11
+ST26180,Kinesin inhibitor,KIF11
+ST26181,Melanin inhibitor,TYR
+ST26182,Melanin inhibitor,TYR
+ST26183,Protein kinase inhibitor|Aurora kinase inhibitor|Mitotic inhibitor,AURKA
+ST26184,NTPDase inhibitor,ENTPD3
+ST26185,NTPDase inhibitor,ENTPD2|ENTPD1|ENTPD3
+ST26186,Opioid antagonist,OPRM1
+ST26187,DNA synthesis inhibitor|DNA repair enzyme inhibitor|Purine antagonist,RRM1|POLA1
+ST26188,Purine antagonist,IMPDH1|IMPDH2
+ST26189,Thiazide diuretic,SLC12A3
+ST26190,Thiazide diuretic,KCNQ1|SLC12A3
+ST26191,Thiazide diuretic,SLC12A3
+ST26192,Protease inhibitor|Trypsin inhibitor|Peptidase inhibitor,PRSS1
+ST26193,Tubulin inhibitor,TUBB
+ST26194,Tubulin inhibitor,TUBB
+ST26195,Tubulin inhibitor,TUBB
+ST26196,Tubulin inhibitor,TUBB
+ST26197,Tubulin inhibitor,TUBB
+ST26198,Tubulin inhibitor|Microtubule stabilizing agent|Microtubule stimulant,TUBB
+ST26199,Tubulin inhibitor,TUBB
+ST26200,Tubulin inhibitor,TUBB
+ST26201,Tubulin inhibitor|Bradykinin receptor antagonist,SIGMAR1
+ST26202,Tubulin inhibitor|Bradykinin receptor antagonist,SIGMAR1
+ST26203,Tubulin inhibitor|Bradykinin receptor antagonist,SIGMAR1
+ST26204,Tubulin inhibitor|Bradykinin receptor antagonist,SIGMAR1
+ST26205,Tubulin inhibitor,TUBB
+ST26206,Tubulin inhibitor,TUBB|NR1I2
+ST26207,Tubulin inhibitor,TUBB|NR1I2
+ST26208,Tubulin inhibitor,TUBB|NR1I2
+ST26209,Tubulin inhibitor,TUBB|NR1I2
+ST26210,Tubulin inhibitor,TUBB
+ST26211,Tubulin inhibitor|Microtubule inhibitor,TUBB
+ST26212,Tubulin inhibitor|Microtubule inhibitor,TUBB
+ST26213,Tubulin inhibitor|Microtubule inhibitor,TUBB
+ST26214,Tubulin inhibitor|Microtubule inhibitor,TUBB
+ST26215,Tubulin inhibitor|Microtubule inhibitor,TUBB
+ST26216,Tubulin inhibitor,TUBB
+ST26217,Tubulin inhibitor,TUBB
+ST26218,Tubulin inhibitor,TUBB
+ST26219,Tubulin inhibitor,TUBB
+ST26220,Tubulin inhibitor,TUBB
+ST26221,Tubulin inhibitor,TUBB
+ST26222,Tubulin inhibitor,TUBB
+ST26223,Tubulin inhibitor,TUBB
+ST26224,Tubulin inhibitor,TUBB|NR1I2
+ST26225,Anti-thyroid agent,TPO
+ST26226,Anti-thyroid agent,TPO
+ST26227,Calcium sensitizer,TNNC1
+ST26228,Calcium sensitizer|Phosphodiesterase inhibitor,PDE3A
+ST26229,Dopamine precursor,DRD3
+ST26230,Elastase inhibitor,MPO
+ST26231,Cytochrome P450 inhibitor|Imidazoline ligand,KCNN4
+ST26232,Insulin sensitizer|Angiotensin antagonist|Angiotensin receptor antagonist,AGTR2
+ST26233,Insulin sensitizer|PPAR receptor partial agonist,PPARG
+ST26234,Insulin sensitizer,INS
+ST26235,Insulin sensitizer|PPAR receptor agonist,PPARD
+ST26236,Insulin sensitizer|PPAR receptor agonist,PPARG
+ST26237,Insulin sensitizer|PPAR receptor agonist,PPARD
+ST26238,Insulin sensitizer,CDIPT
+ST26239,Insulin sensitizer|PPAR receptor agonist,PPARG
+ST26240,Insulin sensitizer|PPAR receptor agonist,PPARG
+ST26241,Insulin sensitizer|PPAR receptor agonist,PPARA|PPARG
+ST26242,Insulin sensitizer|PPAR receptor agonist,PPARG
+ST26243,Integrin inhibitor,ITGA5|ITGB3|ITGAV|ITGB1
+ST26244,Integrin inhibitor,ITGB3|ITGAV
+ST26245,Integrin inhibitor,ITGA4
+ST26246,Integrin inhibitor,ITGB3
+ST26247,P38 MAPK inhibitor,MAPK14
+ST26248,P38 MAPK inhibitor,MAPK11|MAPK14|MAPK12
+ST26249,P38 MAPK inhibitor,MAPK11|MAPK14
+ST26250,P38 MAPK inhibitor,MAPK14
+ST26251,P38 MAPK inhibitor,MAPK14
+ST26252,TGF beta receptor inhibitor|P38 MAPK inhibitor,TGFBR1
+ST26253,P38 MAPK inhibitor,MAPK14
+ST26254,P38 MAPK inhibitor,MAPK14
+ST26255,P38 MAPK inhibitor,MAPK14
+ST26256,P38 MAPK inhibitor,MAPK1|MAPK11|MAPK14
+ST26257,P38 MAPK inhibitor,MAPK1|MAPK11|MAPK14
+ST26258,P38 MAPK inhibitor,MAPK11|MAPK14
+ST26259,P38 MAPK inhibitor,MAPK11|MAPK14
+ST26260,P38 MAPK inhibitor,MAPK14
+ST26261,P38 MAPK inhibitor,MAPK14
+ST26262,P38 MAPK inhibitor,MAPK14
+ST26263,P38 MAPK inhibitor,MAPK14
+ST26264,P38 MAPK inhibitor,MAPK14
+ST26265,P38 MAPK inhibitor,MAPK14
+ST26266,P38 MAPK inhibitor,MAPK14
+ST26267,Survivin inhibitor,BIRC5
+ST26268,Survivin inhibitor,BIRC5
+ST26269,Thrombin inhibitor,F2
+ST26270,Thrombin inhibitor,F2
+ST26271,Thrombin inhibitor,F2
+ST26272,Thrombin inhibitor|Serine protease inhibitor,F2
+ST26273,Thrombin inhibitor,CYP2F1
+ST26274,Thrombin inhibitor,F2
+ST26275,Uric acid diuretic,SLC22A12
+ST26276,Uricosuric blocker,SLC22A8|SLC22A6|SLC22A11
+ST26277,Uricosuric blocker,SLC22A12|ABCC1
+ST26278,ATP channel blocker,ABCC8
+ST26279,Insulin secretagogue|ATP channel blocker,ABCC8
+ST26280,ATP channel blocker,ABCC8|KCNJ11
+ST26281,Anti-malarial agent,TLR9|TLR7
+ST26282,NFKB pathway inhibitor|Anti-rheumatic drug,PTGS1|PTGS2|ALOX5
+ST26283,Apoptosis inhibitor,HTR2B
+ST26284,Apoptosis stimulant|Retinoid receptor agonist,RARA
+ST26285,Apoptosis stimulant|Retinoid receptor agonist,RARA
+ST26286,Farnesyltransferase inhibitor|Cell cycle inhibitor|Apoptosis stimulant,FNTA
+ST26287,Binding of RNA helicase A to the transcription factor EWS-FLI1 inhibitor|Apoptosis stimulant,DHX9|FLI1
+ST26288,Aromatase inhibitor,CYP19A1
+ST26289,Aromatase inhibitor,CYP19A1
+ST26290,Aromatase inhibitor,CYP19A1
+ST26291,Aromatase inhibitor,CYP19A1
+ST26292,Aromatase inhibitor,CYP19A1
+ST26293,Aromatase inhibitor,CYP19A1
+ST26294,Aromatase inhibitor,CYP19A1
+ST26295,Aromatase inhibitor,CYP19A1
+ST26296,Aromatase inhibitor,CYP19A1
+ST26297,CCK receptor ligand,CCR8
+ST26298,Cadherin antagonist,CDH2
+ST26299,Cathepsin inhibitor,CTSK
+ST26300,Cathepsin inhibitor,CTSB
+ST26301,Cathepsin inhibitor,CTSK
+ST26302,Cathepsin inhibitor,CTSL
+ST26303,Exportin antagonist,XPO1
+ST26304,Glutamate inhibitor,SCN5A
+ST26305,Monoamine oxidase inhibitor|Glutamate inhibitor|Dopamine uptake inhibitor,SLC6A3|MAOB
+ST26306,Monoamine oxidase inhibitor|Glutamate inhibitor|Dopamine uptake inhibitor,SLC6A3|MAOB
+ST26307,Glutamate inhibitor,SLC1A2
+ST26308,Glutamate inhibitor,SLC1A2
+ST26309,HCN channel blocker,HCN4|HCN3|HCN1|HCN2
+ST26310,HCN channel blocker,HCN4|HCN3|HCN1|HCN2
+ST26311,Peptidase inhibitor,ANPEP|LAP3|NPEPPS
+ST26312,Porcupine inhibitor,PORCN
+ST26313,Porcupine inhibitor,PORCN
+ST26314,Progesterone receptor agonist|Progestogen hormone,PGR
+ST26315,Progestogen hormone,PGR
+ST26316,Progestogen hormone,PGR
+ST26317,Progesterone receptor agonist|Progestogen hormone,PGR
+ST26318,Progesterone receptor agonist|Progestogen hormone,PGR
+ST26319,Progestogen hormone,PGR
+ST26320,Progestogen hormone,PGR
+ST26321,Progestogen hormone,PGR
+ST26322,Prostacyclin analog,PTGER3|PTGER4|PTGER1|PTGDR|PTGFR
+ST26323,Prostacyclin analog,PTGER3|PTGER4|PTGER1|PTGDR|PTGFR
+ST26324,Prostacyclin analog,PTGIR
+ST26325,ROR inverse agonist,RORA
+ST26326,Steroidal progestin,PGR
+ST26327,Tankyrase inhibitor,TNKS2|TNKS
+ST26328,ATR kinase inhibitor|ATM kinase inhibitor,ATM|ATR
+ST26329,ATM kinase inhibitor,ATM
+ST26330,ATM kinase inhibitor,ATM
+ST26331,ATM kinase inhibitor,ATM
+ST26332,ATR kinase inhibitor,ATR
+ST26333,ATR kinase inhibitor,ATR
+ST26334,AXL kinase inhibitor,AXL
+ST26335,Abl kinase inhibitor,ABL1|PDGFRB
+ST26336,Abl kinase inhibitor,ABL1|BCR
+ST26337,Abl kinase inhibitor,ABL1|BCR|KIT
+ST26338,Adrenergic inhibitor,SLC6A2
+ST26339,Adrenergic inhibitor,SLC6A2
+ST26340,Adrenergic inhibitor|Norepinephrine reuptake inhibitor|Serotonin receptor antagonist|Serotonin reuptake inhibitor,HTR2C|HTR2A|SLC6A2|SLC6A4
+ST26341,Adrenergic inhibitor|Norepinephrine reuptake inhibitor|Serotonin reuptake inhibitor,SLC6A2|SLC6A4
+ST26342,Bacterial antifolate,DHFR
+ST26343,Bacterial antifolate,P2RX3|P2RX2
+ST26344,Dystrophin stimulant|CFTR channel agonist,DMD
+ST26345,Methionine aminopeptidase inhibitor|Cell cycle inhibitor,METAP2
+ST26346,DNA alkylating agent|DNA synthesis inhibitor,XIAP
+ST26347,DNA alkylating agent,CYP2C19|CYP3A5|CYP2A6|CYP2C18|CYP2D6|CYP2B6|CYP3A7|CYP2C9|CYP3A4|CYP2C8
+ST26348,DNA alkylating agent,CYP2C19|CYP3A5|CYP2A6|CYP2C18|CYP2B6|CYP3A7|CYP2C9|CYP3A4|PTGS1|CYP2C8
+ST26349,DNA alkylating agent,MGMT
+ST26350,GLP receptor agonist,GLP1R
+ST26351,Hexokinase inhibitor,HK2
+ST26352,Insulin secretagogue,ABCC8|KCNJ11
+ST26353,Insulin secretagogue,ABCC8|KCNJ11
+ST26354,Insulin secretagogue,ABCC8
+ST26355,Insulin secretagogue,ABCC8|KCNJ11
+ST26356,Insulin secretagogue,ABCC8|KCNJ11
+ST26357,Insulin secretagogue,ABCC8|KCNJ11
+ST26358,Insulin secretagogue,FFAR1
+ST26359,Rho associated kinase activator|LIM kinase activator|Coflilin signaling pathway activator,RHOA
+ST26360,Leucine rich repeat kinase inhibitor|MAP kinase inhibitor,MAPK7|LRRK2
+ST26361,MAPK-interacting kinase inhibitor|MAP kinase inhibitor,MKNK1
+ST26362,MAP kinase inhibitor,MAPK1|MAPK3
+ST26363,MAP kinase inhibitor,MAPK7
+ST26364,Neprilysin inhibitor,MME
+ST26365,Osteoclast inhibitor|Bone resorption inhibitor,FDPS
+ST26366,Osteoclast inhibitor,FDPS
+ST26367,Metalloproteinase inhibitor|Osteoclast inhibitor|Farnesyl pyrophosphate synthase inhibitor|Bone resorption inhibitor,FDPS
+ST26368,P selectin inhibitor,SELP
+ST26369,Pim kinase inhibitor,PIM1
+ST26370,Pim kinase inhibitor,PIK3CA
+ST26371,Pim kinase inhibitor,PIM1
+ST26372,Pim kinase inhibitor,PIM3|PIM2|FLT3|PIM1
+ST26373,Proteasome inhibitor|NFKB pathway inhibitor,PSMB5|PSMB1|PSMB2
+ST26374,Proteasome inhibitor|NFKB pathway inhibitor,PSMB5|PSMB1|PSMB2
+ST26375,Proteasome inhibitor,PSMB9|PSMB10|PSMB2|PSMB8|PSMB1|PSMB5
+ST26376,Proteasome inhibitor,PSMB1
+ST26377,Proteasome inhibitor,F2R
+ST26378,Telomerase inhibitor,TERT
+ST26379,Telomerase inhibitor,TERT
+ST26380,Tyrosinase inhibitor,TYR
+ST26381,Tyrosinase inhibitor,TYR
+ST26382,Vitamin K antagonist,VKORC1
+ST26383,Vitamin K antagonist,VKORC1
+ST26384,Vitamin K antagonist,VKORC1
+ST26385,Vitamin K antagonist,VKORC1
+ST26386,Vitamin K antagonist,VKORC1
+ST26387,Potassium channel activator|ATP channel activator,KCNJ11
+ST26388,Potassium channel activator|ATP channel activator,KCNJ11
+ST26389,Potassium channel activator|ATP channel activator,ABCC8|ABCC9
+ST26390,Potassium channel activator|ATP channel activator,ABCC8|ABCC9
+ST26391,Anti-neoplastic agent,CYP11B1|CYP11A1
+ST26392,Calcineurin inhibitor,PPP3CA|PPIA
+ST26393,Calcineurin inhibitor,PPP3CA|PPIA
+ST26394,Calcineurin inhibitor,PPP3CA|PPIA
+ST26395,Calcineurin inhibitor,PPP3CA|PPIA
+ST26396,Calcineurin inhibitor,NFATC1
+ST26397,Calcineurin inhibitor,FKBP1A
+ST26398,Calcineurin inhibitor,FKBP1A
+ST26399,Calcineurin inhibitor,FKBP1A
+ST26400,Calcineurin inhibitor,FKBP1A
+ST26401,Calcineurin inhibitor,FKBP1A
+ST26402,Calcitonin antagonist,CALCRL|CALCA
+ST26403,Calcitonin antagonist,CALCRL|CALCA
+ST26404,Calcitonin antagonist,RAMP1|CALCRL
+ST26405,Calmodulin antagonist,CALM1
+ST26406,Calmodulin antagonist|Calcium channel blocker,PDE1A|ATP2B1
+ST26407,Calmodulin antagonist|Calcium channel blocker,PDE1A|ATP2B1
+ST26408,Calmodulin antagonist,CAMKK2|CAMKK1
+ST26409,Calmodulin antagonist,MYLK|CALM1|PDE1A
+ST26410,Calmodulin antagonist,CALM2
+ST26411,Calmodulin antagonist,CALM1
+ST26412,Chemoreceptor agonist,GABRA1
+ST26413,Niemann-Pick C1-like 1 protein antagonist|Cholesterol inhibitor,NPC1L1
+ST26414,Niemann-Pick C1-like 1 protein antagonist|Cholesterol inhibitor,NPC1L1
+ST26415,Lipase clearing factor inhibitor|Cholesterol inhibitor,LPL
+ST26416,Coagulation inhibitor,F10
+ST26417,Metalloproteinase inhibitor|Collagenase inhibitor,MMP3|MMP13|MMP2
+ST26418,Metalloproteinase inhibitor|Collagenase inhibitor,MMP3|MMP13|MMP2
+ST26419,GABA receptor agonist|Chloride channel agonist,GABBR1
+ST26420,GABA receptor agonist|Chloride channel agonist,GABBR1
+ST26421,GABA receptor agonist,GABBR1|GABBR2
+ST26422,GABA receptor agonist,GABRA1
+ST26423,GABA receptor agonist,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST26424,GABA receptor agonist,GABBR1|GABBR2
+ST26425,GABA receptor agonist,GABRD
+ST26426,GABA receptor agonist|Benzodiazepine receptor agonist,GABRA1
+ST26427,GABA receptor agonist,GABRB3|GABRB2
+ST26428,Acetylcholine receptor agonist|GABA receptor agonist,CHRM1
+ST26429,GABA receptor agonist,GABRA1|GABRA2
+ST26430,GABA receptor agonist,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST26431,GABA receptor agonist,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST26432,GABA receptor agonist,GABRA1
+ST26433,GABA uptake inhibitor,SLC6A1
+ST26434,GABA uptake inhibitor,GABRA3
+ST26435,GABA uptake inhibitor,SLC6A1
+ST26436,Glucokinase activator,GCK
+ST26437,Glucosidase inhibitor,GAA|MGAM|AMY2A
+ST26438,Glucosidase inhibitor,GAA|MGAM|AMY2A
+ST26439,Glucosidase inhibitor,GAA|MGAM|AMY2A
+ST26440,Glucosidase inhibitor,GAA|GBA
+ST26441,Glucosidase inhibitor,GAA|MGAM
+ST26442,Glucosidase inhibitor,GAA|MGAM
+ST26443,Glucosidase inhibitor,XDH
+ST26444,Glucosidase inhibitor,GAA|MGAM
+ST26445,IP receptor activator,PTGIR
+ST26446,IP receptor activator|PPAR receptor agonist,PTGIR|PPARD
+ST26447,Interleukin inhibitor,IL1B|TNF
+ST26448,Interleukin inhibitor,IL1B|TNF
+ST26449,Interleukin inhibitor,IL1B
+ST26450,Interleukin inhibitor|Anti-inflammatory agent,NR1I2|IL1B|TNF
+ST26451,Leukotriene inhibitor,ALOX5AP
+ST26452,Leukotriene inhibitor,LTA4H|RNPEP
+ST26453,Lipoxygenase inhibitor|Leukotriene inhibitor,ALOX5
+ST26454,Microtubule inhibitor,TUBB|TUBB1
+ST26455,Microtubule inhibitor,TUBB|TUBB1
+ST26456,Microtubule inhibitor,TUBB
+ST26457,Microtubule inhibitor,DNMT1
+ST26458,NGF binding inhibitor,NGFR|NGF
+ST26459,PPAR receptor agonist,PPARD
+ST26460,PPAR receptor agonist,PPARA|PPARG|PPARD
+ST26461,PPAR receptor agonist,PPARG
+ST26462,PPAR receptor agonist,PPARG
+ST26463,PPAR receptor agonist,PPARA
+ST26464,PPAR receptor agonist,PPARA
+ST26465,PPAR receptor agonist,PPARA
+ST26466,PPAR receptor agonist,PPARG
+ST26467,PPAR receptor agonist,PPARA
+ST26468,Beta amyloid inhibitor|PPAR receptor agonist,CA1
+ST26469,PPAR receptor agonist,PPARA
+ST26470,PPAR receptor agonist,PPARG
+ST26471,PPAR receptor agonist,PPARD
+ST26472,Cannabinoid receptor agonist|Glucose dependent insulinotropic receptor agonist|Potassium channel blocker|PPAR receptor agonist,PPARA|GPR119
+ST26473,PPAR receptor agonist,PPARA
+ST26474,Cyclooxygenase inhibitor|PPAR receptor agonist,PTGS2
+ST26475,Cyclooxygenase inhibitor|PPAR receptor agonist,PTGS2
+ST26476,Sigma receptor ligand,SIGMAR1
+ST26477,TRPA1 channel blocker,TRPA1
+ST26478,Tachykinin antagonist,TACR1
+ST26479,Tachykinin antagonist,TACR1
+ST26480,Tachykinin antagonist,TACR1
+ST26481,Tachykinin antagonist,TACR1
+ST26482,Tachykinin antagonist,TACR1
+ST26483,Tachykinin antagonist,TACR2|TAC1
+ST26484,Tachykinin antagonist,TACR1
+ST26485,Tachykinin antagonist,TACR1
+ST26486,Tachykinin antagonist,TACR1
+ST26487,Tachykinin antagonist,TACR3
+ST26488,Tachykinin antagonist,TACR3
+ST26489,Tachykinin antagonist,TACR1
+ST26490,Tachykinin antagonist,TACR1
+ST26491,Tachykinin antagonist,TACR3
+ST26492,Thioredoxin inhibitor,TP53
+ST26493,Thioredoxin inhibitor,TXN|TXNRD1
+ST26494,WEE1 kinase inhibitor,WEE1
+ST26495,11-beta-HSD1 inhibitor,HSD11B2|HSD11B1
+ST26496,11-beta-HSD1 inhibitor,HSD11B2|HSD11B1
+ST26497,11-beta-HSD1 inhibitor,HSD11B1
+ST26498,11-beta-HSD1 inhibitor,HSD11B1
+ST26499,11-beta-HSD1 inhibitor,HSD11B1
+ST26500,11-beta-HSD1 inhibitor,HSD11B1
+ST26501,11-beta-HSD1 inhibitor,HSD11B1
+ST26502,11-beta-HSD1 inhibitor,CSNK2A1
+ST26503,ATP synthase inhibitor,CYCS
+ST26504,ATP synthase inhibitor,CYCS
+ST26505,ATP synthase inhibitor,CYCS
+ST26506,Angiogenesis inhibitor,EGFR
+ST26507,Tumor necrosis factor production inhibitor|Angiogenesis inhibitor,TNF|CRBN
+ST26508,Angiotensin antagonist,AGTR2
+ST26509,Angiotensin antagonist,AGTR2
+ST26510,Acetylcholinesterase inhibitor|Beta amyloid inhibitor,APP|ACHE|BCHE
+ST26511,Beta amyloid inhibitor,APP
+ST26512,Beta amyloid inhibitor,APP
+ST26513,Beta amyloid inhibitor,APP
+ST26514,Beta-catenin inhibitor,CTNNB1
+ST26515,Beta-catenin inhibitor,CTNNB1|TCF4
+ST26516,Cytochrome P450 inhibitor|Corticosteroid agonist|Glucocorticoid receptor agonist,NR3C1
+ST26517,Corticosteroid agonist|Glucocorticoid receptor agonist,NR3C1
+ST26518,Corticosteroid agonist|Glucocorticoid receptor agonist,NR3C1
+ST26519,Corticosteroid agonist|Glucocorticoid receptor agonist,NR3C1
+ST26520,Corticosteroid agonist|Glucocorticoid receptor agonist,NR3C1
+ST26521,Folate receptor ligand,FOLR2
+ST26522,Gap junction modulator,HSD11B1
+ST26523,Potassium channel blocker|Sodium channel blocker|HCN channel antagonist,HCN4|HCN3|HCN1
+ST26524,HIV protease inhibitor,CYP3A4
+ST26525,HIV protease inhibitor,CYP2C19|CYP2D6|CYP2B6|CYP2C9|CYP3A4|CYP1A2
+ST26526,HIV protease inhibitor,CYP3A5|CYP3A4|CYP3A7
+ST26527,HIV protease inhibitor,CYP2C19|CYP2D6|CYP2B6|CYP3A7|CYP2C9|CYP3A4|CYP1A2
+ST26528,HIV protease inhibitor,CYP2C19|CYP2D6|CYP2B6|CYP3A7|CYP2C9|CYP3A4|CYP1A2
+ST26529,HIV protease inhibitor,CYP2C19|CYP3A5|CYP2D6|CYP2B6|CYP3A7|CYP2E1|CYP2C9|CYP3A4|CYP1A2|CYP2C8
+ST26530,HIV protease inhibitor,CYP2C19|CYP3A5|CYP2D6|CYP2B6|CYP3A7|CYP2E1|CYP2C9|CYP3A4|CYP1A2|CYP2C8
+ST26531,Ion channel antagonist,VDAC2
+ST26532,LDL receptor activator,LDLR
+ST26533,Lipoxygenase inhibitor,ALOX5
+ST26534,Lipoxygenase inhibitor,ALOX12
+ST26535,Lipoxygenase inhibitor,ALOX5AP
+ST26536,Lipoxygenase inhibitor,ALOX5
+ST26537,TNF production inhibitor|HIV integrase inhibitor|Lipoxygenase inhibitor|NFKB pathway inhibitor|Nitric oxide production inhibitor|Tumor necrosis factor production inhibitor|PPAR receptor modulator,ALOX5
+ST26538,Histone acetyltransferase inhibitor|Cyclooxygenase inhibitor|Lipoxygenase inhibitor|NFKB pathway inhibitor,PTGS1|PTGS2
+ST26539,Histone acetyltransferase inhibitor|Cyclooxygenase inhibitor|Lipoxygenase inhibitor|NFKB pathway inhibitor,PTGS1|PTGS2
+ST26540,Histone acetyltransferase inhibitor|Cyclooxygenase inhibitor|Lipoxygenase inhibitor|NFKB pathway inhibitor,PTGS1|PTGS2
+ST26541,Lipoxygenase inhibitor,ALOX5
+ST26542,Cyclooxygenase inhibitor|Lipoxygenase inhibitor,PPARA|PTGS1|PPARG|ALOX12
+ST26543,Lipoxygenase inhibitor|Dopamine uptake inhibitor|Interleukin receptor antagonist|Cyclooxygenase inhibitor|Serotonin reuptake inhibitor,PTGS1|NR1I2|ALOX5
+ST26544,Lipoxygenase inhibitor,ALOX5
+ST26545,Cyclooxygenase inhibitor|Lipoxygenase inhibitor|Prostanoid receptor antagonist,PPARG|PTGS1|PTGS2|ALOX5
+ST26546,Lipoxygenase inhibitor|Leukotriene receptor antagonist,ALOX5
+ST26547,Mucus protecting agent,GAST
+ST26548,Mucus protecting agent,CBR1
+ST26549,NFKB pathway inhibitor,NFKBIA
+ST26550,NFKB pathway inhibitor,CCL7|CCL2|CCL8
+ST26551,NFKB pathway inhibitor,TNF|NFKB1
+ST26552,NFKB pathway inhibitor,MLNR
+ST26553,NFKB pathway inhibitor,MLNR
+ST26554,Protein synthesis inhibitor|Cytochrome P450 inhibitor|NFKB pathway inhibitor|Motilin receptor agonist,ALB|KCNH2|MLNR|CYP51A1|CYP3A4|ABCB1|SLC47A1
+ST26555,Cyclooxygenase inhibitor|NFKB pathway inhibitor,PTGS2
+ST26556,Farnesyltransferase inhibitor|NFKB pathway inhibitor,IKBKB|FNTA
+ST26557,Farnesyltransferase inhibitor|NFKB pathway inhibitor,IKBKB|FNTA
+ST26558,NFKB pathway inhibitor,HSD11B1
+ST26559,NFKB pathway inhibitor,PTGS1
+ST26560,NUR77 receptor agonist,NR4A1
+ST26561,Nitric oxide stimulant|Guanylate cyclase stimulant,GUCY1B1|GUCY1A1
+ST26562,Nitric oxide stimulant|Phenylalanine 4-hydroxylase stimulant|Nitric oxide synthase stimulant,TH|PAH
+ST26563,Prostagladin inhibitor,PTGS1
+ST26564,Prostagladin inhibitor,PTGS1
+ST26565,Sigma receptor agonist,SIGMAR1
+ST26566,Sigma receptor agonist,SIGMAR1
+ST26567,Sigma receptor agonist|Sigma receptor antagonist,DRD2|SIGMAR1
+ST26568,Sigma receptor agonist,SIGMAR1
+ST26569,Sodium channel blocker,CYP3A4
+ST26570,Sodium channel blocker,ASIC1|SCNN1B|SCNN1A|ASIC2|SCNN1G
+ST26571,Sodium channel blocker,SLC8A1|SCNN1D|SCNN1B|SCNN1A|PKD2L1|SCNN1G
+ST26572,Sodium channel blocker,SCN10A
+ST26573,Calcium channel blocker|Sodium channel blocker,CACNA1B
+ST26574,Sodium channel blocker,SCN5A
+ST26575,Sodium channel blocker,SCN5A
+ST26576,Sodium channel blocker,SCN5A
+ST26577,Sodium channel blocker,SCN5A
+ST26578,Calcium channel modulator|Sodium channel blocker,MTOR
+ST26579,Collapsin response mediator protein stimulant|Sodium channel blocker|Collapsin response mediator protein inhibitor,SCN10A|SCN1A|SCN9A|SCN3A
+ST26580,Serotonin receptor antagonist|Sodium channel blocker,SCN2A|SCN1A|SCN3A
+ST26581,Sodium channel blocker,INS
+ST26582,Sodium channel blocker,SCN5A
+ST26583,Sodium channel blocker,SCN5A
+ST26584,Sodium channel blocker,SCN5A|SCN1A|SCN3A
+ST26585,Sodium channel blocker,SCN1A
+ST26586,Sodium channel blocker,SCN5A
+ST26587,Sodium channel blocker,SCN5A
+ST26588,Sodium channel blocker,SCN5A
+ST26589,Sodium channel blocker,SCN5A|SCN9A
+ST26590,Sodium channel blocker,SCN5A
+ST26591,Sodium channel blocker,SCNN1A|SCNN1G|SCNN1B
+ST26592,Phosphodiesterase inhibitor|Sodium channel blocker,PDE1A
+ST26593,Phosphodiesterase inhibitor|Sodium channel blocker,PDE1A
+ST26594,Phosphodiesterase inhibitor|Sodium channel blocker,PDE1A
+ST26595,T-type calcium channel blocker|Sodium channel blocker,SCN9A|SCN3A|SCN2A|SCN5A|CA1|CA12|SCN1A|SCN4A|SCN11A|CA7
+ST26596,T-type calcium channel blocker|Sodium channel blocker,SCN9A|SCN3A|SCN2A|SCN5A|CA1|CA12|SCN1A|SCN4A|SCN11A|CA7
+ST26597,Anti-inflammatory agent,PTGS1|PTGS2
+ST26598,Atherogenesis inhibitor,ABCA1
+ST26599,Aurora kinase inhibitor,AURKA
+ST26600,Aurora kinase inhibitor,AURKA|AURKB
+ST26601,Aurora kinase inhibitor|Growth factor receptor inhibitor,FGFR1|AURKC|AURKB|RET|AURKA|NTRK1
+ST26602,Aurora kinase inhibitor,CDK6
+ST26603,Aurora kinase inhibitor,AURKC|AURKB
+ST26604,Aurora kinase inhibitor,AURKA
+ST26605,Aurora kinase inhibitor,AURKA|AURKB
+ST26606,Aurora kinase inhibitor,AURKB
+ST26607,Aurora kinase inhibitor,AURKA|AURKC|AURKB
+ST26608,Aurora kinase inhibitor,AURKA|AURKB
+ST26609,CCK receptor antagonist,CXCR3
+ST26610,CCK receptor antagonist,CCKBR|CCKAR
+ST26611,CCK receptor antagonist,CCKAR
+ST26612,CCK receptor antagonist,CCKAR
+ST26613,CCK receptor antagonist,CCKBR|CCKAR
+ST26614,CCK receptor antagonist,CCKBR
+ST26615,CCK receptor antagonist,CCKBR
+ST26616,CCK receptor antagonist,CCR5
+ST26617,CCK receptor antagonist,CCR2
+ST26618,CCK receptor antagonist,CXCR2|CXCR1
+ST26619,CCK receptor antagonist,CXCR4
+ST26620,CCK receptor antagonist,CCKBR|CCKAR
+ST26621,CCK receptor antagonist,CXCR2|CXCR1
+ST26622,CCK receptor antagonist,CCR2
+ST26623,CCK receptor antagonist,CXCR2
+ST26624,CCK receptor antagonist,CCKAR
+ST26625,CCK receptor antagonist,CCR5
+ST26626,CRF receptor antagonist,CRHR1
+ST26627,Calcium channel blocker,HRH1
+ST26628,Calcium channel blocker,CACNA2D1|CACNA1D|CACNA1C|CACNA1S
+ST26629,Calcium channel blocker,CACNA1G|CACNA1C
+ST26630,Adrenergic receptor antagonist|Calcium channel blocker,ADRA1A
+ST26631,Calcium channel blocker,CACNA1B
+ST26632,Calcium channel blocker,HRH1
+ST26633,Calcium channel blocker,CACNA1D|CACNA1F|CACNA1C|CACNA1S
+ST26634,Calcium channel blocker,RYR1
+ST26635,Calcium channel blocker,CACNA1C
+ST26636,Calcium channel blocker,CACNA1C
+ST26637,Calcium channel blocker,CACNA1C
+ST26638,Calcium channel blocker,NR3C2|CACNA1D|CACNA1C|CACNA1S
+ST26639,Calcium channel blocker,CACNA1G|CACNA1H
+ST26640,Calcium channel blocker,CACNA1B|CACNA2D1|CACNA2D2
+ST26641,Calcium channel blocker,CACNA1D|CACNA1C|CACNA2D1|CACNA1F|CACNA1S
+ST26642,Calcium channel blocker,CACNA1D|CACNA1C|CACNA2D1|CACNA1F|CACNA1S
+ST26643,Calcium channel blocker,CACNA1C
+ST26644,Calcium channel blocker,CACNA1C
+ST26645,Calcium channel blocker,CACNA1B|SV2A
+ST26646,Calcium channel blocker,CACNA1C
+ST26647,Calcium channel blocker,ORAI1
+ST26648,Calcium channel blocker,CACNA1C
+ST26649,Calcium channel blocker,CACNA1C
+ST26650,Calcium channel blocker,CACNA1D|CACNA1C|CACNA2D1|CACNA1F|CACNA1S
+ST26651,Calcium channel blocker,CACNA1D|CACNA1C|CACNA2D1|CACNA1F|CACNA1S
+ST26652,Adrenergic receptor antagonist|Calcium channel blocker,ADRA1A|CACNA1C
+ST26653,Adrenergic receptor antagonist|Calcium channel blocker,ADRA1A|CACNA1C
+ST26654,Calcium channel blocker,CACNA1D|CACNA1C
+ST26655,Calcium channel blocker,CACNA1D|CACNA1C|NR3C2|CACNA1F|CACNA1S
+ST26656,Calcium channel blocker,CACNA1D|CACNA1C|NR3C2|CACNA1F|CACNA1S
+ST26657,Calcium channel blocker,CACNA1D|CACNA1C|CACNA1S
+ST26658,Calcium channel blocker,CACNA1D|CACNA1C|CACNA1S
+ST26659,Calcium channel blocker,CACNA2D1|CACNA1D|CACNA1C
+ST26660,Calcium channel blocker,CACNA2D1|CACNA1D|CACNA1C
+ST26661,Calcium channel blocker,CACNA1C
+ST26662,Calcium channel blocker,RYR1
+ST26663,Calcium channel blocker,TRPC1|CYP3A4
+ST26664,Calcium channel blocker,CACNA1D|CACNA1G|CACNA1C|CACNA1S
+ST26665,Calcium channel blocker,CACNA1G|CACNA1H|CACNA1I
+ST26666,Casein kinase inhibitor,CSNK2A2|CSNK2A1
+ST26667,Casein kinase inhibitor,CSNK2A1
+ST26668,DNA synthesis inhibitor,CYP2B6
+ST26669,DNA synthesis inhibitor,CYP2B6
+ST26670,DNA synthesis inhibitor|Thymidylate synthase inhibitor,TYMS
+ST26671,DNA synthesis inhibitor|Thymidylate synthase inhibitor,TYMS
+ST26672,DNA synthesis inhibitor|Thymidylate synthase inhibitor,TYMS
+ST26673,DNA synthesis inhibitor,RRM1
+ST26674,DNA synthesis inhibitor,RRM1
+ST26675,DNA synthesis inhibitor,RRM1
+ST26676,DNA synthesis inhibitor,CYP2A6|CYP3A4|CYP2A13|CYP1A1|CYP1A2
+ST26677,DNA synthesis inhibitor,FSHR|RYR1|P2RY2
+ST26678,Dehydrogenase inhibitor,PPAT
+ST26679,Enkephalinase inhibitor,MME
+ST26680,Membrane permeability inhibitor|Membrane integrity inhibitor|GABA receptor modulator,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST26681,GABA receptor modulator,NR1I3
+ST26682,GABA receptor modulator,GABBR1
+ST26683,GABA receptor positive allosteric modulator|GABA receptor modulator,GABBR1
+ST26684,GABA receptor modulator,GABRA1
+ST26685,GABA receptor antagonist|GABA receptor modulator,GABRA1
+ST26686,Membrane permeability inhibitor|Membrane integrity inhibitor|GABA receptor modulator,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST26687,GABA receptor modulator,GABBR1
+ST26688,GABA receptor modulator,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST26689,Barbiturate antiepileptic|GABA receptor modulator,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST26690,GABA receptor modulator,GABRA6|GABRA3|GABRA5
+ST26691,GABA receptor modulator,GABRA1
+ST26692,HIV integrase inhibitor,CYP3A5|CYP3A7|UGT1A1|CYP3A4|POU2F2
+ST26693,Hydantoin antiepileptic,SCN5A
+ST26694,Hydantoin antiepileptic,SCN5A
+ST26695,Hydantoin antiepileptic,SCN2A|SCN5A|SCN1A
+ST26696,NADPH oxidase inhibitor,NOX4
+ST26697,Opioid receptor agonist,OPRK1
+ST26698,Opioid receptor agonist|Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST26699,Opioid receptor agonist,OPRD1
+ST26700,Opioid receptor agonist,OPRD1
+ST26701,Opioid receptor agonist,OPRM1|OPRL1
+ST26702,Opioid receptor agonist,OPRM1
+ST26703,Opioid receptor agonist,OPRM1
+ST26704,Opioid receptor agonist,OPRM1
+ST26705,Opioid receptor agonist,OPRK1
+ST26706,Opioid receptor agonist,OPRK1
+ST26707,Opioid receptor agonist,OPRK1
+ST26708,Opioid receptor agonist,OPRD1|OPRM1
+ST26709,Opioid receptor agonist,OPRD1|OPRM1
+ST26710,Opioid receptor agonist,OPRK1
+ST26711,Opioid receptor agonist|Cyclooxygenase inhibitor,PTGS1
+ST26712,Opioid receptor agonist|Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST26713,Opioid receptor agonist|Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST26714,Opioid receptor agonist|Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST26715,Opioid receptor agonist,OPRL1
+ST26716,Opioid receptor agonist,OPRL1
+ST26717,Opioid receptor agonist,OPRK1
+ST26718,Opioid receptor agonist,OPRK1
+ST26719,Opioid receptor agonist,OPRM1|SLC6A2
+ST26720,Opioid receptor agonist|Serotonin reuptake inhibitor|Norepinephrine reputake inhibitor,OPRM1|SLC6A2|SLC6A4
+ST26721,Opioid receptor agonist|Serotonin reuptake inhibitor|Norepinephrine reputake inhibitor,OPRM1|SLC6A2|SLC6A4
+ST26722,Opioid receptor agonist,OPRD1|OPRM1|OPRK1
+ST26723,Opioid receptor agonist,OPRK1
+ST26724,Phospholipase activator,NR3C1
+ST26725,Phospholipase activator,NR3C1
+ST26726,Phospholipase inhibitor,PLD2
+ST26727,Phospholipase inhibitor,PLA2G7
+ST26728,Glucocorticoid receptor agonist|Phospholipase inhibitor,NR3C1
+ST26729,Phospholipase inhibitor,PLA2G1B
+ST26730,Phospholipase inhibitor,PLA2G1B
+ST26731,Phosphorylase inhibitor,PYGL
+ST26732,RNA synthesis inhibitor|Thymidylate synthase inhibitor,TYMS|DPYD
+ST26733,RNA synthesis inhibitor|Topoisomerase inhibitor,TOP2A
+ST26734,RNA synthesis inhibitor|Topoisomerase inhibitor,TOP2A
+ST26735,RNA synthesis inhibitor|Topoisomerase inhibitor,TOP2A
+ST26736,RNA synthesis inhibitor|Topoisomerase inhibitor,TOP2A
+ST26737,RNA synthesis inhibitor|Topoisomerase inhibitor,TOP2A
+ST26738,RNA synthesis inhibitor,NR1I2
+ST26739,RNA synthesis inhibitor,NR1I2
+ST26740,Topoisomerase inhibitor,TOP2A
+ST26741,Topoisomerase inhibitor,TOP2A
+ST26742,Topoisomerase inhibitor,TOP2A
+ST26743,Topoisomerase inhibitor,PLA2G1B
+ST26744,Topoisomerase inhibitor,TOP2A
+ST26745,Topoisomerase inhibitor,TOP1
+ST26746,Topoisomerase inhibitor,TOP1
+ST26747,Topoisomerase inhibitor,TOP2A
+ST26748,Topoisomerase inhibitor,TOP2A
+ST26749,Topoisomerase inhibitor,TOP2A
+ST26750,Topoisomerase inhibitor,TOP2A
+ST26751,Topoisomerase inhibitor,TOP2A|TOP2B
+ST26752,Topoisomerase inhibitor,TOP2A
+ST26753,Topoisomerase inhibitor,TOP2A
+ST26754,Topoisomerase inhibitor,TOP2A|TOP2B
+ST26755,Topoisomerase inhibitor,TOP2A|TOP2B
+ST26756,Topoisomerase inhibitor,TOP2A|TOP2B
+ST26757,Topoisomerase inhibitor,TOP2A|TOP2B
+ST26758,Topoisomerase inhibitor,TOP2A|TOP2B
+ST26759,Topoisomerase inhibitor,TOP2A|TOP2B
+ST26760,Topoisomerase inhibitor,TOP2A
+ST26761,Topoisomerase inhibitor,TOP2A
+ST26762,Topoisomerase inhibitor,TOP1
+ST26763,Topoisomerase inhibitor,TOP2A
+ST26764,Topoisomerase inhibitor,TOP2A
+ST26765,Topoisomerase inhibitor,TOP2A
+ST26766,Topoisomerase inhibitor,TOP1
+ST26767,Topoisomerase inhibitor,TOP1
+ST26768,Topoisomerase inhibitor,TOP1
+ST26769,Topoisomerase inhibitor,TOP2A
+ST26770,Topoisomerase inhibitor,TOP1
+ST26771,Topoisomerase inhibitor,TOP1
+ST26772,Topoisomerase inhibitor,TOP2A
+ST26773,Anti-amyloidogenic agent|Dopamine receptor agonist,DRD2|DRD1
+ST26774,Anti-amyloidogenic agent|Gamma secretase inhibitor,PSEN1
+ST26775,Beta secretase inhibitor,BACE1
+ST26776,CFTR channel potentiator,CFTR
+ST26777,Cardiac myosin activator|Unidentified pharmacological activity,MYBPC3
+ST26778,Cholinesterase inhibitor,ACHE
+ST26779,Cholinesterase inhibitor,ACHE
+ST26780,Acetylcholinesterase inhibitor|Cholinesterase inhibitor,ACHE
+ST26781,Acetylcholinesterase inhibitor|Cholinesterase inhibitor,ACHE
+ST26782,Cyclooxygenase inhibitor,PPARG|PTGS1|PTGDR2|PTGS2
+ST26783,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26784,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26785,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26786,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26787,Cyclooxygenase inhibitor,PTGS2
+ST26788,Cyclooxygenase inhibitor,TP53|PTGS1|PTGS2
+ST26789,Cyclooxygenase inhibitor,PTGS2
+ST26790,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26791,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26792,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26793,Cyclooxygenase inhibitor,PTGS2
+ST26794,Cyclooxygenase inhibitor,PTGS2
+ST26795,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26796,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26797,Cyclooxygenase inhibitor,PTGS2
+ST26798,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26799,Cyclooxygenase inhibitor,PTGS2
+ST26800,Cyclooxygenase inhibitor,PTGS2
+ST26801,Cyclooxygenase inhibitor,PTGS2
+ST26802,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26803,Cyclooxygenase inhibitor,PTGS2
+ST26804,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26805,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26806,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26807,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26808,Cyclooxygenase inhibitor|Platelet aggregation inhibitor,PTGS1|PTGS2
+ST26809,Cyclooxygenase inhibitor|Prostanoid receptor antagonist,PTGS1|PTGS2
+ST26810,Enoyl-acyl-carrier protein reductase inhibitor|Cyclooxygenase inhibitor,CYP2C19|CYP2E1|CYP3A4|CYP1A2|CYP2C8
+ST26811,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26812,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26813,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26814,Cyclooxygenase inhibitor,PTGS2
+ST26815,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26816,Cyclooxygenase inhibitor,PTGS2
+ST26817,Cyclooxygenase inhibitor|Prostanoid receptor antagonist,PTGS1|PTGS2
+ST26818,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26819,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26820,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26821,Cyclooxygenase inhibitor,PTGS2
+ST26822,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26823,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26824,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26825,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26826,Cyclooxygenase inhibitor,CLCNKA|PTGS2
+ST26827,Cyclooxygenase inhibitor,PTGS2|LTF
+ST26828,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26829,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26830,Cyclooxygenase inhibitor,PTGS2|LTF
+ST26831,Cyclooxygenase inhibitor,PTGS1
+ST26832,Cyclooxygenase inhibitor|Prostanoid receptor antagonist,PTGS1|PTGS2
+ST26833,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26834,Cyclooxygenase inhibitor,PTGS2
+ST26835,Cyclooxygenase inhibitor,PTGS2
+ST26836,Cyclooxygenase inhibitor,PTGS1
+ST26837,Cyclooxygenase inhibitor,AKR1B1|PTGS1|PTGS2
+ST26838,Cyclooxygenase inhibitor,AKR1B1|PTGS1|PTGS2
+ST26839,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26840,Cyclooxygenase inhibitor,CLCA1
+ST26841,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26842,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26843,Cyclooxygenase inhibitor,PTGS1|PTGS2
+ST26844,Thromboxane synthase inhibitor|Cyclooxygenase inhibitor|Platelet aggregation inhibitor,PTGS1|PDE10A|NOS2|NFKB1
+ST26845,Cyclooxygenase inhibitor,CA9
+ST26846,Cyclooxygenase inhibitor,PTGS2
+ST26847,DeltaF508-CFTR Corrector,CFTR
+ST26848,GABA receptor antagonist,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST26849,GABA receptor antagonist,GABBR1
+ST26850,GABA receptor antagonist,GABBR1|GABBR2
+ST26851,GABA receptor antagonist,GABBR1|GABBR2
+ST26852,GABA receptor antagonist,GABRA1
+ST26853,GABA receptor antagonist,GABRA1
+ST26854,GABA receptor antagonist,GABBR1|SLC52A2|GABBR2
+ST26855,GABA receptor antagonist,GLRB|GLRA2|GLRA3
+ST26856,GABA receptor antagonist,GLRA3|GABRA1|GLRA2|GABRR1
+ST26857,GABA receptor antagonist,GLRA3|GABRA1|GLRA2|GABRR1
+ST26858,GABA receptor antagonist,GLRA3|GABRA1|GLRA2|GABRR1
+ST26859,GABA receptor antagonist,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST26860,GABA receptor antagonist|Serotonin receptor antagonist|Adrenergic receptor antagonist,GABRA1|ADRA1D|ADRA2A
+ST26861,Heme oxygenase inhibitor,HMOX1
+ST26862,Motilin receptor agonist,MLNR
+ST26863,Neural stem cell inducer,CAMK2A
+ST26864,Neurotransmitter agonist,ATP1A1
+ST26865,Norepinephrine inhibitor|Norepinephrine reuptake inhibitor|Serotonin receptor antagonist|Serotonin reuptake inhibitor,CHRM1|SLC6A2|HRH1|CHRM3|CHRM5|CHRM4|CHRM2|HTR6|SLC6A4
+ST26866,Norepinephrine precursor,ADRB2|ADRA1D|ADRA2A|ADRA2B|ADRA2C|ADRB1|ADRA1A|ADRB3|ADRA1B
+ST26867,Opiod receptor modulator,OPRM1
+ST26868,Oxidative stress inducer,HSPA1A
+ST26869,P-glycoprotein inhibitor,ABCB1
+ST26870,DNA dependent protein kinase inhibitor|P-glycoprotein inhibitor,PRKDC
+ST26871,P-glycoprotein inhibitor,ABCB1
+ST26872,P-glycoprotein inhibitor,ABCB1
+ST26873,P-glycoprotein inhibitor,ABCB1
+ST26874,PPAR receptor antagonist,PPARD
+ST26875,PPAR receptor antagonist,PPARA
+ST26876,PPAR receptor antagonist,PPARG
+ST26877,PPAR receptor antagonist,PPARG
+ST26878,PPAR receptor antagonist,PPARG
+ST26879,Protein kinase activator,PRKCA
+ST26880,Protein kinase inhibitor,PRKCA
+ST26881,Protein kinase inhibitor|Diacylglycerol kinase inhibitor,DGKA
+ST26882,RNA polymerase inhibitor,NR1I2
+ST26883,RNA polymerase inhibitor,POLR2A
+ST26884,RNA polymerase inhibitor,POLR2A
+ST26885,RNA polymerase inhibitor,NR1I2
+ST26886,RNA polymerase inhibitor,CYP3A4|CYP2C9|CYP2C8
+ST26887,RNA polymerase inhibitor,CYP3A4|CYP2C9|CYP2C8
+ST26888,Retinoid receptor ligand|Retinoid receptor agonist,RXRA|RARG|RXRB|RARA|RORB|RARB|RXRG
+ST26889,Retinoid receptor ligand|Retinoid receptor agonist,RARG|RORB|RARB|RARA
+ST26890,Retinoid receptor ligand|Retinoid receptor agonist,RARG|RORB|RARB|RARA
+ST26891,TNF production inhibitor,MIF
+ST26892,TNF production inhibitor,TNF|CRBN
+ST26893,Transthyretin amyloid inhibitor|Transthyretin stabilizer,TTR
+ST26894,Tricyclic antidepressant,SLC6A2|SLC6A4
+ST26895,Norepinephrine reuptake inhibitor|Serotonin reuptake inhibitor|Tricyclic antidepressant,SLC6A2|SLC6A4
+ST26896,Norepinephrine reputake inhibitor|Tricyclic antidepressant,SLC6A2
+ST26897,Norepinephrine reputake inhibitor|Tricyclic antidepressant,SLC6A2
+ST26898,Tricyclic antidepressant,KCNJ10|SLC6A2|SLC6A4
+ST26899,Tricyclic antidepressant,SLC6A2|SLC6A4
+ST26900,Norepinephrine reputake inhibitor|Tricyclic antidepressant,SLC6A3|SLC6A2|SLC6A4
+ST26901,Androgen receptor agonist,AR
+ST26902,Androgen receptor agonist,AR
+ST26903,Androgen receptor agonist|Cytochrome P450 inhibitor,PIK3CG
+ST26904,Androgen receptor agonist,AR
+ST26905,Androgen receptor agonist,AR
+ST26906,Androgen receptor agonist,AR
+ST26907,Androgen receptor agonist,AR
+ST26908,Androgen receptor agonist,AR
+ST26909,Androgen receptor agonist,AR
+ST26910,Estrogen receptor agonist|Androgen receptor agonist|Progesterone receptor agonist,ESR1|AR|PGR
+ST26911,Estrogen receptor agonist|Androgen receptor agonist|Progesterone receptor agonist,ESR1|AR|PGR
+ST26912,Bone resorption inhibitor,FDPS|PTPRS
+ST26913,Bone resorption inhibitor,SLC25A4
+ST26914,Bone resorption inhibitor,PTPRS
+ST26915,Bone resorption inhibitor,FDPS
+ST26916,L-type calcium channel activator|Calcium channel activator,CACNA1C
+ST26917,Calcium channel activator,CASR
+ST26918,Calcium channel activator,CACNA1C
+ST26919,Calcium channel activator,KCNMA1
+ST26920,Carboxamide antiepileptic,SCN5A|SCN1A|SCN3A
+ST26921,Cytochrome P450 inhibitor,AKR1C3|HSD17B1|HSD3B1
+ST26922,Cytochrome P450 inhibitor,CYP3A4
+ST26923,Cytochrome P450 inhibitor,CYP11B2
+ST26924,Cytochrome P450 inhibitor,CYP3A4
+ST26925,Cytochrome P450 inhibitor,NR3C2
+ST26926,Cytochrome P450 inhibitor,NR3C2
+ST26927,Cytochrome P450 inhibitor,NFE2L2
+ST26928,Cytochrome P450 inhibitor,NR3C1
+ST26929,Cytochrome P450 inhibitor,NR3C1
+ST26930,Cytochrome P450 inhibitor,NR3C1
+ST26931,Cytochrome P450 inhibitor,CYP11B1
+ST26932,Androgen receptor antagonist|Cytochrome P450 inhibitor|Androgen biosynthesis inhibitor,CYP17A1
+ST26933,Androgen receptor antagonist|Cytochrome P450 inhibitor|Androgen biosynthesis inhibitor,CYP17A1
+ST26934,Cytochrome P450 inhibitor,NR3C2
+ST26935,Cytochrome P450 inhibitor,CYP3A4|CYP2B6
+ST26936,Cytochrome P450 inhibitor,CYP2C19|CYP3A5|CYP2C9|CYP3A4|PTGS1
+ST26937,Cytochrome P450 inhibitor,CYP2C19|CYP3A5|CYP2C9|CYP3A4|PTGS1
+ST26938,Cytochrome P450 inhibitor,CYP17A1
+ST26939,Dopamine receptor agonist,DRD4
+ST26940,Dopamine receptor agonist,SLC6A2|SLC6A4
+ST26941,Dopamine receptor agonist,HTR1A|ADRA2B|ADRA2A|DRD3|ADRA2C|DRD1|HTR2A|DRD4|DRD2|HTR2B|TRPA1|DRD5|HTR2C
+ST26942,Dopamine receptor agonist,DRD1
+ST26943,Dopamine receptor agonist,HTR1A|ADRA2B|ADRA2A|DRD3|ADRA2C|HTR1B|DRD1|HTR2A|DRD4|HTR1D|DRD2|HTR2B|DRD5|HTR2C
+ST26944,Dopamine receptor agonist,HTR1A|ADRA2B|ADRA2A|DRD3|ADRA2C|HTR1B|DRD1|HTR2A|DRD4|HTR1D|DRD2|HTR2B|DRD5|HTR2C
+ST26945,Dopamine receptor agonist,HTR1A|ADRA2B|ADRA2A|DRD3|ADRA2C|HTR1B|DRD1|HTR2A|DRD4|HTR1D|DRD2|HTR2B|DRD5|HTR2C
+ST26946,Dopamine receptor agonist,HTR1A|ADRA2B|ADRA2A|DRD3|ADRA2C|HTR1B|DRD1|HTR2A|DRD4|HTR1D|DRD2|HTR2B|DRD5|HTR2C
+ST26947,Dopamine receptor agonist,HTR1A|ADRA2B|ADRA2A|DRD3|ADRA2C|HTR1B|DRD1|HTR2A|DRD4|HTR1D|DRD2|HTR2B|DRD5|HTR2C
+ST26948,Dopamine receptor agonist,HTR1A|ADRA2B|ADRA2A|DRD3|ADRA2C|HTR1B|ADRA1A|DRD1|HTR2A|DRD4|HTR1D|DRD2|HTR2B|DRD5|HTR2C
+ST26949,Dopamine receptor agonist,HTR1A|ADRA2B|ADRA2A|DRD3|ADRA2C|HTR1B|ADRA1A|DRD1|HTR2A|DRD4|HTR1D|DRD2|HTR2B|DRD5|HTR2C
+ST26950,Dopamine receptor agonist,DRD2
+ST26951,Dopamine receptor agonist,DRD1
+ST26952,Dopamine receptor agonist,DRD1
+ST26953,Dopamine receptor agonist,DRD3|DRD1|DRD4|DRD2|DRD5
+ST26954,Dopamine receptor agonist,DRD3|DRD1|DRD4|DRD2|DRD5
+ST26955,Dopamine receptor agonist,DRD3|DRD1|DRD4|DRD2|DRD5
+ST26956,Dopamine receptor agonist,DRD3|DRD1|DRD4|DRD2|DRD5
+ST26957,Dopamine receptor agonist,DRD3|DRD1|DRD4|DRD2|DRD5
+ST26958,Dopamine receptor agonist,DRD2
+ST26959,Dopamine receptor agonist,DRD1
+ST26960,Dopamine receptor agonist,HTR1A|ADRA2B|ADRA2A|DRD3|ADRA2C|HTR1B|DRD1|HTR2A|DRD4|HTR1D|DRD2|HTR2B|DRD5|HTR2C
+ST26961,Dopamine receptor agonist,HTR2C|HTR2A|HTR7
+ST26962,Serotonin receptor antagonist|Dopamine receptor agonist,HTR1A|HTR2A
+ST26963,Serotonin receptor antagonist|Dopamine receptor agonist,HTR1A|HTR2A
+ST26964,Serotonin receptor antagonist|Dopamine receptor agonist,HTR1A|HTR2A
+ST26965,Dopamine receptor agonist,HTR1A|ADRA2B|ADRA2A|DRD3|ADRA2C|HTR1B|DRD1|HTR2A|DRD4|HTR1D|DRD2|HTR2B|DRD5|HTR2C
+ST26966,Dopamine receptor agonist,DRD2|ADRA2A|DRD3
+ST26967,Dopamine receptor agonist,DRD2|DRD3
+ST26968,Dopamine receptor agonist,DRD2|DRD3|DRD4
+ST26969,Dopamine receptor agonist,DRD4
+ST26970,Dopamine receptor agonist,DRD2|DRD3
+ST26971,Dopamine receptor agonist,DRD3|DRD1|DRD4|DRD2|DRD5
+ST26972,Dopamine receptor agonist,DRD1|DRD5
+ST26973,Dopamine receptor agonist,DRD1|DRD5
+ST26974,Dopamine receptor agonist,DRD1
+ST26975,Dopamine receptor agonist,DRD1|DRD5
+ST26976,Dopamine receptor agonist|Adrenergic receptor agonist,DRD2
+ST26977,Serotonin receptor antagonist|Dopamine receptor agonist,HTR2A|DRD2|HTR2B
+ST26978,Dopamine uptake inhibitor,SLC6A3|SLC6A2
+ST26979,Dopamine uptake inhibitor,HRH1|SLC6A3
+ST26980,Dopamine uptake inhibitor,SLC6A3
+ST26981,Dopamine uptake inhibitor|Noradrenaline uptake inhibitor,SLC6A3|SLC6A2
+ST26982,Dopamine uptake inhibitor|Serotonin reuptake inhibitor,SLC6A2
+ST26983,Dopamine uptake inhibitor,SLC6A3
+ST26984,Estrogen receptor agonist,NR1I2|ESR1|ESR2
+ST26985,Estrogen receptor agonist,PPARG
+ST26986,Estrogen receptor agonist,ESR1
+ST26987,Estrogen receptor agonist,ESR1|ESR2
+ST26988,Estrogen receptor agonist,ESR1
+ST26989,Estrogen receptor agonist|Estrogen-related receptor agonist,ESR2|ESRRG
+ST26990,Estrogen receptor agonist,HSD17B1
+ST26991,Estrogen receptor agonist,HSD17B1
+ST26992,Estrogen receptor agonist,HSD17B1
+ST26993,Estrogen receptor agonist,ESR1|ESR2
+ST26994,Estrogen receptor agonist,ESR1|ESR2
+ST26995,Estrogen receptor agonist,ESR2
+ST26996,Estrogen receptor agonist,NR1I2|ESR1|ESR2
+ST26997,Estrogen receptor agonist,NR1I2|ESR1|ESR2
+ST26998,Estrogen receptor agonist,NR1I2|ESR1|ESR2
+ST26999,Estrogen receptor agonist,NR1I2|ESR1|ESR2
+ST27000,Estrogen receptor agonist,ESR1
+ST27001,Estrogen receptor agonist,ESR1|ESR2
+ST27002,Estrogen receptor agonist,ESR1|ESR2
+ST27003,Estrogen receptor agonist,ESR1|ESR2
+ST27004,Estrogen receptor agonist,ESR1|ESR2
+ST27005,Estrogen receptor agonist,ESR1|ESR2
+ST27006,Estrogen receptor agonist,ESR1
+ST27007,Estrogen receptor agonist,ESR1
+ST27008,Estrogen receptor agonist,ESR1
+ST27009,Estrogen receptor agonist,ESR1
+ST27010,Estrogen receptor agonist,ESR1
+ST27011,Estrogen receptor agonist,ESR1
+ST27012,Estrogen receptor agonist|Progesterone receptor agonist|Progesterone receptor antagonist|Glucocorticoid receptor antagonist,PGR
+ST27013,Estrogen receptor agonist|Progesterone receptor agonist|Progesterone receptor antagonist|Glucocorticoid receptor antagonist,PGR
+ST27014,Estrogen receptor agonist,ESR1
+ST27015,Estrogen receptor agonist,ESR1
+ST27016,Estrogen receptor agonist,ESR1
+ST27017,Estrogen receptor agonist,ESR1
+ST27018,Estrogen receptor agonist,XDH|ESR2
+ST27019,Estrogen receptor agonist,ESR1
+ST27020,Gluconeogenesis inhibitor,HMGCR
+ST27021,Histamine receptor ligand|Histamine receptor agonist,HRH1
+ST27022,Histamine receptor ligand|Histamine receptor agonist,HRH1
+ST27023,Histamine receptor ligand|Histamine receptor agonist|Phosphodiesterase inhibitor|Leukotriene receptor antagonist,HRH1
+ST27024,Oxazolidine antiepileptic,CACNA1G
+ST27025,Oxytocin receptor agonist,OXTR
+ST27026,Potassium channel blocker,KCNH2
+ST27027,Potassium channel blocker,KCNH2
+ST27028,Potassium channel blocker,KCNA3
+ST27029,Potassium channel blocker,KCNQ1|KCNH2
+ST27030,Potassium channel blocker,KCNA3
+ST27031,Potassium channel blocker,KCNB2|KCNA2|KCNA6|KCNA3|KCND3|KCNC1|KCNC3|KCND1|KCNB1|KCNA5|KCNA1|KCNA4|KCNA7|KCNA10|KCNC2|KCND2
+ST27032,Potassium channel blocker,KCNH2
+ST27033,Potassium channel blocker,KCNK3|KCNK9
+ST27034,Potassium channel blocker,KCNA5
+ST27035,Potassium channel blocker,KCNH2
+ST27036,Potassium channel blocker,CACNA1C|KCNH2
+ST27037,Potassium channel blocker,CACNA1C|KCNH2
+ST27038,Potassium channel blocker,KCNQ2|KCNQ3
+ST27039,Potassium channel blocker,KCNMA1
+ST27040,Potassium channel blocker,KCNMA1
+ST27041,Potassium channel blocker,KCNMA1
+ST27042,Potassium channel blocker,KCNA5
+ST27043,Potassium channel blocker,KCNQ1|KCNQ2|KCNQ3
+ST27044,Retinoid receptor agonist,RARB|RARA
+ST27045,Retinoid receptor agonist,RXRG|RARA
+ST27046,Retinoid receptor agonist,RARG|RARB|RARA
+ST27047,Retinoid receptor agonist,RARG|RARB
+ST27048,Retinoid receptor agonist,RXRA|RARG|RXRB|RARA|RARB|RXRG
+ST27049,Retinoid receptor agonist,RARA
+ST27050,Retinoid receptor agonist,RXRA|RXRB|RXRG
+ST27051,Retinoid receptor agonist,RARG
+ST27052,Retinoid receptor agonist,RARG
+ST27053,Retinoid receptor agonist,RARG
+ST27054,Retinoid receptor agonist,RARB
+ST27055,Retinoid receptor agonist,RXRA
+ST27056,Retinoid receptor agonist,RARG
+ST27057,Retinoid receptor agonist,RARB|RARA
+ST27058,Retinoid receptor agonist,RARB|RARA
+ST27059,Retinoid receptor agonist,RARG|RARB|RARA
+ST27060,Retinoid receptor agonist,RARB
+ST27061,Serine protease inhibitor,PRSS1
+ST27062,Sigma receptor antagonist,SIGMAR1
+ST27063,Sigma receptor antagonist,SIGMAR1
+ST27064,Sigma receptor antagonist,HTR1A
+ST27065,Sigma receptor antagonist,SIGMAR1
+ST27066,Sigma receptor antagonist,SIGMAR1
+ST27067,Sigma receptor antagonist,PGRMC1
+ST27068,Succinimide antiepileptic,CACNA1G
+ST27069,Monoamine oxidase inhibitor|Nitric oxide production inhibitor|Guanylyl cyclase inhibitor|Tau aggregation inhibitor,ACHE
+ST27070,Thyroid hormone stimulant,TSHR
+ST27071,Thyroid hormone stimulant,THRB|THRA
+ST27072,Thyroid hormone stimulant,THRB|THRA
+ST27073,Thyroid hormone stimulant,THRB
+ST27074,Tyrosine kinase inhibitor,MET
+ST27075,Tyrosine kinase inhibitor,CFTR|ESR2
+ST27076,Tyrosine kinase inhibitor,CFTR|ESR2
+ST27077,Tyrosine kinase inhibitor,MET
+ST27078,Tyrosine kinase inhibitor,CDK4|CDK2|MAPK1|MAPK3
+ST27079,Tyrosine kinase inhibitor|Hepatocyte growth factor receptor inhibitor,MET
+ST27080,Tyrosine kinase inhibitor,PDGFRB|KDR
+ST27081,Tyrosine kinase inhibitor,MET
+ST27082,Adenosine kinase inhibitor,ADK
+ST27083,Adenosine receptor agonist,ADORA1
+ST27084,Adenosine receptor agonist,ADORA2B|ADORA2A|ADORA3|ADORA1
+ST27085,Adenosine receptor agonist,ADORA1
+ST27086,Adenosine receptor agonist,ADORA2A|ADORA1
+ST27087,Adenosine receptor agonist,ADORA2A|ADORA1
+ST27088,Adenosine receptor agonist,ADORA2A
+ST27089,Adenosine receptor agonist,ADORA1
+ST27090,Adenosine receptor agonist,ADORA3
+ST27091,Adenosine receptor agonist,ADORA3
+ST27092,Adenosine receptor agonist,ADORA3
+ST27093,Adenosine receptor agonist,ADORA3
+ST27094,Adenosine receptor agonist,ADORA2B|ADORA2A|ADORA1
+ST27095,Adenosine receptor agonist,ADORA2A
+ST27096,Adenosine receptor agonist,ADORA1
+ST27097,Adenylyl cyclase activator,ADCY2|ADCY5
+ST27098,Adenylyl cyclase activator,ADCY2
+ST27099,Adenylyl cyclase activator,ADCY2
+ST27100,Adenylyl cyclase activator,ADCY2
+ST27101,Adenylyl cyclase activator,ADCY2
+ST27102,Adenylyl cyclase inhibitor,ADCY1
+ST27103,Adrenergic receptor ligand,ADRA1A
+ST27104,Aldose reductase inhibitor,AKR1B1
+ST27105,Aldose reductase inhibitor,AKR1B1
+ST27106,Aldose reductase inhibitor,AKR1B1
+ST27107,Aldose reductase inhibitor,AKR1B1
+ST27108,Aldose reductase inhibitor,AKR1B1
+ST27109,Aldose reductase inhibitor,AKR1B1
+ST27110,Aldose reductase inhibitor,AKR1B1
+ST27111,Aldose reductase inhibitor,ALOX5
+ST27112,Aldose reductase inhibitor,AKR1B1
+ST27113,Aldose reductase inhibitor,AKR1B1
+ST27114,Androgen receptor enhancer,AR
+ST27115,Apelin receptor antagonist,APLNR
+ST27116,Dehydropeptidase inhibitor,DPEP1
+ST27117,Dehydropeptidase inhibitor,DPEP1
+ST27118,Dehydropeptidase inhibitor,DPEP1
+ST27119,Glutamate receptor agonist,GRM8|GRM7
+ST27120,Glutamate receptor agonist,GRIA1
+ST27121,Glutamate receptor agonist,GRIA3|HTR2A|GRIA1|DRD2|GRIA2
+ST27122,Glutamate receptor agonist,GRM5|GRM1
+ST27123,Glutamate receptor agonist,GRM2|GRM3
+ST27124,Glutamate receptor agonist,GRM3
+ST27125,Glutamate receptor agonist,GRIN1|GRIN2A|GRIN2B
+ST27126,Glutamate receptor agonist,GRM4|GRM1
+ST27127,Guanylyl cyclase activator,GUCY1A1
+ST27128,Guanylyl cyclase activator,GUCY1A1
+ST27129,Guanylyl cyclase activator,GUCY1A2|HIF1A
+ST27130,Guanylyl cyclase inhibitor,GUCY1A2
+ST27131,Hedgehog pathway inhibitor|Smoothened receptor antagonist,SMO
+ST27132,Histamine receptor agonist,HNMT
+ST27133,Histamine receptor agonist|Histamine receptor antagonist,HRH3|HRH1
+ST27134,Histamine receptor agonist,HRH2
+ST27135,Histamine receptor agonist,HRH3|HRH1|HRH2|HRH4
+ST27136,Histamine receptor agonist,HRH3
+ST27137,Histamine receptor agonist,HRH3
+ST27138,Histamine receptor agonist,SCN5A|SCN9A|SCN10A
+ST27139,Lipid peroxidase inhibitor,ADRA1A
+ST27140,Melatonin receptor agonist,MTNR1A|MTNR1B
+ST27141,Serotonin receptor antagonist|Melatonin receptor agonist,HTR2C|MTNR1A|MTNR1B
+ST27142,Nitric oxide synthase inhibitor|Melatonin receptor agonist,MTNR1A|MTNR1B
+ST27143,Melatonin receptor agonist,MTNR1A|MTNR1B
+ST27144,Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST27145,Opioid receptor antagonist,OPRM1
+ST27146,Opioid receptor antagonist,OPRD1
+ST27147,Opioid receptor antagonist,OPRL1
+ST27148,Acetylcholine receptor antagonist|Opioid receptor antagonist|Vesicular monoamine transporter ligand|Dopamine receptor modulator,OPRM1|SLC18A2
+ST27149,Opioid receptor antagonist,OPRK1|OPRM1
+ST27150,Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST27151,Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST27152,Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST27153,Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST27154,Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST27155,Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST27156,Opioid receptor antagonist,OPRK1|OPRM1
+ST27157,Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST27158,Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST27159,Opioid receptor antagonist,OPRD1|OPRM1|OPRK1
+ST27160,Opioid receptor antagonist,OPRD1
+ST27161,Opioid receptor antagonist,OPRD1
+ST27162,Opioid receptor antagonist,OPRD1
+ST27163,Opioid receptor antagonist,OPRD1
+ST27164,Opioid receptor antagonist,OPRK1
+ST27165,Opioid receptor antagonist,OPRD1
+ST27166,Opioid receptor antagonist,ADIPOR2
+ST27167,Opioid receptor antagonist,ADIPOR2
+ST27168,Orexin receptor antagonist,HCRTR1|HCRTR2
+ST27169,Orexin receptor antagonist,HCRTR1
+ST27170,Orexin receptor antagonist,HCRTR1
+ST27171,Orexin receptor antagonist,HCRTR1|HCRTR2
+ST27172,Protein kinase C inhibitor,PRKCA|NOS1
+ST27173,Serotonin receptor agonist|Serotonin receptor antagonist,HTR1A|HTR2A
+ST27174,Serotonin receptor agonist|Dopamine receptor antagonist,HTR1A|DRD2
+ST27175,Serotonin receptor agonist,HTR1D|HTR1B
+ST27176,Serotonin receptor agonist,HTR1B
+ST27177,Serotonin receptor agonist|Serotonin receptor antagonist,HTR1A|HTR1B|HRH1|HTR2A|HTR1D|DRD2|HTR2C
+ST27178,Serotonin receptor agonist,HTR1A
+ST27179,Serotonin receptor agonist,HTR1E|HTR1F
+ST27180,Serotonin receptor agonist,HTR1A
+ST27181,Serotonin receptor agonist,HTR2B
+ST27182,Serotonin receptor agonist,HTR1B
+ST27183,Serotonin receptor agonist,HTR4|KCNH2
+ST27184,Serotonin receptor agonist,HTR4|KCNH2
+ST27185,Serotonin receptor agonist,HTR4|KCNH2
+ST27186,Serotonin receptor agonist,HTR1B
+ST27187,Serotonin receptor agonist|Adrenergic receptor agonist,HTR2A
+ST27188,Serotonin receptor agonist,SLC6A4
+ST27189,Serotonin receptor agonist,HTR1D|HTR1B
+ST27190,Serotonin receptor agonist,HTR6
+ST27191,Serotonin receptor agonist|Adrenergic receptor agonist,HTR2A
+ST27192,Serotonin receptor agonist,HTR1D
+ST27193,Serotonin receptor agonist,HTR1A
+ST27194,Serotonin receptor agonist,HTR1D
+ST27195,Serotonin receptor agonist,HTR2C
+ST27196,Serotonin receptor agonist,HTR1F
+ST27197,Serotonin receptor agonist,HTR1A
+ST27198,Serotonin receptor agonist,HTR2C
+ST27199,Serotonin receptor agonist,HTR4
+ST27200,Serotonin receptor agonist,HTR1A
+ST27201,Serotonin receptor agonist,HTR2C|HTR2A|HTR2B
+ST27202,Serotonin receptor agonist,HTR1D|HTR1F|HTR1B
+ST27203,Serotonin receptor agonist,HTR2C|HTR2A|HTR2B
+ST27204,Serotonin receptor agonist,HTR1A|DRD2|DRD1|DRD3
+ST27205,Serotonin receptor agonist,HTR1A|HTR6|HTR1B
+ST27206,Serotonin receptor agonist,HTR1A
+ST27207,Serotonin receptor agonist,HTR3A
+ST27208,Serotonin receptor agonist,HTR1A|HTR1D|HTR1F|HTR1B
+ST27209,Serotonin receptor agonist|Serotonin receptor antagonist,HTR1A|HTR1B|HTR1D|HTR7|SLC6A4
+ST27210,Serotonin receptor agonist,HTR2C
+ST27211,Serotonin receptor agonist,HTR2C
+ST27212,Serotonin receptor agonist,HTR1A
+ST27213,Serotonin receptor agonist,HTR1A|HTR1D|HTR1F|HTR1B
+ST27214,Toll-like receptor agonist,TLR8|TLR7
+ST27215,Vitamin D receptor agonist,VDR
+ST27216,Vitamin D receptor agonist,VDR
+ST27217,Vitamin D receptor agonist,VDR
+ST27218,Vitamin D receptor agonist,VDR
+ST27219,Vitamin D receptor agonist,VDR
+ST27220,Vitamin D receptor agonist,VDR
+ST27221,Vitamin D receptor agonist,VDR
+ST27222,Vitamin D receptor agonist,VDR
+ST27223,Vitamin D receptor agonist,VDR
+ST27224,Vitamin D receptor agonist,VDR
+ST27225,Vitamin D receptor agonist,VDR
+ST27226,Vitamin D receptor agonist,VDR
+ST27227,Vitamin D receptor agonist,VDR
+ST27228,Vitamin D receptor agonist,VDR
+ST27229,Vitamin D receptor agonist,VDR
+ST27230,Vitamin D receptor agonist,VDR
+ST27231,Vitamin D receptor agonist,VDR
+ST27232,Vitamin D receptor agonist,VDR
+ST27233,Vitamin D receptor agonist,VDR
+ST27234,Xanthine oxidase inhibitor,XDH
+ST27235,Xanthine oxidase inhibitor,XDH
+ST27236,Xanthine oxidase inhibitor,XDH
+ST27237,Xanthine oxidase inhibitor,XDH
+ST27238,5 alpha reductase inhibitor,SRD5A2|SRD5A1
+ST27239,5 alpha reductase inhibitor,SRD5A2|SRD5A1
+ST27240,5 alpha reductase inhibitor,SRD5A2|SRD5A1
+ST27241,5 alpha reductase inhibitor,SRD5A2|SRD5A1
+ST27242,ATP citrase lyase inhibitor,ACLY
+ST27243,Adrenergic receptor agonist,ADRB2
+ST27244,Adrenergic receptor agonist,ADRB2
+ST27245,Adrenergic receptor agonist,SLC6A2
+ST27246,Adrenergic receptor agonist,ADRB2
+ST27247,Adrenergic receptor agonist,ADRA2B|ADRA2A|ADRA2C
+ST27248,Adrenergic receptor agonist,ADRB3
+ST27249,Adrenergic receptor agonist,ADRB2
+ST27250,Adrenergic receptor agonist,ADRB2|ADRB1|ADRB3
+ST27251,Adrenergic receptor agonist,ADRB2|ADRB1|ADRB3
+ST27252,Adrenergic receptor agonist,ADRB2|ADRB1|ADRB3
+ST27253,Adrenergic receptor agonist,ADRA1A
+ST27254,Adrenergic receptor agonist,ADRB2
+ST27255,Adrenergic receptor agonist,ADRA2B|ADRA2A|ADRA2C
+ST27256,Adrenergic receptor agonist,ADRA1A
+ST27257,Adrenergic receptor agonist,ADRB2|ADRB1
+ST27258,Adrenergic receptor agonist,ADRA1A|ADRB1
+ST27259,Adrenergic receptor agonist,ADRB2
+ST27260,Adrenergic receptor agonist,ADRB2
+ST27261,Adrenergic receptor agonist,ADRA2B|ADRA2A
+ST27262,Adrenergic receptor agonist,ADRB2
+ST27263,Adrenergic receptor agonist,ADRB2|ADRB1|ADRB3
+ST27264,Adrenergic receptor agonist,ADRB2|ADRB1|ADRB3
+ST27265,Adrenergic receptor agonist,ADRB2
+ST27266,Adrenergic receptor agonist,ADRB2
+ST27267,Adrenergic receptor agonist,ADRB3
+ST27268,Adrenergic receptor agonist,ADRB2
+ST27269,Adrenergic receptor agonist,ADRA2A
+ST27270,Adrenergic receptor agonist,ADRA2B|ADRA2A|ADRA2C
+ST27271,Adrenergic receptor agonist,ADRA2B|ADRA2A|ADRA2C
+ST27272,Adrenergic receptor agonist,ADRA1A|ADRA1D|ADRA1B
+ST27273,Adrenergic receptor agonist,ADRA2A|DDC
+ST27274,Adrenergic receptor agonist,ADRA1A|ADRA1D|ADRA1B
+ST27275,Adrenergic receptor agonist,SLC6A3
+ST27276,Adrenergic receptor agonist,ADRB2
+ST27277,Adrenergic receptor agonist,ADRA1D|ADRA2A|ADRA2B|ADRA2C|ADRA1A|ADRA1B
+ST27278,Adrenergic receptor agonist,ADRA1A|ADRA1B
+ST27279,Adrenergic receptor agonist,ADRB2
+ST27280,Adrenergic receptor agonist,ADRB2
+ST27281,Imidazoline receptor agonist|Adrenergic receptor agonist,ADRA2A|NISCH
+ST27282,Adrenergic receptor agonist,ADRB2
+ST27283,Adrenergic receptor agonist,ADRB2
+ST27284,Adrenergic receptor agonist,ADRB2
+ST27285,Adrenergic receptor agonist,ADRA1A
+ST27286,Adrenergic receptor agonist,ADRB2
+ST27287,Adrenergic receptor agonist,ADRB2
+ST27288,Adrenergic receptor agonist,ADRB2
+ST27289,Adrenergic receptor agonist,ADRB1
+ST27290,Adrenergic receptor agonist,ADRB1
+ST27291,Adrenergic receptor agonist,ADRA2B|ADRA2A|ADRA2C
+ST27292,Adrenergic receptor agonist,ADRB3
+ST27293,Adrenergic receptor agonist,ADRB3
+ST27294,Adrenergic receptor agonist,ADRB3
+ST27295,Androgen receptor modulator,AR
+ST27296,Androgen receptor modulator,AR
+ST27297,Androgen receptor modulator,CYP17A1|AR
+ST27298,Androgen receptor modulator,AR
+ST27299,Androgen receptor modulator,AR
+ST27300,Aryl hydrocarbon receptor agonist|Capillary stabilizing agent,AHR
+ST27301,Chloride channel antagonist,PTGS1|PTGS2|AR|AKR1C3
+ST27302,Chloride channel antagonist,SLC12A1
+ST27303,Adrenergic transmitter uptake inhibitor|Serotonin reuptake inhibitor|Dopamine reuptake inhibitor|Norepinephrine reputake inhibitor,SLC6A3|SLC6A2|SLC6A4
+ST27304,Dopamine reuptake inhibitor,MAOA|DRD1|MAOB
+ST27305,Serotonin reuptake inhibitor|Dopamine reuptake inhibitor,SLC6A3|SLC6A2|SLC6A4
+ST27306,Acetylcholine receptor antagonist|Glycine receptor antagonist,GLRA3
+ST27307,Guanylate cyclase activator,GUCY1B1
+ST27308,Guanylate cyclase stimulant,GUCY1B1|GUCY1A1
+ST27309,ICAM-1 expression inhibitor,ICAM1
+ST27310,Imidazoline receptor ligand,NISCH
+ST27311,Kainate receptor antagonist|Glutamate receptor antagonist,GRIA1
+ST27312,Kainate receptor antagonist,GRIK2|GRIK1
+ST27313,Glutamate receptor antagonist|Kainate receptor antagonist|Carbonic anhydrase inhibitor,CA2|GABRG2|GABRB2|GRIA1|GRIK1|SCN1A|GABRD|GABRA1|GABRA4|GABRQ|GABRB1|CA4|GABRE|GABRA6|GABRB3|SCN5A|GABRA5|GABRA2|GABRP|GABRA3|GABRG1|GABRG3
+ST27314,Metalloproteinase inhibitor,MMP13
+ST27315,Metalloproteinase inhibitor,MMP9|MMP3|MMP13|MMP2
+ST27316,Metalloproteinase inhibitor,MMP8
+ST27317,Metalloproteinase inhibitor,MMP8
+ST27318,Metalloproteinase inhibitor,MMP3
+ST27319,Metalloproteinase inhibitor,MMP13
+ST27320,Monoamine oxidase inhibitor,MAOA
+ST27321,Monoamine oxidase inhibitor|Acetylcholinesterase inhibitor,MAOA|ACHE
+ST27322,Monoamine oxidase inhibitor,MAOA
+ST27323,Monoamine oxidase inhibitor,MAOA|MAOB
+ST27324,Monoamine oxidase inhibitor,MAOA|MAOB
+ST27325,Monoamine oxidase inhibitor,MAOA|MAOB
+ST27326,Monoamine oxidase inhibitor,MAOB
+ST27327,Monoamine oxidase inhibitor,MAOB
+ST27328,Monoamine oxidase inhibitor,MAOA
+ST27329,Monoamine oxidase inhibitor,MAOB
+ST27330,Monoamine oxidase inhibitor,MAOA|AOC3|MAOB
+ST27331,Monoamine oxidase inhibitor,MAOA|MAOB
+ST27332,Monoamine oxidase inhibitor,MAOA
+ST27333,Monoamine oxidase inhibitor,MAOB
+ST27334,Monoamine oxidase inhibitor,MAOA|MAOB
+ST27335,Monoamine oxidase inhibitor,MAOA|MAOB
+ST27336,Monoamine oxidase inhibitor,MAOA
+ST27337,Monoamine oxidase inhibitor,MAOA|MAOB|KDM1A
+ST27338,Monoamine oxidase inhibitor,MAOA|MAOB|KDM1A
+ST27339,Monoamine oxidase inhibitor,MAOA|MAOB|KDM1A
+ST27340,Phosphodiesterase inhibitor,PDE3A
+ST27341,Phosphodiesterase inhibitor,PDE3A
+ST27342,Phosphodiesterase inhibitor,PDE4C|PDE4D|PDE4A|PDE4B
+ST27343,Phosphodiesterase inhibitor,PDE4A
+ST27344,Phosphodiesterase inhibitor,PDE5A
+ST27345,Phosphodiesterase inhibitor|Adenosine receptor antagonist,ATM|ADORA2A|ITPR1|RYR1|ADORA1|ADORA2B
+ST27346,Phosphodiesterase inhibitor,PDE4D|PDE4A|PDE4B
+ST27347,Phosphodiesterase inhibitor,PDE4D|PDE4A|PDE4B
+ST27348,Phosphodiesterase inhibitor,PDE3B|PDE3A
+ST27349,Phosphodiesterase inhibitor,PDE3A
+ST27350,Phosphodiesterase inhibitor,PDE8B|SLC29A1|PDE8A|PDE4A|PDE5A|ADA|PDE7B|PDE10A
+ST27351,Phosphodiesterase inhibitor|Adenosine receptor antagonist,PDE4C|PDE4D|PDE4A|PDE4B
+ST27352,Phosphodiesterase inhibitor,ADORA2B|PDE4A
+ST27353,Phosphodiesterase inhibitor,PDE4A
+ST27354,Phosphodiesterase inhibitor,PTGS1|PTGS2
+ST27355,Phosphodiesterase inhibitor|Leukotriene receptor antagonist,PDE4D|TLR4|PDE4A|PDE3A|MIF|PDE4C|PDE10A|PDE4B
+ST27356,Phosphodiesterase inhibitor,PDE4A
+ST27357,Phosphodiesterase inhibitor,PDE3A
+ST27358,Phosphodiesterase inhibitor,PDE5A
+ST27359,Phosphodiesterase inhibitor|Platelet aggregation inhibitor,PDE5A
+ST27360,Phosphodiesterase inhibitor,PDE3A
+ST27361,Phosphodiesterase inhibitor,PDE10A
+ST27362,Phosphodiesterase inhibitor,TNF|PDE4A|PDE5A|ADORA2A|PDE4B
+ST27363,Phosphodiesterase inhibitor,PDE10A
+ST27364,Phosphodiesterase inhibitor,PDE9A
+ST27365,Phosphodiesterase inhibitor,PDE4C|PDE4D|PDE4A|PDE4B
+ST27366,Phosphodiesterase inhibitor|Adenosine reuptake inhibitor,PDE1A
+ST27367,Phosphodiesterase inhibitor,PDE4D|PDE4A|PDE4B
+ST27368,Phosphodiesterase inhibitor,PDE4C|PDE4D|PDE4A|PDE4B
+ST27369,Phosphodiesterase inhibitor,PDE4C|PDE4D|PDE4A|PDE4B
+ST27370,Phosphodiesterase inhibitor,PDE3A
+ST27371,Phosphodiesterase inhibitor,PDE5A
+ST27372,Phosphodiesterase inhibitor,PDE5A
+ST27373,Phosphodiesterase inhibitor,PDE5A
+ST27374,Phosphodiesterase inhibitor,PDE5A|PDE11A
+ST27375,Phosphodiesterase inhibitor,PDE5A
+ST27376,Phosphodiesterase inhibitor,PDE4A
+ST27377,Phosphodiesterase inhibitor,PDE5A
+ST27378,Phosphodiesterase inhibitor,PDE5A
+ST27379,Phosphodiesterase inhibitor,PDE4D
+ST27380,Potassium channel activator,KCNJ8
+ST27381,Potassium channel activator,KCNMA1
+ST27382,Potassium channel activator,KCNJ8
+ST27383,Potassium channel activator,KCNJ11
+ST27384,Potassium channel activator,KCNJ8
+ST27385,Potassium channel activator,KCNJ8
+ST27386,Potassium channel activator,KCNQ4|KCNQ2|KCNQ5|KCNQ3
+ST27387,Potassium channel activator,KCNJ8
+ST27388,Potassium channel activator,KCNJ8
+ST27389,Prostanoid receptor agonist,PTGER1|PTGER2
+ST27390,Prostanoid receptor agonist,PTGFR
+ST27391,Prostanoid receptor agonist,PTGFR
+ST27392,Prostanoid receptor agonist,PTGER3|PTGER4|PTGER1|PTGER2
+ST27393,Prostanoid receptor agonist|Platelet aggregation inhibitor,PTGIR|PTGER1|PTGER2
+ST27394,Prostanoid receptor agonist|Platelet aggregation inhibitor,PTGIR|PTGER1|PTGER2
+ST27395,Prostanoid receptor agonist,PTGFR
+ST27396,Prostanoid receptor agonist,PTGER3|PTGER4|PTGER2
+ST27397,Prostanoid receptor agonist|Platelet aggregation inhibitor,PTGIR
+ST27398,Prostanoid receptor agonist,PTGFR
+ST27399,Protein synthesis inhibitor,SLC5A1
+ST27400,Protein synthesis inhibitor,RPL3
+ST27401,Protein synthesis inhibitor,RPL3
+ST27402,Protein synthesis inhibitor,RPL3
+ST27403,Protein synthesis inhibitor,RPS2
+ST27404,Protein synthesis inhibitor,RPS2
+ST27405,Protein synthesis inhibitor,RPS2
+ST27406,Protein synthesis inhibitor,RXRG|RARA
+ST27407,Protein synthesis stimulant,PARP1
+ST27408,Ribosomal protein inhibitor,RPS6KA1|RPS6KA3|RPS6KA2
+ST27409,Ribosomal protein inhibitor,RPS6KA1|RPS6KA3|RPS6KA2
+ST27410,SHIP2 phosphatase inhibitor,INPP5D
+ST27411,Serotonin receptor antagonist|Serotonin release inhibitor,TPH1
+ST27412,Smoothened receptor agonist,SMO
+ST27413,TGF beta receptor inhibitor,M6PR
+ST27414,TGF beta receptor inhibitor,TGFB1|CSNK1A1
+ST27415,TGF beta receptor inhibitor,TNF
+ST27416,TGF beta receptor inhibitor,TGFBR1
+ST27417,TGF beta receptor inhibitor,ACVR1C|TGFBR1
+ST27418,TGF beta receptor inhibitor,TGFBR1
+ST27419,TGF beta receptor inhibitor,TGFBR1
+ST27420,Adenosine reuptake inhibitor,SLC29A1
+ST27421,Androgen receptor antagonist,AR
+ST27422,Androgen receptor antagonist,AR
+ST27423,Androgen receptor antagonist,AR
+ST27424,Androgen receptor antagonist,AR
+ST27425,Androgen receptor antagonist,AR
+ST27426,Androgen receptor antagonist,AR
+ST27427,Androgen receptor antagonist,AR
+ST27428,Androgen receptor antagonist,AR
+ST27429,Androgen receptor antagonist,AR
+ST27430,Androgen receptor antagonist,AR
+ST27431,Angiotensin receptor agonist,AGTR1|AGTR2
+ST27432,Cannabinoid receptor agonist,CNR2
+ST27433,Cannabinoid receptor agonist,CNR2|TRPV1|CNR1
+ST27434,Cannabinoid receptor agonist,CNR2|TRPV1|CNR1
+ST27435,Cannabinoid receptor agonist,CNR2|TRPV1|CNR1
+ST27436,Cannabinoid receptor agonist,CNR2|CNR1
+ST27437,Cannabinoid receptor agonist,CNR2|CNR1|GPR55
+ST27438,Cannabinoid receptor agonist,CNR2
+ST27439,Cannabinoid receptor agonist,CNR2
+ST27440,Cannabinoid receptor agonist,CNR1
+ST27441,Cannabinoid receptor agonist,PLA2G2A
+ST27442,Cannabinoid receptor agonist,CNR2|GPR119
+ST27443,Carbonic anhydrase inhibitor,CA4|CA2|CA1|CA12|CA14|CA7
+ST27444,Carbonic anhydrase inhibitor,CA2|SLC12A3
+ST27445,Carbonic anhydrase inhibitor,CA2|CA1|CA7
+ST27446,Carbonic anhydrase inhibitor,CA12|CA2|CA1|CA4
+ST27447,Carbonic anhydrase inhibitor,CA2|CA1
+ST27448,Carbonic anhydrase inhibitor,CA2|CA1
+ST27449,Carbonic anhydrase inhibitor,CA12
+ST27450,Carbonic anhydrase inhibitor,CA6
+ST27451,Carbonic anhydrase inhibitor,CA2|CA1|CA7|CA4
+ST27452,Carbonic anhydrase inhibitor,SLC12A3
+ST27453,Cholinergic receptor agonist,CHRM1|CHRM2|CHRNA2
+ST27454,Cholinergic receptor agonist,CHRNA7
+ST27455,Coagulation factor inhibitor,F10
+ST27456,Coagulation factor inhibitor,F10
+ST27457,Coagulation factor inhibitor,F10
+ST27458,Coagulation factor inhibitor,F10
+ST27459,Coagulation factor inhibitor,F10
+ST27460,Cytidine deaminase inhibitor,CDA
+ST27461,DOPA decarboxylase inhibitor,DDC
+ST27462,Dopamine receptor antagonist,DRD2
+ST27463,Dopamine receptor antagonist,DRD2|DRD3
+ST27464,Dopamine receptor antagonist,HTR2A|DRD2
+ST27465,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR1A|ADRB2|HTR1B|HRH1|DRD1|HTR2A|DRD2
+ST27466,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR1A|ADRB2|HTR1B|HRH1|DRD1|HTR2A|DRD2
+ST27467,Dopamine receptor antagonist,DRD2
+ST27468,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR2A|DRD2
+ST27469,Dopamine receptor antagonist,DRD2
+ST27470,Dopamine receptor antagonist,DRD2
+ST27471,Dopamine receptor antagonist,DRD2|DRD1|DRD3
+ST27472,Dopamine receptor antagonist,DRD2|DRD3
+ST27473,Dopamine receptor antagonist,DRD2
+ST27474,Dopamine receptor antagonist|Serotonin receptor antagonist,ADRA1A|DRD3|HRH1|CHRM3|HTR6|HRH4|CHRM1|HTR1B|DRD1|HTR1E|CHRM4|CHRM2|DRD2|HTR7|HTR2C|HTR1A|HTR2A|DRD4|HTR1D|ADRA1B
+ST27475,Dopamine receptor antagonist,DRD2|DRD3
+ST27476,Dopamine receptor antagonist,DRD2
+ST27477,Dopamine receptor antagonist,DRD1|DRD5
+ST27478,Dopamine receptor antagonist,DRD2
+ST27479,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR2A|DRD4
+ST27480,Dopamine receptor antagonist,DRD2|DRD1
+ST27481,Dopamine receptor antagonist,DRD2|DRD1
+ST27482,Dopamine receptor antagonist,DRD2|DRD1
+ST27483,Dopamine receptor antagonist,HTR2A|DRD2
+ST27484,Dopamine receptor antagonist,DRD3
+ST27485,Dopamine receptor antagonist,DRD3|HTR2A|DRD1|DRD4|DRD2
+ST27486,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR1A|HTR2A|DRD2|HTR6|HTR7
+ST27487,Dopamine receptor antagonist,DRD2
+ST27488,Dopamine receptor antagonist,DRD2
+ST27489,Dopamine receptor antagonist,DRD4
+ST27490,Dopamine receptor antagonist,DRD4
+ST27491,Dopamine receptor antagonist,DRD4
+ST27492,Dopamine receptor antagonist,DRD5
+ST27493,Dopamine receptor antagonist,DRD2|DRD3|DRD4
+ST27494,Dopamine receptor antagonist,DRD2|DRD3
+ST27495,Dopamine receptor antagonist|Serotonin receptor antagonist,DRD3|HRH1|DRD1|HTR2A|DRD4|DRD2|HTR6|HTR2C
+ST27496,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR1A|ADRA2A|ADRA2C|HTR2A|DRD2|HTR7
+ST27497,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR2A|DRD2
+ST27498,Dopamine receptor antagonist,HTR2A|DRD2
+ST27499,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR4|DRD2|HTR3A
+ST27500,Dopamine receptor antagonist,HTR2A|DRD2
+ST27501,Dopamine receptor antagonist,DRD3
+ST27502,Dopamine receptor antagonist,DRD2|DRD3
+ST27503,Dopamine receptor antagonist,DRD2|DRD3
+ST27504,Dopamine receptor antagonist,DRD2|DRD3
+ST27505,Dopamine receptor antagonist,DRD3
+ST27506,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR1A|DRD3|HTR1B|HRH1|DRD1|HTR2A|DRD4|HTR1E|HTR1D|DRD2|HTR6|HTR7|HTR2C
+ST27507,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR2A|DRD2
+ST27508,Dopamine receptor antagonist,DRD2
+ST27509,Dopamine receptor antagonist,HTR2A|DRD2|DRD3
+ST27510,Dopamine receptor antagonist,HTR2A|DRD2
+ST27511,Dopamine receptor antagonist,DRD2
+ST27512,Dopamine receptor antagonist,DRD2|CHRM5
+ST27513,Dopamine receptor antagonist,DRD2|DRD3
+ST27514,Dopamine receptor antagonist,DRD2
+ST27515,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR1A|DRD3|ADRA1A|HRH1|HTR2A|DRD4|HTR1D|DRD2|HTR2C|ADRA1B
+ST27516,Dopamine receptor antagonist,HTR2C|DRD1|DRD5
+ST27517,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR2A|HTR2C|DRD2
+ST27518,Dopamine receptor antagonist,HTR1A|DRD3|ADRA1A|HTR2A|DRD4|DRD2|HTR7
+ST27519,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR1A|HTR2A
+ST27520,Dopamine receptor antagonist,CA7|DRD2|DRD3
+ST27521,Dopamine receptor antagonist,CA7|DRD2|DRD3
+ST27522,Dopamine receptor antagonist,HTR2A|HTR2C|DRD2|DRD1
+ST27523,Dopamine receptor antagonist,HTR2A
+ST27524,Dopamine receptor antagonist,HTR2A
+ST27525,Dopamine receptor antagonist,DRD2|DRD3
+ST27526,Dopamine receptor antagonist,DRD2
+ST27527,Dopamine receptor antagonist,DRD2|HTR2B
+ST27528,Dopamine receptor antagonist,DRD3
+ST27529,Dopamine receptor antagonist,DRD2|DRD3
+ST27530,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR1A|HTR1B|HRH1|HTR2A|HTR1E|HTR1D|DRD2|HTR7|HTR2C
+ST27531,Estrogen receptor antagonist,GPER1
+ST27532,Estrogen receptor antagonist,ESR1
+ST27533,Estrogen receptor antagonist,ESR1
+ST27534,Progesterone receptor agonist|Estrogen receptor antagonist,ESR1|GNRHR
+ST27535,Progesterone receptor agonist|Estrogen receptor antagonist,ESR1|GNRHR
+ST27536,Progesterone receptor agonist|Estrogen receptor antagonist,ESR1|GNRHR
+ST27537,Progesterone receptor agonist|Estrogen receptor antagonist,ESR1|GNRHR
+ST27538,Estrogen receptor antagonist,ESR1
+ST27539,Estrogen receptor antagonist,ESR1
+ST27540,Selective estrogen receptor modulator|Estrogen receptor antagonist,ESR1|ESR2
+ST27541,Selective estrogen receptor modulator|Estrogen receptor antagonist,ESR1|ESR2
+ST27542,Selective estrogen receptor modulator|Estrogen receptor antagonist,ESR1|ESR2
+ST27543,Selective estrogen receptor modulator|Estrogen receptor antagonist,ESR1
+ST27544,Estrogen receptor antagonist,ESR1|ESR2
+ST27545,Estrogen receptor antagonist,ESR1
+ST27546,Glucagon receptor antagonist,GCGR
+ST27547,Glucagon receptor antagonist,GCGR
+ST27548,Glucosylceramidase inhibitor,GBA
+ST27549,Glucosylceramidase inhibitor,GBA
+ST27550,Glucosylceramidase inhibitor,GBA
+ST27551,Glucosylceramidase inhibitor,GBA
+ST27552,Glutamate receptor modulator|Glutamate receptor positive allosteric modulator,GRM7
+ST27553,Glutamate receptor modulator,CA2|SLC12A3
+ST27554,Glutamate receptor modulator,GRM5
+ST27555,Glutamate receptor modulator,GRIA1
+ST27556,Glutamate receptor modulator,GRM4
+ST27557,Glutamate receptor modulator,GRM4
+ST27558,Glutamate receptor modulator,GRM4
+ST27559,Glutamate receptor modulator,GRM4
+ST27560,Glutamate receptor modulator,GRM4
+ST27561,Glutamate receptor modulator,GRM4
+ST27562,Histamine receptor modulator,HRH1
+ST27563,Histamine receptor modulator,HRH3
+ST27564,Imidazoline receptor agonist,NISCH
+ST27565,Imidazoline receptor agonist,NISCH|AR|MAOB|MAOA|CYP19A1
+ST27566,Leukocyte elastase inhibitor,ELANE
+ST27567,Leukocyte elastase inhibitor,ELANE
+ST27568,Lipoprotein lipase activator,PPARA|CYP2C8|LPL
+ST27569,MRE11A exonuclease inhibitor,MRE11
+ST27570,Membrane integrity inhibitor,ATP1A1
+ST27571,Membrane integrity inhibitor,GABRA1
+ST27572,Membrane integrity inhibitor,SCN9A|SCN10A
+ST27573,Neuropeptide receptor ligand,NPSR1
+ST27574,Oxytocin receptor antagonist,OXTR
+ST27575,Serotonin reuptake inhibitor,SLC6A4
+ST27576,Serotonin reuptake inhibitor,SLC6A2|SLC6A4
+ST27577,Norepinephrine reuptake inhibitor|Serotonin reuptake inhibitor,SLC6A3|SLC6A2|SLC6A4
+ST27578,Serotonin reuptake inhibitor|Norepinephrine reputake inhibitor,CHRM2|SLC6A2|SLC6A4
+ST27579,Norepinephrine reuptake inhibitor|Serotonin reuptake inhibitor,SLC6A2|SLC6A4
+ST27580,Serotonin reuptake inhibitor,SLC6A2|SLC6A4
+ST27581,Serotonin reuptake inhibitor,SLC6A2|SLC6A4
+ST27582,Serotonin reuptake inhibitor,HTR2B|SLC6A4
+ST27583,Serotonin reuptake inhibitor,SLC6A3|SLC6A2|SLC6A4
+ST27584,Serotonin receptor antagonist|Serotonin reuptake inhibitor|Adrenergic receptor antagonist,HTR2C|HTR2A|SLC6A4
+ST27585,Serotonin reuptake inhibitor,HTR1A|SLC6A4
+ST27586,Serotonin reuptake inhibitor,SLC6A2
+ST27587,Serotonin reuptake inhibitor,SLC6A4
+ST27588,Serotonin reuptake inhibitor,SLC6A4
+ST27589,Sphingosine kinase inhibitor,SPHK2
+ST27590,Sphingosine kinase inhibitor,SPHK1
+ST27591,Sterol demethylase inhibitor,PPARA|CYP3A5|CYP2B6|CYP2C9|NR1I2|CYP3A4|CYP2J2|PTGER2|CYP19A1|CYP1A2
+ST27592,Sterol demethylase inhibitor,CYP51A1
+ST27593,Sterol demethylase inhibitor,CYP19A1|AR
+ST27594,Sterol demethylase inhibitor,CYP19A1|AR
+ST27595,Sterol demethylase inhibitor,CYP19A1|AR
+ST27596,Thyroid peroxidase inhibitor,TPO|DIO1
+ST27597,Vasopressin receptor agonist,AVPR1A|AVPR1B|AVPR2
+ST27598,Vasopressin receptor agonist,AVPR1A|AVPR1B|AVPR2
+ST27599,Ribonucleoside reductase inhibitor|Adenosine deaminase inhibitor,ADA
+ST27600,Adenosine receptor antagonist,PDE4A|PDE3A|ADORA2A|ADORA3|ADORA1|ADORA2B|PDE4B
+ST27601,Adenosine receptor antagonist,PDE3A|ADORA2A|ADORA3|ADORA1|ADORA2B
+ST27602,Adenosine receptor antagonist,ADORA2B|ADORA2A|ADORA1
+ST27603,Adenosine receptor antagonist,PDE4D|PDE4A|PDE4C|ADORA1|PDE4B
+ST27604,Adenosine receptor antagonist,ADORA1
+ST27605,Adenosine receptor antagonist,ADORA2A|ADORA1
+ST27606,Adenosine receptor antagonist,ADORA3
+ST27607,Adenosine receptor antagonist,ADORA3
+ST27608,Adenosine receptor antagonist,ADORA2B
+ST27609,Adenosine receptor antagonist,ADORA2A
+ST27610,Adenosine receptor antagonist,ADORA3
+ST27611,Adenosine receptor antagonist,ADORA2B|ADORA1
+ST27612,Adenosine receptor antagonist,ADORA1
+ST27613,Adenosine receptor antagonist,ADORA2B
+ST27614,Adenosine receptor antagonist,ADORA2A|ADORA1
+ST27615,Adenosine receptor antagonist,ADORA2A|ADORA1
+ST27616,Adenosine receptor antagonist,ADORA1
+ST27617,Adenosine receptor antagonist,ADORA2A
+ST27618,Adenosine receptor antagonist,ADORA2B|ADORA2A|ADORA1
+ST27619,Farnesyltransferase inhibitor,FNTA|NFKB1
+ST27620,Farnesyltransferase inhibitor,FNTA
+ST27621,Farnesyltransferase inhibitor,FNTA
+ST27622,Fatty acid synthase inhibitor,FASN
+ST27623,Fatty acid synthase inhibitor,FASN
+ST27624,GABA receptor inverse agonist,GABRA5
+ST27625,GABA receptor inverse agonist,GABRA5
+ST27626,Glutamate receptor antagonist,GRIN1|GRIN2A|GRIN2B
+ST27627,Glutamate receptor antagonist,GRIN1
+ST27628,Glutamate receptor antagonist,GRM5
+ST27629,Glutamate receptor antagonist,GRM1
+ST27630,Glutamate receptor antagonist,SIGMAR1|SLC6A4
+ST27631,Glutamate receptor antagonist,GRIN1
+ST27632,Glutamate receptor antagonist,GRIA1
+ST27633,Glutamate receptor antagonist,GRIA1
+ST27634,Glutamate receptor antagonist,OPRD1|OPRM1|OPRK1
+ST27635,Glutamate receptor antagonist,GRIN1|GRIN2B
+ST27636,Glutamate receptor antagonist,GRIN3A|GRIN2B|GRIN2A
+ST27637,Glutamate receptor antagonist,GRM5
+ST27638,Glutamate receptor antagonist,KCNQ1|KCNQ2
+ST27639,Glutamate receptor antagonist,CNR2|GRIN1|CNR1
+ST27640,Acetylcholinesterase inhibitor|Glutamate receptor antagonist,ACHE
+ST27641,Acetylcholinesterase inhibitor|Glutamate receptor antagonist,ACHE
+ST27642,Acetylcholinesterase inhibitor|Glutamate receptor antagonist,ACHE
+ST27643,Adrenergic receptor antagonist|Glutamate receptor antagonist,GRIN1|GRIN2B
+ST27644,Glutamate receptor antagonist,GRM1
+ST27645,Glutamate receptor antagonist,GRIN1
+ST27646,Glutamate receptor antagonist,GRIN1|GRIN2A|GRIN2B
+ST27647,Glutamate receptor antagonist,HTR6
+ST27648,Glutamate receptor antagonist,GRM2|GRM3
+ST27649,Glutamate receptor antagonist,GRM1
+ST27650,Glutamate receptor antagonist,FBP1
+ST27651,Glutamate receptor antagonist,GRIN1
+ST27652,Glutamate receptor antagonist,GRIN1
+ST27653,Glutamate receptor antagonist,GRIA1
+ST27654,Glutamate receptor antagonist,GRIA1
+ST27655,Glutamate receptor antagonist,CYP3A4
+ST27656,Glutamate receptor antagonist,CASP9
+ST27657,Glutamate receptor antagonist,GRIA1
+ST27658,Glutamate receptor antagonist,GRIN1
+ST27659,Glutamate receptor antagonist,GRIN2B
+ST27660,Glutamate receptor antagonist,GRM5
+ST27661,Glutamate receptor antagonist,GRM5
+ST27662,Glutamate receptor antagonist,GRIA4|GRIA3|GRIA1|GRIA2
+ST27663,Glutamate receptor antagonist,GABRA1
+ST27664,Glutamate receptor antagonist,GRIN2B
+ST27665,Glutamate receptor antagonist,GRIK1
+ST27666,Glutamate receptor antagonist,GRM1
+ST27667,Glutamate receptor antagonist,GRM1
+ST27668,Acetylcholinesterase inhibitor|Glutamate receptor antagonist,ACHE
+ST27669,Glycine transporter inhibitor,SLC6A9
+ST27670,Glycine transporter inhibitor,SLC6A9
+ST27671,Glycine transporter inhibitor,SLC6A9
+ST27672,Histamine receptor antagonist,HRH3
+ST27673,Histamine receptor antagonist,HRH1
+ST27674,Histamine receptor antagonist,HRH1|KCNH2
+ST27675,Histamine receptor antagonist,HRH1
+ST27676,Histamine receptor antagonist,HRH3
+ST27677,Histamine receptor antagonist,HRH1
+ST27678,Histamine receptor antagonist,HRH1
+ST27679,Histamine receptor antagonist|L-type calcium channel blocker,HRH1
+ST27680,Histamine receptor antagonist,HRH1
+ST27681,Histamine receptor antagonist,HRH1
+ST27682,Histamine receptor antagonist,HRH1
+ST27683,Histamine receptor antagonist,HRH2
+ST27684,Histamine receptor antagonist,HRH3
+ST27685,Histamine receptor antagonist,HRH1
+ST27686,Histamine receptor antagonist,HRH3|HRH4
+ST27687,Histamine receptor antagonist,HRH1
+ST27688,Histamine receptor antagonist,HRH1
+ST27689,Histamine receptor antagonist,HRH1
+ST27690,Histamine receptor antagonist,HRH1
+ST27691,Histamine receptor antagonist,HRH1
+ST27692,Histamine receptor antagonist,HRH1
+ST27693,Histamine receptor antagonist,HRH1|HRH2|SLC6A2|SLC6A4
+ST27694,Histamine receptor antagonist,HRH1|HRH2|SLC6A2|SLC6A4
+ST27695,Histamine receptor antagonist,HRH1
+ST27696,Histamine receptor antagonist,HRH1
+ST27697,Histamine receptor antagonist,HRH1|HRH2
+ST27698,Histamine receptor antagonist,HRH2
+ST27699,Histamine receptor antagonist,HRH1
+ST27700,Histamine receptor antagonist,HRH2
+ST27701,Histamine receptor antagonist,HRH3|HRH4
+ST27702,Histamine receptor antagonist,HRH4
+ST27703,Histamine receptor antagonist,HRH2
+ST27704,Histamine receptor antagonist,HRH1|NTSR2
+ST27705,Histamine receptor antagonist,HRH1
+ST27706,Histamine receptor antagonist,HRH1
+ST27707,Histamine receptor antagonist,HRH1
+ST27708,Histamine receptor antagonist,HRH1
+ST27709,Histamine receptor antagonist,HRH1
+ST27710,Histamine receptor antagonist,HRH1
+ST27711,Histamine receptor antagonist,HRH2
+ST27712,Histamine receptor antagonist,HRH1
+ST27713,Histamine receptor antagonist,HRH1
+ST27714,Histamine receptor antagonist,HRH1
+ST27715,Histamine receptor antagonist,HRH1
+ST27716,Histamine receptor antagonist,HRH1
+ST27717,Histamine receptor antagonist,ACHE
+ST27718,Histamine receptor antagonist,HRH2
+ST27719,Histamine receptor antagonist|Platelet activating factor receptor antagonist,HRH1|PTAFR
+ST27720,Histamine receptor antagonist,HRH1
+ST27721,Histamine receptor antagonist,HRH1|KCNH2
+ST27722,Histamine receptor antagonist,HRH3|HRH4
+ST27723,Histamine receptor antagonist,HRH3|HRH4
+ST27724,Histamine receptor antagonist,HRH2
+ST27725,Histamine receptor antagonist,DRD2
+ST27726,Histamine receptor antagonist,HRH1
+ST27727,Histamine receptor antagonist,HRH1
+ST27728,Histamine receptor antagonist,HRH3
+ST27729,Melatonin receptor antagonist,MTNR1B
+ST27730,Melatonin receptor antagonist,MTNR1B
+ST27731,Microtubule stabilizing agent,TUBB|TUBB3
+ST27732,Progesterone receptor agonist,PGR
+ST27733,Progesterone receptor agonist,PGR
+ST27734,Progesterone receptor agonist,PGR
+ST27735,Progesterone receptor agonist,AR
+ST27736,Progesterone receptor agonist,PGR
+ST27737,Progesterone receptor agonist,PGR
+ST27738,Progesterone receptor agonist,PGR
+ST27739,Progesterone receptor agonist,PGR
+ST27740,Progesterone receptor agonist,PGR
+ST27741,Progesterone receptor agonist,PGR
+ST27742,Progesterone receptor agonist,CYP17A1|NR3C2|PGR
+ST27743,Progesterone receptor agonist,CYP17A1|NR3C2|PGR
+ST27744,Progesterone receptor agonist,CYP17A1|NR3C2|PGR
+ST27745,Progesterone receptor agonist,PGR
+ST27746,Protein phosphatase inhibitor,PPP2CA|PPP1CA
+ST27747,Serotonin receptor antagonist,HTR3A
+ST27748,Serotonin receptor antagonist,SLC6A4
+ST27749,Serotonin receptor antagonist,HTR3A
+ST27750,Serotonin receptor antagonist,HTR2A
+ST27751,Serotonin receptor antagonist,HTR3A
+ST27752,Serotonin receptor antagonist,HTR3A
+ST27753,Serotonin receptor antagonist|Adrenergic receptor antagonist,HTR1A|ADRA1A|ADRA1D|ADRA1B
+ST27754,Serotonin receptor antagonist,HTR1D
+ST27755,Serotonin receptor antagonist,HTR3A
+ST27756,Serotonin receptor antagonist,HTR4
+ST27757,Serotonin receptor antagonist,HTR1A|HTR1B|HTR2A|HTR1D|HTR2C
+ST27758,Serotonin receptor antagonist,HTR1B
+ST27759,Serotonin receptor antagonist,HTR3A
+ST27760,Serotonin receptor antagonist,HTR3A
+ST27761,Serotonin receptor antagonist,HTR3A
+ST27762,Serotonin receptor antagonist,HTR6
+ST27763,Serotonin receptor antagonist,HTR2C|HTR2A
+ST27764,Serotonin receptor antagonist,HTR3A
+ST27765,Serotonin receptor antagonist,HTR1A|HTR1D
+ST27766,Serotonin receptor antagonist,HTR2A
+ST27767,Serotonin receptor antagonist,HTR1A
+ST27768,Serotonin receptor antagonist,HTR1B|HTR2A|HTR1E|HTR1F|HTR2B|HTR7|HTR2C
+ST27769,Serotonin receptor antagonist,HTR1B|HTR2A|HTR1E|HTR1F|HTR2B|HTR7|HTR2C
+ST27770,Serotonin receptor antagonist,HTR1A|ADRA1D|ADRA1A|HRH1|HTR2A|DRD2|HTR2B|HTR6|HTR7|HTR2C|ADRA1B
+ST27771,Serotonin receptor antagonist|Adrenergic receptor antagonist,ADRA2B|ADRA2A|ADRA2C|HTR3A|HTR2A|HTR2C
+ST27772,Serotonin receptor antagonist|Adrenergic receptor antagonist,ADRA2B|ADRA2A|ADRA2C|HTR3A|HTR2A|HTR2C
+ST27773,Serotonin receptor antagonist,HTR1B
+ST27774,Serotonin receptor antagonist,HTR3A
+ST27775,Serotonin receptor antagonist,HTR3A
+ST27776,Serotonin receptor antagonist,HTR2A
+ST27777,Serotonin receptor antagonist,HTR2C|HTR2A
+ST27778,Serotonin receptor antagonist,HTR2B
+ST27779,Serotonin receptor antagonist,HTR2A
+ST27780,Serotonin receptor antagonist,HTR2C|HTR2A|HTR2B
+ST27781,Serotonin receptor antagonist,HTR6
+ST27782,Serotonin receptor antagonist,HTR2C
+ST27783,Serotonin receptor antagonist,HTR2B
+ST27784,Serotonin receptor antagonist,HTR4
+ST27785,Serotonin receptor antagonist,HTR4
+ST27786,Serotonin receptor antagonist,HTR2C|HTR2B
+ST27787,Serotonin receptor antagonist,HTR4
+ST27788,Serotonin receptor antagonist,HTR2C|HTR2B
+ST27789,Serotonin receptor antagonist,HTR1D|HTR1B
+ST27790,Serotonin receptor antagonist,HTR2C|HTR2B
+ST27791,Serotonin receptor antagonist,HTR2C
+ST27792,Serotonin receptor antagonist,HTR6
+ST27793,Serotonin receptor antagonist,HTR7
+ST27794,Serotonin receptor antagonist,HTR6
+ST27795,Serotonin receptor antagonist,SLC6A4
+ST27796,Serotonin receptor antagonist,SLC6A4
+ST27797,Serotonin receptor antagonist,SLC6A4
+ST27798,Serotonin receptor antagonist,HTR1A
+ST27799,Serotonin receptor antagonist,HTR3A
+ST27800,Serotonin receptor antagonist,HTR3A
+ST27801,Serotonin receptor antagonist,HTR3A
+ST27802,Serotonin receptor antagonist,HTR1A
+ST27803,Serotonin receptor antagonist,HTR4|HTR3A
+ST27804,Somatostatin receptor agonist,GBA|SSTR4
+ST27805,Somatostatin receptor agonist,SSTR4
+ST27806,Somatostatin receptor agonist,SSTR2|SSTR3|SSTR5|SSTR1
+ST27807,Somatostatin receptor agonist,SSTR1|SSTR3|SSTR5|SSTR4|SSTR2
+ST27808,Toll-like receptor antagonist,TLR4
+ST27809,Urotensin receptor antagonist,UTS2R
+ST27810,Acetylcholine receptor agonist,CHRM1|CHRM3|CHRM5|CHRM4|CHRM2
+ST27811,Acetylcholine receptor agonist,CHRM2
+ST27812,Acetylcholine receptor agonist,CHRM1
+ST27813,Acetylcholine receptor agonist,CHRM1|CHRM3
+ST27814,Acetylcholine receptor agonist,CHRNA4|CHRNB2|CHRNA2|CHRNA3|CHRNA7
+ST27815,Acetylcholine receptor agonist,CHRNA4|CHRNB2|CHRNA2|CHRNA3|CHRNA7
+ST27816,Acetylcholine receptor agonist,CHRNA2
+ST27817,Acetylcholine receptor agonist,CHRM1|DRD3|HTR2A|DRD2|HTR2C
+ST27818,Acetylcholine receptor agonist,CHRM1|CHRM4|CHRM3
+ST27819,Acetylcholine receptor agonist,CHRNA7
+ST27820,Acetylcholine receptor agonist,CHRNA9|CHRNA4|CHRNB2|CHRNA10
+ST27821,Acetylcholine receptor agonist,CHRM1|CHRM3|CHRM2
+ST27822,Acetylcholine receptor agonist,CHRNA7
+ST27823,Acetylcholine receptor agonist,CHRM1
+ST27824,Acetylcholine receptor agonist,CHRNA3|CHRNA4|CHRNB2
+ST27825,Acetylcholine receptor agonist,CHRNA4
+ST27826,Acetylcholine receptor agonist,CHRNA4
+ST27827,Acetylcholinesterase inhibitor,ACHE
+ST27828,Acetylcholinesterase inhibitor,ACHE
+ST27829,Acetylcholinesterase inhibitor,ACHE
+ST27830,Acetylcholinesterase inhibitor,ACHE
+ST27831,Acetylcholinesterase inhibitor,ACHE
+ST27832,Acetylcholinesterase inhibitor,ACHE|BCHE
+ST27833,Acetylcholinesterase inhibitor,ACHE|BCHE
+ST27834,Acetylcholinesterase inhibitor,NOS2|PTGS2
+ST27835,Acetylcholinesterase inhibitor,ACHE
+ST27836,Acetylcholinesterase inhibitor,ACHE
+ST27837,Acetylcholinesterase inhibitor,ACHE
+ST27838,Acetylcholinesterase inhibitor,ACHE
+ST27839,Acetylcholinesterase inhibitor,ACHE|BCHE
+ST27840,Acetylcholinesterase inhibitor,ACHE|BCHE
+ST27841,Acetylcholinesterase inhibitor,SLC18A3
+ST27842,Adrenergic receptor antagonist,ADRB1
+ST27843,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27844,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27845,Adrenergic receptor antagonist,HTR1A|ADRA2B|ADRA2A|HTR1B|ADRA2C|HTR1D|HTR2B
+ST27846,Adrenergic receptor antagonist,ADRA1A
+ST27847,Adrenergic receptor antagonist,ADRB1
+ST27848,Adrenergic receptor antagonist,ADRA1A|ADRA1D|ADRA1B
+ST27849,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27850,Adrenergic receptor antagonist,ADRA2B
+ST27851,Adrenergic receptor antagonist,SIGMAR1
+ST27852,Adrenergic receptor antagonist,ADRA1A
+ST27853,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27854,Adrenergic receptor antagonist,ADRB1
+ST27855,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27856,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27857,Adrenergic receptor antagonist,ADRB2|ADRB1|ADRA1D|ADRA1A|ADRB3|ADRA1B
+ST27858,Adrenergic receptor antagonist,ADRB2|ADRB1|ADRA2A
+ST27859,Adrenergic receptor antagonist,HTR1A|ADRB1
+ST27860,Adrenergic receptor antagonist,HTR1A|ADRB1
+ST27861,Adrenergic receptor antagonist,ADRA1B
+ST27862,Adrenergic receptor antagonist,ADRA1A|ADRA1D|ADRA1B
+ST27863,Adrenergic receptor antagonist,ADRB1
+ST27864,Adrenergic receptor antagonist,ADRB2
+ST27865,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27866,Adrenergic receptor antagonist,ADRA2A
+ST27867,Adrenergic receptor antagonist,ADRA2B|ADRA2A
+ST27868,Adrenergic receptor antagonist,ADRA1A|ADRA1D
+ST27869,Adrenergic receptor antagonist,ADRB1|ADRA1A|ADRA1D|ADRB2
+ST27870,Adrenergic receptor antagonist,ADRB1|ADRA1A|ADRA1D|ADRB2
+ST27871,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27872,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27873,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27874,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27875,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27876,Adrenergic receptor antagonist,ADRB1
+ST27877,Adrenergic receptor antagonist,ADRA1A
+ST27878,Adrenergic receptor antagonist,ADRA1A
+ST27879,Adrenergic receptor antagonist,ADRB1
+ST27880,Adrenergic receptor antagonist,ADRB2
+ST27881,Adrenergic receptor antagonist,ADRA2B
+ST27882,Adrenergic receptor antagonist,ADRA1A|ADRA2A
+ST27883,Adrenergic receptor antagonist,ADRA1A|ADRA2A
+ST27884,Adrenergic receptor antagonist,HTR1A|ADRB2|ADRB1
+ST27885,Adrenergic receptor antagonist,ADRB1
+ST27886,Adrenergic receptor antagonist,ADRA1D|ADRA2A|ADRA2B|ADRA2C|ADRA1A|ADRA1B
+ST27887,Adrenergic receptor antagonist,ADRB2|ADRB3
+ST27888,Adrenergic receptor antagonist,SLC6A2
+ST27889,Adrenergic receptor antagonist,SLC6A2
+ST27890,Adrenergic receptor antagonist,SLC6A2
+ST27891,Adrenergic receptor antagonist,SLC6A2
+ST27892,Adrenergic receptor antagonist,ADRA1A
+ST27893,Adrenergic receptor antagonist,ADRA1A
+ST27894,Adrenergic receptor antagonist,ADRA2A
+ST27895,Adrenergic receptor antagonist,ADRA2B|ADRA2A|ADRA2C
+ST27896,Adrenergic receptor antagonist,HTR2C|HRH1|HTR2A
+ST27897,Adrenergic receptor antagonist,ADRB2|ADRB1|KCNH2
+ST27898,Adrenergic receptor antagonist,ADRB3
+ST27899,Adrenergic receptor antagonist,ADRB1
+ST27900,Adrenergic receptor antagonist,ADRA1A|ADRA1D|ADRA1B
+ST27901,Adrenergic receptor antagonist,ADRA1A|ADRA1D|ADRA1B
+ST27902,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST27903,Adrenergic receptor antagonist,ADRA2B|ADRA2A|ADRA2C
+ST27904,Adrenergic receptor antagonist,ACSL1
+ST27905,Adrenergic receptor antagonist,HTR1A
+ST27906,Adrenergic receptor antagonist,ADRA1D|ADRA2A|ADRA2B|ADRA2C|ADRA1A|ADRA1B
+ST27907,Adrenergic receptor antagonist,HTR1A|ADRA2B|ADRA2A|HTR1B|ADRA2C|HTR1D|HTR2B
+ST27908,Adrenergic receptor antagonist,HTR1A|ADRA2B|ADRA2A|HTR1B|ADRA2C|HTR1D|HTR2B
+ST27909,Adrenergic receptor antagonist,HTR1A|ADRA2B|ADRA2A|HTR1B|ADRA2C|HTR1D|HTR2B
+ST27910,Adrenergic receptor antagonist,HTR1A|ADRA2B|ADRA2A|HTR1B|ADRA2C|HTR1D|HTR2B
+ST27911,Alkaline phosphatase inhibitor,ALPL
+ST27912,D-Amino Acid Oxidase Inhibitor,DAO
+ST27913,Dipeptidyl peptidase inhibitor,DPP4
+ST27914,Dipeptidyl peptidase inhibitor,DPP4
+ST27915,Dipeptidyl peptidase inhibitor,DPP4
+ST27916,Dipeptidyl peptidase inhibitor,DPP4
+ST27917,Dipeptidyl peptidase inhibitor,DPP4
+ST27918,Dipeptidyl peptidase inhibitor,DPP4
+ST27919,Dipeptidyl peptidase inhibitor,DPP4
+ST27920,Dipeptidyl peptidase inhibitor,DPP4
+ST27921,Dipeptidyl peptidase inhibitor,DPP4
+ST27922,Dipeptidyl peptidase inhibitor,DPP4
+ST27923,Dipeptidyl peptidase inhibitor,DPP4
+ST27924,Endothelin receptor antagonist,EDNRA|EDNRB
+ST27925,Endothelin receptor antagonist,EDNRA|EDNRB
+ST27926,Endothelin receptor antagonist,EDNRA
+ST27927,Endothelin receptor antagonist,EDNRA
+ST27928,Endothelin receptor antagonist,EDNRA|EDNRB
+ST27929,Endothelin receptor antagonist,EDNRA
+ST27930,Endothelin receptor antagonist,EDNRB
+ST27931,Endothelin receptor antagonist,EDNRA|EDNRB
+ST27932,Endothelin receptor antagonist,EDNRA
+ST27933,Endothelin receptor antagonist,EDNRA
+ST27934,Fructose biphosphate inhibitor,FBP1
+ST27935,Glycosyl transferase inhibitor,UGCG
+ST27936,Sodium/calcium exchange inhibitor|Mitochondrial Na+/Ca2+ exchanger antagonist|L-type calcium channel blocker,SLC8A1
+ST27937,Monamine transporter modulator|Ionotropic glutamate receptor antagonist,GRIN2B
+ST27938,P21 activated kinase inhibitor,PAK4
+ST27939,Platelet aggregation inhibitor,ITGA2B|ITGB3
+ST27940,Lipase clearing factor inhibitor|Platelet aggregation inhibitor,PPARA
+ST27941,Platelet aggregation inhibitor,PTGS1|PTGS2
+ST27942,Structural glycoprotein antagonist|Platelet aggregation inhibitor,ITGA2B|ITGB3
+ST27943,Prostanoid receptor antagonist,PTGS2
+ST27944,Prostanoid receptor antagonist,PTGER3
+ST27945,Prostanoid receptor antagonist,PTGS1|PTGS2
+ST27946,Prostanoid receptor antagonist,PTGER4
+ST27947,Prostanoid receptor antagonist,PTGDR
+ST27948,Prostanoid receptor antagonist,PTGDR2|PTGDR
+ST27949,Prostanoid receptor antagonist,PTGDR2|TBXA2R
+ST27950,Prostanoid receptor antagonist,PTGER1
+ST27951,Purinergic receptor antagonist,P2RX4
+ST27952,Purinergic receptor antagonist,P2RY12
+ST27953,Purinergic receptor antagonist,P2RY12
+ST27954,Calcium/calmodulin dependent protein kinase inhibitor|Purinergic receptor antagonist,P2RX7|CAMK2A
+ST27955,Purinergic receptor antagonist,P2RX1
+ST27956,Purinergic receptor antagonist,P2RY12
+ST27957,Purinergic receptor antagonist,P2RY12
+ST27958,Purinergic receptor antagonist,P2RY12
+ST27959,Smoothened receptor antagonist,SMO
+ST27960,Smoothened receptor antagonist,SMO
+ST27961,Smoothened receptor antagonist,SMO
+ST27962,Smoothened receptor antagonist,SMO|SHH
+ST27963,Smoothened receptor antagonist,SMO|SHH
+ST27964,Smoothened receptor antagonist,SMO|IHH|DHH
+ST27965,Superoxide dismutase inhibitor,SOD2|SOD1
+ST27966,T-type calcium channel blocker,CACNA1G|CACNA1C|CACNA1H|CACNA1I
+ST27967,T-type calcium channel blocker,CACNA1G|CACNA1C|CACNA1H|CACNA1I
+ST27968,T-type calcium channel blocker,CACNA1C
+ST27969,Thromboxane synthase inhibitor,TBXAS1
+ST27970,Thromboxane synthase inhibitor,TBXAS1
+ST27971,Thromboxane synthase inhibitor,TBXAS1
+ST27972,Thromboxane synthase inhibitor|Thromboxane receptor antagonist,TBXA2R
+ST27973,Thymidylate synthase inhibitor,TYMS
+ST27974,Thymidylate synthase inhibitor,TYMS
+ST27975,Thymidylate synthase inhibitor,TYMS
+ST27976,Thymidylate synthase inhibitor,TYMS
+ST27977,Thymidylate synthase inhibitor,TYMS
+ST27978,Thymidylate synthase inhibitor|Dihydrofolate reductase inhibitor,GART|DHFR|TYMS
+ST27979,Thymidylate synthase inhibitor|Dihydrofolate reductase inhibitor,GART|DHFR|TYMS
+ST27980,Thymidylate synthase inhibitor,TYMS
+ST27981,Thymidylate synthase inhibitor,TYMS
+ST27982,Thymidylate synthase inhibitor|DNA directed DNA polymerase inhibitor,TYMS
+ST27983,Thymidylate synthase inhibitor|DNA directed DNA polymerase inhibitor,TYMS
+ST27984,Thymidylate synthase inhibitor,TYMS
+ST27985,Tyrosine phosphatase inhibitor,PTPN1
+ST27986,Tyrosine phosphatase inhibitor,PTPN1|PTPN11|PTPN2
+ST27987,Tyrosine phosphatase inhibitor,PTPN1|PTPN6
+ST27988,Tyrosine phosphatase inhibitor,PTPN1
+ST27989,Acetylcholine release stimulant,MAOA|MAOB
+ST27990,Alcohol dehydrogenase inhibitor,ADH1C|ADH1B|ADH1A
+ST27991,Alcohol dehydrogenase inhibitor,ADH1C
+ST27992,Androgen biosynthesis inhibitor,CYP17A1
+ST27993,Androgen biosynthesis inhibitor,CYP17A1
+ST27994,Angiotensin receptor antagonist,AGTR1|AGTR2
+ST27995,Angiotensin receptor antagonist,AGTR1
+ST27996,Angiotensin receptor antagonist,AGTR1
+ST27997,Angiotensin receptor antagonist,AGTR1
+ST27998,Angiotensin receptor antagonist,AGTR1
+ST27999,Angiotensin receptor antagonist,AGTR1
+ST28000,Angiotensin receptor antagonist,AGTR1
+ST28001,Angiotensin receptor antagonist,AGTR1
+ST28002,Angiotensin receptor antagonist,PPARG|AGTR1
+ST28003,Angiotensin receptor antagonist,AGTR1
+ST28004,Angiotensin receptor antagonist,AGTR1
+ST28005,Angiotensin receptor antagonist,AGTR1
+ST28006,Benzodiazepine receptor agonist,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST28007,Benzodiazepine receptor agonist,GABRA1|GABRA6|GABRA5|GABRA2|GABRA4|GABRA3
+ST28008,Benzodiazepine receptor agonist,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST28009,Benzodiazepine receptor agonist,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST28010,Benzodiazepine receptor agonist,GABRA1
+ST28011,Benzodiazepine receptor agonist,TSPO
+ST28012,Benzodiazepine receptor agonist,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST28013,Benzodiazepine receptor agonist,GABRA1
+ST28014,Benzodiazepine receptor agonist,GABRA1
+ST28015,Benzodiazepine receptor agonist,GABRA1|GABRA3|GABRA2|GABRA5
+ST28016,Benzodiazepine receptor agonist,GABRA1|GABRA3|GABRA2
+ST28017,Cholinergic receptor antagonist|Butyrylcholinesterase inhibitor,CHRM1
+ST28018,Cannabinoid receptor antagonist,CNR1
+ST28019,Cannabinoid receptor antagonist,CNR1
+ST28020,Cannabinoid receptor antagonist,CNR2|CNR1
+ST28021,Cannabinoid receptor antagonist,CNR1
+ST28022,Cannabinoid receptor antagonist,CNR1
+ST28023,Cannabinoid receptor antagonist,CNR1
+ST28024,Cannabinoid receptor antagonist,CNR1
+ST28025,Cholinergic receptor antagonist,CHRM1
+ST28026,Cholinergic receptor antagonist,CHRM1
+ST28027,Cholinergic receptor antagonist,CHRM1
+ST28028,DNA methyltransferase inhibitor,DNMT1
+ST28029,DNA methyltransferase inhibitor,DNMT1
+ST28030,DNA methyltransferase inhibitor,DNMT1
+ST28031,Histone lysine methyltransferase inhibitor|DNA methyltransferase inhibitor,EHMT2
+ST28032,DNA methyltransferase inhibitor,DNMT1
+ST28033,DNA methyltransferase inhibitor,DNMT1
+ST28034,DNA methyltransferase inhibitor,DNMT1|DNMT3B|DNMT3A
+ST28035,DNA methyltransferase inhibitor,DNMT1|CDA
+ST28036,DNA methyltransferase inhibitor,DNMT1|CDA
+ST28037,Delta 1 opioid receptor agonist,OPRD1
+ST28038,Delta 1 opioid receptor agonist,OPRD1
+ST28039,Focal adhesion kinase inhibitor,PTK2
+ST28040,Focal adhesion kinase inhibitor,PTK2|PTK2B
+ST28041,GABA aminotransferase activator,ABAT
+ST28042,GABA aminotransferase inhibitor,ABAT
+ST28043,Glucocorticoid receptor agonist,NR3C1
+ST28044,Glucocorticoid receptor agonist,NR3C1
+ST28045,Glucocorticoid receptor agonist,NR3C1
+ST28046,Glucocorticoid receptor agonist,NR3C1
+ST28047,Glucocorticoid receptor agonist,NR3C1
+ST28048,Glucocorticoid receptor agonist,NR3C1
+ST28049,Glucocorticoid receptor agonist,NR3C1
+ST28050,Glucocorticoid receptor agonist,NR3C1
+ST28051,Glucocorticoid receptor agonist,NR3C1
+ST28052,Glucocorticoid receptor agonist,NR3C1
+ST28053,Glucocorticoid receptor agonist,NR3C1
+ST28054,Glucocorticoid receptor agonist,NR3C1
+ST28055,Glucocorticoid receptor agonist,NR3C1
+ST28056,Glucocorticoid receptor agonist,NR3C1
+ST28057,Glucocorticoid receptor agonist,NR3C1
+ST28058,Glucocorticoid receptor agonist,NR3C1
+ST28059,Glucocorticoid receptor agonist,NR3C1
+ST28060,Glucocorticoid receptor agonist,NR3C1
+ST28061,Glucocorticoid receptor agonist,NR3C1
+ST28062,Glucocorticoid receptor agonist,NR3C1
+ST28063,Glucocorticoid receptor agonist,NR3C1
+ST28064,Glucocorticoid receptor agonist,NR3C1
+ST28065,Glucocorticoid receptor agonist,NR3C1
+ST28066,Glucocorticoid receptor agonist,NR3C1
+ST28067,Glucocorticoid receptor agonist,NR3C1
+ST28068,Glucocorticoid receptor agonist,NR3C1
+ST28069,Glucocorticoid receptor agonist,NR3C1
+ST28070,Glucocorticoid receptor agonist,NR3C1
+ST28071,Glucocorticoid receptor agonist,NR3C1
+ST28072,Glucocorticoid receptor agonist,NR3C1
+ST28073,Glucocorticoid receptor agonist,NR3C1
+ST28074,Glucocorticoid receptor agonist,NR3C1
+ST28075,Glucocorticoid receptor agonist,NR3C1
+ST28076,Glucocorticoid receptor agonist,NR3C1
+ST28077,Glucocorticoid receptor agonist,NR3C1
+ST28078,Glucocorticoid receptor agonist,NR3C1
+ST28079,Glucocorticoid receptor agonist,NR3C1
+ST28080,Mineralocorticoid receptor agonist|Glucocorticoid receptor agonist,NR3C2
+ST28081,Glucocorticoid receptor agonist,NR3C1
+ST28082,Glucocorticoid receptor agonist,NR3C1|PGR
+ST28083,Glucocorticoid receptor agonist,NR3C1|PGR
+ST28084,Glucocorticoid receptor agonist,NR3C1|PGR
+ST28085,Glucocorticoid receptor agonist,NR3C1|PGR
+ST28086,Glucocorticoid receptor agonist,NR3C1
+ST28087,Glucocorticoid receptor agonist,NR3C1
+ST28088,Glucocorticoid receptor agonist,NR3C1
+ST28089,Glucocorticoid receptor agonist,NR3C1
+ST28090,Glucocorticoid receptor agonist,NR3C1
+ST28091,Glucocorticoid receptor agonist,NR3C1
+ST28092,Glucocorticoid receptor agonist,NR3C1
+ST28093,Glucocorticoid receptor agonist,NR3C1
+ST28094,Glucocorticoid receptor agonist,NR3C1
+ST28095,Glucocorticoid receptor agonist,NR3C1
+ST28096,Glucocorticoid receptor agonist,NR3C1
+ST28097,Glucocorticoid receptor agonist,NR3C1
+ST28098,Glucocorticoid receptor agonist,NR3C1
+ST28099,Glucocorticoid receptor agonist,NR3C1
+ST28100,Glucocorticoid receptor agonist,NR3C1
+ST28101,Glucocorticoid receptor agonist,NR3C1
+ST28102,Glucocorticoid receptor agonist,NR3C1
+ST28103,Glucocorticoid receptor agonist,SLC12A1|SLC12A2
+ST28104,Glucocorticoid receptor agonist,NR3C1
+ST28105,Glucocorticoid receptor agonist,NR3C1
+ST28106,Glucocorticoid receptor agonist,NR3C1
+ST28107,Glucocorticoid receptor agonist,NR3C1
+ST28108,Glucocorticoid receptor agonist,NR3C1
+ST28109,Glucocorticoid receptor agonist,NR3C1
+ST28110,Glucocorticoid receptor agonist,NR3C1
+ST28111,Glucocorticoid receptor agonist,NR3C1
+ST28112,Glucocorticoid receptor agonist,NR3C1
+ST28113,Glucocorticoid receptor agonist,NR3C1
+ST28114,Glucocorticoid receptor agonist,NR3C1
+ST28115,Glucocorticoid receptor agonist,NR3C1
+ST28116,Interleukin synthesis inhibitor,IL12A
+ST28117,Leukotriene receptor antagonist,CYSLTR1
+ST28118,Leukotriene receptor antagonist,CYSLTR1
+ST28119,Leukotriene receptor antagonist,CYSLTR1
+ST28120,Leukotriene receptor antagonist,CYSLTR2|CYSLTR1
+ST28121,Leukotriene receptor antagonist,CYSLTR1
+ST28122,Leukotriene receptor antagonist,CYSLTR1
+ST28123,Leukotriene receptor antagonist,CYSLTR1
+ST28124,Membrane permeability inhibitor,GABRQ|GLRB|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GLRA1|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST28125,Membrane permeability inhibitor,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GLRA1|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST28126,Nitric oxide synthase inhibitor,NOS2
+ST28127,Nitric oxide synthase inhibitor,NOS2
+ST28128,Dimethylarginine dimethylaminohydrolase inhibitor|Nitric oxide synthase inhibitor,NOS2|NOS3
+ST28129,Nitric oxide synthase inhibitor,NOS2|NOS3
+ST28130,Nitric oxide synthase inhibitor,NOS1
+ST28131,Plasminogen activator inhibitor,PLG|PLAT
+ST28132,Polar auxin transport inhibitor,PIK3CG
+ST28133,Reverse transcriptase inhibitor,CYP3A5|CYP2A6|CYP2D6|CYP2B6|CYP2C9|CYP3A4|CYP1A2
+ST28134,Rho associated kinase inhibitor,ROCK2|ROCK1
+ST28135,Rho associated kinase inhibitor,ROCK1
+ST28136,Rho associated kinase inhibitor,ROCK1
+ST28137,Rho associated kinase inhibitor,ROCK2|ROCK1
+ST28138,Rho associated kinase inhibitor,ROCK2|ROCK1
+ST28139,Rho associated kinase inhibitor,ROCK2|ROCK1
+ST28140,Rho associated kinase inhibitor,ROCK2|ROCK1
+ST28141,Rho associated kinase inhibitor,ROCK2|ROCK1
+ST28142,Steroidogenic factor antagonist,NR5A1
+ST28143,Steroidogenic factor antagonist,NR5A1
+ST28144,Thrombopoietin receptor agonist,MPL
+ST28145,Thromboxane receptor antagonist,TBXA2R
+ST28146,Thromboxane receptor antagonist,TBXA2R
+ST28147,Electrolyte reabsorption inhibitor|Thromboxane receptor antagonist,SLC12A1
+ST28148,Tripeptidyl peptidase inhibitor,TPP2
+ST28149,Vasopressin receptor antagonist,AVPR1A|AVPR2
+ST28150,Vasopressin receptor antagonist,AVPR1A|AVPR1B|AVPR2
+ST28151,Vasopressin receptor antagonist,AVPR1A
+ST28152,Vasopressin receptor antagonist,AVPR1A|AVPR2
+ST28153,Free fatty acid receptor agonist|G protein-coupled receptor agonist,FFAR1|FFAR4
+ST28154,Glycogen phosphorylase inhibitor,PYGL
+ST28155,Growth factor receptor activator,NTRK2
+ST28156,Growth factor receptor activator,HTR1A|HTR1B|HTR3A|HTR2A|HTR1D|HTR4|HTR6|HTR2B|HTR7|HTR3B|HTR5A|HTR2C
+ST28157,Growth factor receptor activator,HTR1A|HTR1B|HTR3A|HTR2A|HTR1D|HTR4|HTR6|HTR2B|HTR7|HTR3B|HTR5A|HTR2C
+ST28158,Growth factor receptor activator,HTR1A|HTR1B|HTR3A|HTR2A|HTR1D|HTR4|HTR6|HTR2B|HTR7|HTR3B|HTR5A|HTR2C
+ST28159,Growth factor receptor activator,HTR1A|HTR1B|HTR3A|HTR2A|HTR1D|HTR4|HTR6|HTR2B|HTR7|HTR3B|HTR5A|HTR2C
+ST28160,Growth factor receptor inhibitor,NTRK1
+ST28161,Lipase clearing factor inhibitor,LPL
+ST28162,Matrix metalloprotease inhibitor,MMP1|MMP7|MMP2
+ST28163,Matrix metalloprotease inhibitor,MMP1
+ST28164,Neuropeptide receptor antagonist,NPBWR1
+ST28165,Neuropeptide receptor antagonist,NPSR1
+ST28166,Neuropeptide receptor antagonist,NPSR1
+ST28167,Neuropeptide receptor antagonist,NPY5R
+ST28168,Neuropeptide receptor antagonist,NPY5R
+ST28169,Neuropeptide receptor antagonist,NPY5R
+ST28170,Neuropeptide receptor antagonist,NPY1R
+ST28171,Progesterone receptor antagonist,ESR1|AR|PGR
+ST28172,Progesterone receptor antagonist,ESR1|AR|PGR
+ST28173,Progesterone receptor antagonist,ESR1|AR|PGR
+ST28174,Progesterone receptor antagonist|Glucocorticoid receptor antagonist,NR3C1|AR|PGR
+ST28175,Progesterone receptor antagonist|Glucocorticoid receptor antagonist,NR3C1|AR|PGR
+ST28176,Progesterone receptor antagonist|Glucocorticoid receptor antagonist,NR3C1|AR|PGR
+ST28177,Progesterone receptor antagonist,PGR
+ST28178,Pyruvate dehydrogenase inhibitor,PDHA1
+ST28179,Thyroid hormone receptor agonist,THRB|THRA
+ST28180,3-ketoacyl CoA thiolase inhibitor,ACAA2
+ST28181,Acetylcholine receptor antagonist,CHRM1|CHRM2
+ST28182,Acetylcholine receptor antagonist,CHRM1|CHRM3|CHRM2
+ST28183,Acetylcholine receptor antagonist,CHRNA1
+ST28184,Acetylcholine receptor antagonist,CHRM1
+ST28185,Acetylcholine receptor antagonist,CHRM2
+ST28186,Acetylcholine receptor antagonist,CHRM1|CHRM3|CHRM5|CHRM4|CHRM2
+ST28187,Acetylcholine receptor antagonist,CHRM1|CHRM3|CHRM5|CHRM4|CHRM2
+ST28188,Acetylcholine receptor antagonist,CHRM1|CHRM3|CHRM5|CHRM4|CHRM2
+ST28189,Acetylcholine receptor antagonist,CHRM1
+ST28190,Acetylcholine receptor antagonist,CHRM1
+ST28191,Acetylcholine receptor antagonist,CHRM1
+ST28192,Acetylcholine receptor antagonist,CHRM1
+ST28193,Acetylcholine receptor antagonist,CHRM1|CHRM4|CHRM3|CHRM2
+ST28194,Acetylcholine receptor antagonist,CHRM1
+ST28195,Acetylcholine receptor antagonist,CYP2C19
+ST28196,Acetylcholine receptor antagonist,CHRM1
+ST28197,Acetylcholine receptor antagonist,CHRM1|CHRM3|CHRM5|CHRM4|CHRM2
+ST28198,Acetylcholine receptor antagonist,CHRM3
+ST28199,Acetylcholine receptor antagonist,CHRNA7
+ST28200,Acetylcholine receptor antagonist,CHRM1|CHRM2
+ST28201,Acetylcholine receptor antagonist,CHRM3
+ST28202,Acetylcholine receptor antagonist,CHRM1|CHRM3|CHRM2
+ST28203,Acetylcholine receptor antagonist,CHRM1
+ST28204,Acetylcholine receptor antagonist,CHRM1
+ST28205,Acetylcholine receptor antagonist,CHRM1
+ST28206,Acetylcholine receptor antagonist,CHRM5
+ST28207,Acetylcholine receptor antagonist,CHRM1|CHRM4|CHRM3|CHRM2
+ST28208,Acetylcholine receptor antagonist,CHRM1|CHRM4|CHRM3|CHRM2
+ST28209,Acetylcholine receptor antagonist,CHRM1|CHRM4|CHRM3|CHRM2
+ST28210,Acetylcholine receptor antagonist,CHRM1|CHRM4|CHRM3|CHRM2
+ST28211,Acetylcholine receptor antagonist,CHRM3
+ST28212,Acetylcholine receptor antagonist,SLC18A2
+ST28213,Acetylcholine receptor antagonist,CHRM1
+ST28214,Acetylcholine receptor antagonist,CHRNA2
+ST28215,Acetylcholine receptor antagonist,CHRM1|CHRM3|CHRM2
+ST28216,Acetylcholine receptor antagonist,CHRNA7
+ST28217,Acetylcholine receptor antagonist,CHRM5
+ST28218,Acetylcholine receptor antagonist,CACNA1C
+ST28219,Acetylcholine receptor antagonist,CHRM1|CHRM3|CHRM2
+ST28220,Acetylcholine receptor antagonist,CHRM4
+ST28221,Acetylcholine receptor antagonist,CHRM1
+ST28222,Acetylcholine receptor antagonist,CHRM1
+ST28223,Acetylcholine receptor antagonist,CHRM1
+ST28224,Acetylcholine receptor antagonist,CHRNA2
+ST28225,Acetylcholine receptor antagonist,CHRM1|CHRM4|CHRM3|CHRM2
+ST28226,Acetylcholine receptor antagonist,CHRM1|CHRM4|CHRM3|CHRM2
+ST28227,Acetylcholine receptor antagonist,CHRM1|CHRM4|CHRM3|CHRM2
+ST28228,Acetylcholine receptor antagonist,CHRM1|CHRM4|CHRM3|CHRM2
+ST28229,Acetylcholine receptor antagonist,CHRM1|CHRM3|CHRM2
+ST28230,Acetylcholine receptor antagonist,CHRM1|CHRM3|CHRM2
+ST28231,Acetylcholine receptor antagonist,GLRA1
+ST28232,Acetylcholine receptor antagonist,CHRM1
+ST28233,Acetylcholine receptor antagonist,CHRM3
+ST28234,Acetylcholine receptor antagonist,CHRM1|CHRM4|CHRM3|CHRM2
+ST28235,Acetylcholine receptor antagonist,CHRM1
+ST28236,Acetylcholine receptor antagonist,CHRM4|CHRM3
+ST28237,Acetylcholine receptor antagonist,CHRNA2|HTR3A
+ST28238,Acetylcholine receptor antagonist,CHRNA2|HTR3A
+ST28239,Acetylcholine receptor antagonist,CHRM1|CHRM3
+ST28240,Acetylcholine receptor antagonist,CHRNA2
+ST28241,Acetylcholine receptor antagonist,CHRNA2
+ST28242,Acetylcholine receptor antagonist,CHRNA2
+ST28243,Acetylcholine receptor antagonist,CHRM3
+ST28244,Aryl hydrocarbon receptor agonist,AHR
+ST28245,Dihydrofolate reductase inhibitor,DHFR
+ST28246,Dihydrofolate reductase inhibitor,DHFR
+ST28247,Dihydrofolate reductase inhibitor,DHFR
+ST28248,Dopamine receptor partial agonist,HTR1A|HTR2A|DRD2
+ST28249,Lysophospholipid receptor agonist,S1PR4
+ST28250,Lysophospholipid receptor agonist,S1PR3
+ST28251,Lysophospholipid receptor agonist,S1PR3
+ST28252,Lysophospholipid receptor agonist,S1PR3
+ST28253,Lysophospholipid receptor agonist,S1PR1
+ST28254,Mitochondrial complex I inhibitor,ND1
+ST28255,Nitric oxide production inhibitor,MAOB
+ST28256,Norepinephrine reputake inhibitor,DRD3|SLC6A2|HTR2A|DRD1|DRD4|DRD2|HTR6|SLC6A4
+ST28257,Norepinephrine reuptake inhibitor,SLC6A2
+ST28258,Ornithine decarboxylase inhibitor,ODC1
+ST28259,Protein tyrosine kinase activator,PRKCA
+ST28260,Protein tyrosine kinase inhibitor,ABL1|EGFR
+ST28261,Protein tyrosine kinase inhibitor,EGFR
+ST28262,Pyruvate kinase isozyme activator,PKM
+ST28263,Pyruvate kinase isozyme activator,PKM
+ST28264,Secretory phospholipase inhibitor,PLA2G2A
+ST28265,Serine/threonine kinase inhibitor,ACVR1|BMPR1A
+ST28266,Sodium/calcium exchange inhibitor,SLC8A1
+ST28267,Stearoyl-CoA desaturase inhibitor,SCD
+ST28268,Thymidine phosphorylase inhibitor,TYMP
+ST28269,Benzodiazepine receptor antagonist,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST28270,Benzodiazepine receptor antagonist,TSPO
+ST28271,Benzodiazepine receptor antagonist,GABRA1
+ST28272,Bone morphogenic protein inhibitor,ABL1|ACVR1|RIPK2
+ST28273,G protein-coupled receptor agonist,GPBAR1
+ST28274,Glucocorticoid receptor antagonist,CYP19A1|CYP11A1
+ST28275,Isocitrate dehydrogenase inhibitor,IDH1
+ST28276,Isocitrate dehydrogenase inhibitor,IDH2
+ST28277,Isocitrate dehydrogenase inhibitor,ACO1|IDH1
+ST28278,Mineralocorticoid receptor agonist,NR3C2
+ST28279,Mineralocorticoid receptor agonist,NR3C2
+ST28280,Ribonucleoside reductase inhibitor,RRM1|POLA1|RRM2
+ST28281,Ribonucleoside reductase inhibitor,RRM1|POLA1|RRM2
+ST28282,Ribonucleoside reductase inhibitor,RRM1|RRM2
+ST28283,Ribonucleotide reductase inhibitor,POLB|POLA1
+ST28284,Ribonucleotide reductase inhibitor,POLB|POLA1
+ST28285,Ribonucleotide reductase inhibitor,POLB|POLA1
+ST28286,Ribonucleotide reductase inhibitor,RRM1
+ST28287,Ribonucleotide reductase inhibitor,RRM1
+ST28288,Serotonin receptor inverse agonist,HTR2A
+ST28289,Serotonin receptor partial agonist,HTR3A
+ST28290,Serotonin receptor partial agonist,HTR4
+ST28291,Serotonin receptor partial agonist,HTR4
+ST28292,Serotonin receptor partial agonist,HTR4|HTR2B
+ST28293,Sodium/hydrogen antiport inhibitor,SLC9A1|GNRHR
+ST28294,Structural glycoprotein antagonist,ITGA2B|ITGB3
+ST28295,Dopamine beta hydroxylase inhibitor,DBH
+ST28296,GLCNAC phosphotransferase inhibitor,GNPTAB
+ST28297,GLCNAC phosphotransferase inhibitor,GNPTAB
+ST28298,Methionine aminopeptidase inhibitor,METAP2
+ST28299,Myosin light chain kinase inhibitor,MYLK
+ST28300,Cannabinoid receptor inverse agonist,CNR2
+ST28301,Cannabinoid receptor inverse agonist,CNR2
+ST28302,Cannabinoid receptor inverse agonist,CNR2
+ST28303,Cannabinoid receptor inverse agonist,CNR1
+ST28304,Cannabinoid receptor partial agonist,CNR2|CNR1
+ST28305,Dihydropteroate synthetase inhibitor,DHPS
+ST28306,G protein-coupled receptor modulator,CHRM1|DRD2|CHRM2|DRD1
+ST28307,Histone lysine demethylase inhibitor,KDM6B|KDM6A
+ST28308,Histone lysine demethylase inhibitor,KDM1A
+ST28309,Leucine rich repeat kinase inhibitor,LRRK2
+ST28310,Lysophospholipid receptor antagonist,S1PR2
+ST28311,Norepinephrine transporter inhibitor,SLC6A3|SLC6A2|SLC6A4
+ST28312,Norepinephrine transporter inhibitor,MAOA|MAOB
+ST28313,Penicillin binding protein inhibitor,CYP2C19|SLC15A1|SLC15A2|SLC22A6
+ST28314,Voltage-gated sodium channel blocker,SCN5A
+ST28315,Voltage-gated sodium channel blocker,SCN1A|SCN9A|SCN3A
+ST28316,Voltage-gated sodium channel blocker,CYP2C19|CYP2D6
+ST28317,Catecholamine depleting sympatholytic,SLC18A1|SLC18A2
+ST28318,Hemozoin biocrystallization inhibitor,KCNN4
+ST28319,Hemozoin biocrystallization inhibitor,KCNN4
+ST28320,Hemozoin biocrystallization inhibitor,KCNN4
+ST28321,"Indoleamine 2,3-dioxygenase inhibitor",IDO1
+ST28322,Mineralocorticoid receptor antagonist,NR3C2
+ST28323,Mineralocorticoid receptor antagonist,NR3C2
+ST28324,Mineralocorticoid receptor antagonist,NR3C2|PGR
+ST28325,Mineralocorticoid receptor antagonist,NR3C2|PGR
+ST28326,Mineralocorticoid receptor antagonist,NR3C2
+ST28327,Mineralocorticoid receptor antagonist,NR3C2
+ST28328,Mineralocorticoid receptor antagonist,NR3C2
+ST28329,Mineralocorticoid receptor antagonist,NR3C2
+ST28330,Mineralocorticoid receptor antagonist,NR3C2
+ST28331,Phenylalanine 4-hydroxylase stimulant,TH|PAH
+ST28332,Selective estrogen receptor modulator,ESR1
+ST28333,Selective serotonin reuptake enhancer,OPRD1|OPRM1|OPRK1|SLC6A4
+ST28334,Ubiquitin specific protease inhibitor,SENP2|USP2|USP7|USP1
+ST28335,Ubiquitin specific protease inhibitor,SENP2|USP2|USP7|USP1
+ST28336,Carbamoyl phosphate synthase activator,CPS1
+ST28337,Catechol O methyltransferase inhibitor,COMT
+ST28338,Catechol O methyltransferase inhibitor,BCL2L1
+ST28339,Catechol O methyltransferase inhibitor,COMT
+ST28340,DNA dependent protein kinase inhibitor,PRKDC
+ST28341,Dihydroorotate dehydrogenase inhibitor,DHODH
+ST28342,Dihydroorotate dehydrogenase inhibitor,IL17A|DHODH
+ST28343,Dihydroorotate dehydrogenase inhibitor,DHODH
+ST28344,Kinesin-like spindle protein inhibitor,KIF11
+ST28345,Selective serotonin reuptake inhibitor,SLC6A4
+ST28346,Selective serotonin reuptake inhibitor,SLC6A4
+ST28347,Selective serotonin reuptake inhibitor,SLC6A4
+ST28348,Selective serotonin reuptake inhibitor,SLC6A4
+ST28349,Selective serotonin reuptake inhibitor,SLC6A4
+ST28350,Selective serotonin reuptake inhibitor,SLC6A4
+ST28351,Sodium/glucose cotransporter inhibitor,SLC5A2|SLC5A1
+ST28352,Sodium/glucose cotransporter inhibitor,SLC5A2
+ST28353,Sodium/glucose cotransporter inhibitor,SLC5A2
+ST28354,Sodium/glucose cotransporter inhibitor,SLC5A2
+ST28355,Sodium/glucose cotransporter inhibitor,SLC5A2|SLC5A1
+ST28356,Sodium/glucose cotransporter inhibitor,SLC5A2|SLC5A1
+ST28357,Solute carrier family member inhibitor,SLC12A1|SLC12A2
+ST28358,Ubiquitin-conjugating enzyme inhibitor,UBE2N
+ST28359,Angiotensin converting enzyme inhibitor,ACE
+ST28360,Angiotensin converting enzyme inhibitor,ACE
+ST28361,Angiotensin converting enzyme inhibitor,ACE
+ST28362,Angiotensin converting enzyme inhibitor,ACE
+ST28363,Angiotensin converting enzyme inhibitor,ACE
+ST28364,Angiotensin converting enzyme inhibitor,SLC18A2
+ST28365,Angiotensin converting enzyme inhibitor,ACE
+ST28366,Angiotensin converting enzyme inhibitor,ACE
+ST28367,Angiotensin converting enzyme inhibitor,ACE
+ST28368,Angiotensin converting enzyme inhibitor,ACE
+ST28369,Angiotensin converting enzyme inhibitor,ACE
+ST28370,Angiotensin converting enzyme inhibitor,ACE
+ST28371,Angiotensin converting enzyme inhibitor,ACE
+ST28372,Angiotensin converting enzyme inhibitor,ACE
+ST28373,Angiotensin converting enzyme inhibitor,ACE
+ST28374,Angiotensin converting enzyme inhibitor,ACE
+ST28375,Angiotensin converting enzyme inhibitor,ACE
+ST28376,Angiotensin converting enzyme inhibitor,ACE
+ST28377,Angiotensin converting enzyme inhibitor,ACE
+ST28378,Angiotensin converting enzyme inhibitor,ACE
+ST28379,Angiotensin converting enzyme inhibitor,ACE
+ST28380,Angiotensin converting enzyme inhibitor,ACE
+ST28381,Angiotensin converting enzyme inhibitor,ACE
+ST28382,Angiotensin converting enzyme inhibitor,ACE
+ST28383,Bacterial cell wall synthesis inhibitor,IDE
+ST28384,Bacterial cell wall synthesis inhibitor,SLC15A1|SLC22A8|SLC15A2|SLC22A6
+ST28385,Bacterial cell wall synthesis inhibitor,SLC15A1|SLC22A8|SLC15A2|SLC22A6
+ST28386,Bacterial cell wall synthesis inhibitor,CYP1A2|CYP3A4|SLC22A6
+ST28387,Histamine N-methyltransferase inhibitor,HNMT
+ST28388,Hydroxycarboxylic acid receptor agonist,HCAR3
+ST28389,Membrane metalloendopeptidase inhibitor,MME
+ST28390,Pyruvate dehydrogenase kinase inhibitor,PDPK1|PDK1
+ST28391,Pyruvate dehydrogenase kinase inhibitor,PDPK1|PDK1
+ST28392,Trace amine associated receptor agonist,TAAR1
+ST28393,Tumor necrosis factor release inhibitor,TNF
+ST28394,Tumor necrosis factor release inhibitor,TNF
+ST28395,Aspartate carbamoyltransferase inhibitor,CAD
+ST28396,Carnitine palmitoyltransferase inhibitor,CPT1A
+ST28397,Carnitine palmitoyltransferase inhibitor,CPT1A
+ST28398,Carnitine palmitoyltransferase inhibitor,CPT1A
+ST28399,Carnitine palmitoyltransferase inhibitor,CPT2|CPT1A
+ST28400,Ionotropic glutamate receptor antagonist,GRIN2B
+ST28401,Kelch-like ECH-associated protein ligand,KEAP1
+ST28402,Kelch-like ECH-associated protein ligand,KEAP1
+ST28403,Phosphatidylglycerophosphatase inhibitor,PTPMT1
+ST28404,Bacterial 30S ribosomal subunit inhibitor,KCNN4
+ST28405,Bacterial 50S ribosomal subunit inhibitor,ALB|KCNH2|MLNR|CYP51A1|CYP3A4|ABCB1|SLC47A1
+ST28406,Bacterial 50S ribosomal subunit inhibitor,MAOA|MAOB
+ST28407,Dihydropyrimidine dehydrogenase inhibitor,DPYD
+ST28408,GABA benzodiazepine site receptor agonist,GABRQ|GABRA1|GABRB1|GABRE|GABRA6|GABRB3|GABRG1|GABRG2|GABRA5|GABRB2|GABRA2|GABRP|GABRA4|GABRD|GABRA3|GABRG3
+ST28409,Lysophosphatidic acid receptor antagonist,LPAR1|LPAR3
+ST28410,Tumor necrosis factor receptor antagonist,TLR4
+ST28411,Vesicular monoamine transporter inhibitor,SLC18A1|SLC18A2
+ST28412,Vesicular monoamine transporter inhibitor,SLC18A1|SLC18A2
+ST28413,Vesicular monoamine transporter inhibitor,SLC18A1|SLC18A2
+ST28414,Vesicular monoamine transporter inhibitor,SLC18A2
+ST28415,Vesicular monoamine transporter inhibitor,SLC18A2
+ST28416,Vesicular monoamine transporter inhibitor,SLC18A2
+ST28417,Breast cancer resistance protein inhibitor,ABCG2
+ST28418,Diacylglycerol O acyltransferase inhibitor,DGAT1
+ST28419,Dopamine-norepinephrine reuptake inhibitor,SLC6A3|SLC6A2
+ST28420,Histone lysine methyltransferase inhibitor,EHMT2
+ST28421,Histone lysine methyltransferase inhibitor,SUV39H1
+ST28422,Histone lysine methyltransferase inhibitor,CDK4
+ST28423,Histone lysine methyltransferase inhibitor,EHMT2
+ST28424,Importin-beta transport receptor inhibitor,KPNB1
+ST28425,Nucleoside reverse transcriptase inhibitor,PNP
+ST28426,Receptor tyrosine protein kinase inhibitor,EGFR|ERBB2
+ST28427,Receptor tyrosine protein kinase inhibitor,ERBB2
+ST28428,Acetylcholine receptor allosteric modulator,CHRNA7
+ST28429,Cholesterylester transfer protein inhibitor,CETP
+ST28430,Excitatory amino acid transporter inhibitor,SLC1A2|SLC1A3|SLC1A1
+ST28431,Glucose 6-phosphate dehydrogenase inhibitor,G6PD
+ST28432,Hepatocyte growth factor receptor inhibitor,MET
+ST28433,Hydroxyphenylpyruvate dioxygenase inhibitor,HPD
+ST28434,Runt-related transcription factor inhibitor,RUNX1
+ST28435,Cholesteryl ester transfer protein inhibitor,CETP
+ST28436,Cholesteryl ester transfer protein inhibitor,CETP
+ST28437,Growth hormone secretagogue receptor agonist,GHSR
+ST28438,"Mitochondrial ADP, ATP translocase inhibitor",SLC25A4
+ST28439,Aromatic L-amino acid decarboxylase inhibitor,DDC
+ST28440,Aromatic L-amino acid decarboxylase inhibitor,DDC
+ST28441,Inhibitor of translocation of PKCq in T cells,PRKCQ
+ST28442,Luteinizing hormone releasing hormone agonist,GNRHR
+ST28443,Enoyl-acyl-carrier protein reductase inhibitor,DNMT1
+ST28444,Non-nucleoside reverse transcriptase inhibitor,CYP3A5|CYP3A4
+ST28445,Non-nucleoside reverse transcriptase inhibitor,CYP3A4
+ST28446,Non-nucleoside reverse transcriptase inhibitor,CYP2C19|CYP2C9|CYP3A4
+ST28447,Platelet activating factor receptor antagonist,PTAFR
+ST28448,Platelet activating factor receptor antagonist,PTAFR
+ST28449,Platelet activating factor receptor antagonist,PTAFR
+ST28450,Thyrotropin releasing hormone receptor agonist,TRHR
+ST28451,Thyrotropin releasing hormone receptor agonist,TRHR
+ST28452,Growth hormone releasing peptide ligand agonist,GHSR
+ST28453,Niacinamide phosphoribosyltransferase inhibitor,NAMPT
+ST28454,Serum/glucocorticoid regulated kinase inhibitor,SGK1
+ST28455,Sodium/potassium/chloride transporter inhibitor,SLC12A3
+ST28456,Sodium/potassium/chloride transporter inhibitor,SLC12A1
+ST28457,Sodium/potassium/chloride transporter inhibitor,SLC12A1
+ST28458,Sodium/potassium/chloride transporter inhibitor,CYP2C9|SLC12A1
+ST28459,Glutamate receptor negative allosteric modulator,GRM5
+ST28460,GABA benzodiazepine site receptor inverse agonist,GABRA1|GABRA3|GABRA2|GABRA5
+ST28461,GABA benzodiazepine site receptor partial agonist,GABRA1|GABRA3|GABRA2|GABRA5
+ST28462,Glucose dependent insulinotropic receptor agonist,GPR119
+ST28463,Neural Wiskott-Aldrich syndrome protein inhibitor,WASL
+ST28464,Eukaryotic translation initiation factor inhibitor,EIF2S1
+ST28465,Intermediate conductance potassium channel blocker,KCNN4
+ST28466,Microsomal trigylceride transfer protein inhibitor,MTTP
+ST28467,3beta-hydroxy-delta5-steroid dehydrogenase inhibitor,HSD3B2|ESR1|ESR2
+ST28468,NADH-ubiquinone oxidoreductase (Complex I) inhibitor,AKT1
+ST28469,Thyroid-stimulating hormone receptor inverse agonist,TSHR
+ST28470,Calcium/calmodulin dependent protein kinase inhibitor,CAMK2A
+ST28471,Calcium/calmodulin dependent protein kinase inhibitor,CAMK2A
+ST28472,Gonadotropin releasing factor hormone receptor agonist,GNRHR
+ST28473,Gonadotropin releasing factor hormone receptor agonist,GNRHR
+ST28474,Gonadotropin releasing factor hormone receptor antagonist,GNRHR
+ST28475,"Precursor for food preservatives, plasticizers and medicinal compounds",RAB9A
+ST315,GSK-3 inhibitor|CDK inhibitor,GSK3A|CDK1|CDK5
+ST372,Tyrosine kinase inhibitor|EGFR inhibitor,EGFR
+ST426,Prostanoid receptor agonist,PTGER1|PTGER2
+ST487,Tyrosine kinase inhibitor|EGFR inhibitor,EGFR
+ST493,EGFR inhibitor,ERBB2
+ST595,CAR agonist,NR1I3
+ST596,CAR agonist,NR1I3
+ST597,ALK inhibitor,ACVR1
+ST598,Akt inhibitor,AKT2|AKT1|AKT3
+ST599,Fibroblast growth factor inhibitor|VEGFR inhibitor|Akt inhibitor|MTOR inhibitor,MTOR
+ST600,BCL inhibitor,BCL2
+ST601,BTK inhibitor,BTK
+ST602,CHK inhibitor|PKC inhibitor|CDK inhibitor,PDPK1|CDK4|CHEK2|CHEK1|PRKCA|CDK1
+ST603,CDK inhibitor,CDK1
+ST604,HSP inhibitor,HSP90AA1
+ST605,ITK inhibitor,ITK
+ST606,Mediator release inhibitor|EGFR inhibitor|JAK inhibitor|Leukotriene inhibitor,JAK3
+ST607,FLT3 inhibitor|RET tyrosine kinase inhibitor|KIT inhibitor|PDGFR inhibitor|VEGFR inhibitor,PDGFRB|FLT4|RET|FLT3|PDGFRA|KIT|FLT1|KDR
+ST608,MDM inhibitor,MDM2
+ST609,MDM inhibitor,MDM2
+ST610,MDM inhibitor,MDM2
+ST611,MEK inhibitor,MAP2K1
+ST612,PKC inhibitor,PRKCB
+ST613,AMPK activator,PRKAA1
+ST614,AMPK activator,PTPN1
+ST615,EGFR inhibitor,EGFR
+ST616,HDAC inhibitor,HDAC3
+ST617,HDAC inhibitor,HDAC1
+ST618,HDAC inhibitor,HDAC6
+ST619,HDAC inhibitor,MDM2|HDAC1
+ST620,HDAC inhibitor,HDAC2|HDAC1
+ST621,PI3K inhibitor|MTOR inhibitor,PIK3CD|PIK3CA|PIK3CG|MTOR
+ST622,PI3K inhibitor|MTOR inhibitor,MTOR
+ST623,MTOR inhibitor,MTOR
+ST624,PI3K inhibitor,PIK3CG
+ST625,RIPK inhibitor,RIPK1
+ST626,SIRT inhibitor,SIRT2|SIRT1|SIRT3
+ST627,TP53 inhibitor,ACHE
+ST628,VEGFR inhibitor|PDGFR inhibitor,PDGFRB
+ST629,USP14 inhibitor,USP14
+ST630,VEGFR inhibitor,KDR
+ST631,ATPase inhibitor,CASP3
+ST632,Dynamin inhibitor,DNM1
+ST633,Tubulin inhibitor,TUBB
+ST634,Arginase inhibitor,ARG1|ARG2
+ST635,Exportin antagonist,XPO1
+ST636,Glutamate inhibitor|Chloride channel antagonist|Gap junction modulator,SLC1A2
+ST637,Porcupine inhibitor,PORCN
+ST638,Urokinase inhibitor,PLAUR
+ST639,Abl kinase inhibitor,ABL1|BCR
+ST640,Neprilysin inhibitor,MME
+ST641,Pim kinase inhibitor,PIM1
+ST642,Proteasome inhibitor,PSMB1
+ST643,Bromodomain inhibitor,BRD3|BRD2|BRD4
+ST644,Microtubule inhibitor,TUBB
+ST645,PPAR receptor agonist,PPARG
+ST646,Lipoxygenase inhibitor,ALOX12
+ST647,Aurora kinase inhibitor,AURKB
+ST648,Casein kinase inhibitor,CSNK1E
+ST649,Opioid receptor antagonist|NOP receptor antagonist,OPRL1
+ST650,Opioid receptor agonist,OPRD1
+ST651,Phospholipase activator,PLCG1|PLCB3|PLCD1|PLCB2|PLCG2
+ST652,Topoisomerase inhibitor,TOP2A
+ST653,Topoisomerase inhibitor,TOP1
+ST654,Cyclooxygenase inhibitor,PTGS2
+ST655,Cyclooxygenase inhibitor|Prostanoid receptor antagonist|Prostanoid receptor inhibitor,PTGS1
+ST656,Dopamine receptor ligand,DRD2
+ST657,P-glycoprotein inhibitor,ABCB1
+ST658,PPAR receptor antagonist,PPARG
+ST659,Protein kinase inhibitor,RPS6KA3
+ST660,Dopamine receptor agonist,DRD3
+ST661,Dopamine receptor antagonist|Dopamine receptor agonist,DRD2|DRD1
+ST662,Estrogen receptor agonist,ESR1
+ST663,Potassium channel blocker,KCNA3|KCNH2|KCNA5
+ST664,Adenosine kinase inhibitor,MAPK3
+ST665,Aldose reductase inhibitor,AKR1B1
+ST666,Glutamate receptor agonist,GRIK1
+ST667,Guanylyl cyclase inhibitor,GUCY1A2
+ST668,Melatonin receptor agonist,MTNR1A|MTNR1B|NQO2
+ST669,Melatonin receptor agonist,MTNR1A|MTNR1B
+ST670,Opioid receptor antagonist,OPRK1
+ST671,Opioid receptor antagonist,OPRD1
+ST672,Opioid receptor antagonist,OPRK1
+ST673,Serotonin receptor agonist,HTR2A|HTR6
+ST674,Serotonin receptor agonist,HTR2C|HTR1D|HTR2A|HTR2B
+ST675,Serotonin receptor agonist,HTR3B|HTR2A|HTR3A
+ST676,Serotonin receptor agonist,HTR2A
+ST677,Serotonin receptor agonist|Serotonin receptor antagonist,HTR1D|HTR2A
+ST678,Adrenergic receptor agonist,CHRNA7
+ST679,Chloride channel antagonist,CFTR
+ST680,Phosphodiesterase inhibitor,PDE5A
+ST681,Cannabinoid receptor agonist,CNR2
+ST682,Cannabinoid receptor agonist,CNR2
+ST683,Dopamine receptor antagonist|Serotonin receptor antagonist,HTR1A|HRH1|DRD1|HTR2A|HTR1E|HTR1D|DRD2
+ST684,Estrogen receptor antagonist,ESR2
+ST685,Sphingosine kinase inhibitor,SPHK1
+ST686,Adenosine deaminase inhibitor,ADA|PDE2A
+ST687,Adenosine receptor antagonist,ADORA1
+ST688,Farnesyltransferase inhibitor,FNTB|FNTA
+ST689,Glucosyltransferase inhibitor,UGCG|ASAH1
+ST690,Glutamate receptor antagonist,GRM1
+ST691,Glutamate receptor antagonist,GRM1
+ST692,Glutamate receptor antagonist,GRM5
+ST693,Glutamate receptor antagonist,GRM5
+ST694,MAP kinase phosphatase inhibitor|Protein phosphatase inhibitor,MAPK3|DUSP1|DUSP6
+ST695,Serotonin receptor antagonist,HTR1A
+ST696,Serotonin receptor antagonist|Adrenergic receptor antagonist,HTR1A|HTR1B
+ST697,Adrenergic receptor antagonist,ADRB2|ADRB1
+ST698,N-type calcium channel blocker,CACNA1B
+ST699,Purinergic receptor antagonist,P2RY1
+ST700,Smoothened receptor antagonist,SMO
+ST701,Nitric oxide synthase inhibitor,NOS2|NOS1
+ST702,Adenosylhomocysteinase inhibitor,AHCY
+ST703,Aldehyde dehydrogenase activator,ALDH2
+ST704,Acetylcholine receptor antagonist,CHRM1|CHRM3|CHRM2
+ST705,Acetylcholine receptor antagonist,CHRM1|CHRM4|CHRM3|CHRM2
+ST706,Acetylcholine receptor antagonist,CHRNA2
+ST707,Aryl hydrocarbon receptor agonist,AHR
+ST708,Dihydrofolate reductase inhibitor,DHFR
+ST709,Aryl hydrocarbon receptor antagonist,AHR
+ST710,Histone lysine demethylase inhibitor,KDM4E
+ST711,Kinesin-like spindle protein inhibitor,KIF11
+ST712,Sphingosine N acyltransferase inhibitor,CERS1
+ST713,Phosphoinositide dependent kinase inhibitor,PDPK1
