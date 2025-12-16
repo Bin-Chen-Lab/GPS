@@ -1,51 +1,34 @@
-# HCC Drug discovery tutorial
+# IPF Drug discovery tutorial
 
-## GPS profile prediction on novel compounds from the ZINC library:
+## OCTAD repurposing candidate prediction:
 
-To run the prediction place the DZSIG__HCC.csv into input folder and run the following command from the working directory:
+Install drug repurposing pipeline [OCTAD](https://github.com/Bin-Chen-Lab/octad).
 
-After setting up Docker download the ZINC preprocessed library follow instructions in 'To use ZINC preprocessed library' in the [GitHub](https://github.com/Bin-Chen-Lab/GPS/tree/main/GPS4Drugs#gps-prediction-profile-docker-image) page and run the following command from the pwd:
+Run OCTAD_IPF.R to get result.
 
-```bash
+## GPS profile prediction on novel active compounds from the ENAMINE HTS library:
+
+To run prediction refer to the [GPS_runPredProfile.py (predicts expression profile)]
+(https://github.com/Bin-Chen-Lab/GPS/tree/main/GPS4Drugs#gps-prediction-profile-docker-image)
+
+After setting up Docker place the cmpd__HTS.csv into the input folder and run the following command from the pwd:
+
 sudo docker run --rm \
     -v $(pwd)/input:/app/input \
-    -v $(pwd)/library:/app/data/profile_pred/MEDIAN \
+    -v $(pwd)/output:/app/data/profile_pred/MEDIAN/preds_all \
+    leshchi4/gpsimage:latest \
+    python code/GPS_runPredProfile.py --cmpd_input input/cmpd__HTS.csv
+
+The file HTS_MEDIAN_GeneExpressionChange.csv should be located in the output folder.
+
+## Run GPS profile prediction on active compounds from the ENAMINE HTS library:
+
+To run the prediction place the DZSIG__MUC5B+.csv into input folder and run the following command from the pwd:
+
+sudo docker run --rm \
+    -v $(pwd)/input:/app/input \
     -v $(pwd)/output:/app/data/reversal_score \
     leshchi4/gpsimage:latest \
-    python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__HCC.csv --cmpdLibID ZINC
-```
+    python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__MUC5B+.csv --cmpdLibID HTS
 
-The file HCC_RGES_norm.csv should be located in the output folder.
-
----
-
-## Stage 1 optimization of compounds 
-
-Create input, output and rges_input folder in working directory. Place taskhcc into input and the rest of files into rges_input.
-
-Run following command:
-
-```bash
-sudo docker run --rm --gpus all \
-    -v $(pwd)/input:/app/MCTS/libs/start_mols \
-    -v $(pwd)/output:/app/MCTS/results_visulization \
-    -v $(pwd)/rges_input:/app/MCTS/libs/rges_input \
-    leshchi4/molsearch:latest \
-    python MCTS/molsearch1_auto.py --num_drugs 1 --sample_name taskhcc --pool_cores 1 --goals rges --sig_name HCC
-```
----
-
-## Stage 2 optimization of compounds 
-
-
-Run following command:
-
-```bash
-sudo docker run --rm --gpus all \
-    -v $(pwd)/output:/app/MCTS/results_visulization \
-    -v $(pwd)/rges_input:/app/MCTS/libs/rges_input \
-    leshchi4/molsearch:latest \
-    python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name taskhcc --previous_goals rges --pool_cores 1 --goals plogp_qed_sa_rges --sig_name HCC
-```
-
----
+The file MUC5B+_RGES_norm.csv should be located in the output folder.
