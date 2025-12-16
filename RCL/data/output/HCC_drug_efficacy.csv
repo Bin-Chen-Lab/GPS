@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:223d503057bf4e7470a61ea9f5dd91ff8dec27a22d324cd367dc9a249daf2433
-size 3190
+pert_iname,resid,RGES,standard_value (nm),activity,SMILES
+vinblastine,-3.276423061,-0.516095633,0.26,effective,CC[C@@]1(C[C@@H]2C[C@@](C3=C(CCN(C2)C1)C4=CC=CC=C4N3)(C5=C(C=C6C(=C5)[C@]78CCN9[C@H]7[C@@](C=CC9)([C@H]([C@@]([C@@H]8N6C)(C(=O)OC)O)OC(=O)C)CC)OC)C(=O)OC)O
+ryuvidine,-2.34631824,-0.615405898,1.21,effective,CC1=CC=C(C=C1)NC2=CC(=O)C3=C(C2=O)N=C(S3)C
+dactinomycin,-2.01994839,-0.391698071,10,effective,C[C@@H]1[C@@H](C(=O)N[C@@H](C(=O)N2CCC[C@H]2C(=O)N(CC(=O)N([C@H](C(=O)O1)C(C)C)C)C)C(C)C)NC(=O)C3=C4C(=C(C=C3)C)OC5=C(C(=O)C(=C(C5=N4)C(=O)N[C@H]6[C@H](OC(=O)[C@@H](N(C(=O)CN(C(=O)[C@@H]7CCCN7C(=O)[C@H](NC6=O)C(C)C)C)C)C(C)C)C)N)C
+azithromycin,1.86079645,-0.230119961,203000,ineffective,CC[C@@H]1[C@@]([C@@H]([C@H](N(C[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)O)(C)OC)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O
+bosutinib,-1.729025332,0.479611081,3910,effective,CN1CCN(CC1)CCCOC2=C(C=C3C(=C2)N=CC(=C3NC4=CC(=C(C=C4Cl)Cl)OC)C#N)OC
+brazilin,1.611357234,-0.600334864,12030,ineffective,C1C2=CC(=C(C=C2[C@H]3[C@@]1(COC4=C3C=CC(=C4)O)O)O)O
+sunitinib,1.315248057,-0.525238295,9605,effective,CCN(CC)CCNC(=O)C1=C(NC(=C1C)/C=C\2/C3=C(C=CC(=C3)F)NC2=O)C
+amonafide,1.298367191,-0.665792476,3930,effective,CN(C)CCN1C(=O)C2=CC=CC3=CC(=CC(=C32)C1=O)N
+curcumin,1.263991646,-0.142537935,87500,ineffective,COC1=C(C=CC(=C1)/C=C/C(=O)CC(=O)/C=C/C2=CC(=C(C=C2)O)OC)O
+entinostat,1.164744473,-0.280646755,30060.45,ineffective,C1=CC=C(C(=C1)N)NC(=O)C2=CC=C(C=C2)CNC(=O)OCC3=CN=CC=C3
+erlotinib,-0.988189207,-0.40372285,100,effective,COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC
+resveratrol,0.921905086,-0.062400902,64800,ineffective,C1=CC(=CC=C1/C=C/C2=CC(=CC(=C2)O)O)O
+bortezomib,-0.800086876,-0.70158678,25.2,effective,B([C@H](CC(C)C)NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)C2=NC=CN=C2)(O)O
+sorafenib,0.745552922,-0.280072723,11490,ineffective,CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F
+cycloheximide,0.520242668,-0.445557688,2500,effective,C[C@H]1C[C@@H](C(=O)[C@@H](C1)[C@@H](CC2CC(=O)NC(=O)C2)O)C
+mitomycin-c,0.491164122,-0.413870066,2835,effective,CC1=C(C(=O)C2=C(C1=O)N3C[C@H]4[C@@H]([C@@]3([C@@H]2COC(=O)N)OC)N4)N
+camptothecin,-0.384967789,-0.549772193,165,effective,CC[C@@]1(C2=C(COC1=O)C(=O)N3CC4=CC5=CC=CC=C5N=C4C3=C2)O
+bufalin,0.241157015,-0.563943614,640,effective,C[C@]12CC[C@@H](C[C@H]1CC[C@@H]3[C@@H]2CC[C@]4([C@@]3(CC[C@@H]4C5=COC(=O)C=C5)O)C)O
+vorinostat,0.201544041,-0.392222217,1660,effective,C1=CC=C(C=C1)NC(=O)CCCCCCC(=O)NO
+zolantidine,0.164552092,0.250566247,76000,ineffective,C1CCN(CC1)CC2=CC(=CC=C2)OCCCNC3=NC4=CC=CC=C4S3
+doxorubicin,-0.147826875,-0.457257334,500,effective,C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O
+tamoxifen,-0.08861338,0.152717671,23400,ineffective,CC/C(=C(\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3
+podophyllotoxin,-0.047389064,-0.495285468,500,effective,COC1=CC(=CC(=C1OC)OC)[C@H]2[C@@H]3[C@H](COC3=O)[C@H](C4=CC5=C(C=C24)OCO5)O
+daunorubicin,0.028165217,-0.468564573,700,effective,C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)C)O)N)O

@@ -21,6 +21,10 @@ conda install -c conda-forge rdkit
 pip install pandas seaborn pickle-mixin
 pip install -U scikit-learn==0.21.3 (RF scorer of GSK3B and JNK3 requires this version of sklearn)
 ```
+### Download data
+
+Download file [here](https://figshare.com/articles/dataset/chemblDB3_sqlitdb/12912080) and place into MCTS folder.
+
 ### In medchem_moves folder
 
 ```bash

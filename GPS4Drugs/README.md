@@ -19,6 +19,14 @@ conda env create --file py27.yml
 
 The `py27.yml` file can be found on GitHub in the **GPS4Drugs** folder.
 
+## Download preprocessed libraries
+
+Please download the ZINC library using this link:
+https://chenlab-data-public.s3.amazonaws.com/ZINC_strong.npz
+
+Please download the HTS Enamine library using this link:
+https://chenlab-data-public.s3.amazonaws.com/ENAMINE_HTS_strong.npz
+
 ---
 
 ## GPS Prediction
