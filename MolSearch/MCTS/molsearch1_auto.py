@@ -10,7 +10,7 @@ parser.add_argument('--num_drugs', type=int, help='number of drugs in csv file',
 parser.add_argument('--sample_name', type=str, help='csv filename no .csv', default='taskdipg')
 parser.add_argument('--pool_cores', type=int, help='number of cores to use', default=1)
 parser.add_argument('--goals', type=str, help='plogp,qed,sa,rges,bbbp use _ to connect', default='bbbp_rges')
-parser.add_argument('--sig_name', type=int, help='name of signature for rges_module', default='None')
+parser.add_argument('--sig_name', type=str, help='name of signature for rges_module', default='None')
 args = parser.parse_args()
 
 if args.sig_name != 'None':
