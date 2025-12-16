@@ -25,6 +25,11 @@ pip install -U scikit-learn==0.21.3 (RF scorer of GSK3B and JNK3 requires this v
 
 Download file [here](https://figshare.com/articles/dataset/chemblDB3_sqlitdb/12912080) and place into MCTS folder.
 
+### Install nvidia-docker
+
+To use MolSearch, install nvidia-docker:
+Installation Guide
+
 ### In medchem_moves folder
 
 ```bash
