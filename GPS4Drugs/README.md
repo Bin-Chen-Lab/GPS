@@ -27,6 +27,8 @@ https://chenlab-data-public.s3.amazonaws.com/ZINC_strong.npz
 Please download the HTS Enamine library using this link:
 https://chenlab-data-public.s3.amazonaws.com/ENAMINE_HTS_strong.npz
 
+Place .npz files into GPS4Drugs/data/profile_pred/MEDIAN.
+
 ---
 
 ## GPS Prediction

@@ -1,5 +1,12 @@
 The RCL model trains on single cell line's drug-induced gene expression data, and predicts on the same cell line for new drug-induced gene expression values. The conda environment setting is provided [here](https://github.com/Bin-Chen-Lab/GPS/blob/main/GPS4Drugs/py27.yml).
 
+# Download training data:
+
+Please download the training data using this link:
+https://chenlab-data-public.s3.amazonaws.com/CL.zip
+
+Place folders into RCL/data/output.
+
 # Step 1: Prepare your drug-induced gene expression data in your interested cell line. 
 [Here](https://chenlab-data-public.s3.amazonaws.com/GPS4Drugs_RCL/LINCS_NEW_LOW_DOSE_L4.csv) is the raw data downloaded from LINCS L4 for drug-induced gene expression in various cell lines under the lose-dose condition. 
 
