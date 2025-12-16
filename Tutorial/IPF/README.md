@@ -8,8 +8,7 @@ Run OCTAD_IPF.R to get result.
 
 ## GPS profile prediction on novel active compounds from the ENAMINE HTS library:
 
-To run prediction refer to the [GPS_runPredProfile.py (predicts expression profile)]
-(https://github.com/Bin-Chen-Lab/GPS/tree/main/GPS4Drugs#gps-prediction-profile-docker-image)
+To run prediction refer to the [GPS_runPredProfile.py (predicts expression profile)](https://github.com/Bin-Chen-Lab/GPS/tree/main/GPS4Drugs#gps-prediction-profile-docker-image)
 
 After setting up Docker place the cmpd__HTS.csv into the input folder and run the following command from the pwd:
 
