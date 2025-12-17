@@ -60,9 +60,12 @@ def esol(mol):
     return esol_calculator.calc_esol(mol)
 
 
-def rges(mol):
-    return -1 * rges_calculator.rges_score(mol)
+class MolSCalculators:
+    def __init__(self, sig_path):
+        self.rges_calculator = RGESCalculator(gen_df_path=sig_path)
 
+    def rges(self, mol):
+        return -1 * self.rges_calculator.rges_score(mol)
 
 def get_largest_ring_size(mol):
     cycle_list = mol.GetRingInfo().AtomRings()

@@ -19,6 +19,10 @@ import pickle as pkl
 
 import pandas as pd
 
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--goal', type=str, default='qed_sa')
 parser.add_argument('--num', type=str, default='20')
@@ -41,10 +45,12 @@ parser.add_argument('--max_child', type=int, default=3)
 parser.add_argument('--num_sims', type=int, default=10)
 parser.add_argument('--scalar', type=float, default=0.7)
 parser.add_argument('--seed', type=int, default=1)
+parser.add_argument('--sig_name', type=str, help='name of signature for rges_module', default='None')
 args = parser.parse_args()
 print(args.goal)
 print(__file__)
 
+mols_calc = MolSCalculators(sig_path=args.sig_name)
 
 def get_score_function(name):
     if name == 'plogp':
@@ -56,7 +62,7 @@ def get_score_function(name):
     elif name == 'sa':
         sf = sa
     elif name == 'rges':
-        sf = rges
+        sf = mols_calc.rges
     elif name == 'gsk3b':
         sf = gsk3b
     elif name == 'jnk3':
@@ -360,11 +366,11 @@ def UCTSEARCH(budget, root):
     return root  # BESTCHILD(root, 0) # exploration_scalar=0
 
 
-start_mols_fn = 'results_visulization/' + args.stage1_result
+start_mols_fn = '/app/MCTS/results_visulization/' + args.stage1_result
 start_mols_df = pd.read_csv(start_mols_fn, sep=' ')
 start_mol_list = start_mols_df['smiles'].tolist()
 
-save_dir = 'results_visulization/' + args.goal + '_stage2/' + args.start_mols + '/' + args.start_mols + '_' + args.num
+save_dir = '/app/MCTS/results_visulization/' + args.goal + '_stage2/' + args.start_mols + '/' + args.start_mols + '_' + args.num
 if not os.path.exists(save_dir):
     os.system('mkdir -p {:s}'.format(save_dir))
 
@@ -402,12 +408,14 @@ for mol_idx in range(start_idx, end_idx):
     count = 0
 
     current_node = UCTSEARCH(args.num_sims, root)
+    mols_calc = MolSCalculators(sig_path=args.sig_name)
 
     with open(fn, "a") as f:
         for s, r in max_score.items():
             l = str(Chem.MolFromSmiles(s).GetNumAtoms()) + ' ' + s + ' '
             for x in r:
                 l += str(x) + ' '
+	    l += str(mols_calc.rges(Chem.MolFromSmiles(s))) + ' '
             l += str(qed(Chem.MolFromSmiles(s))) + ' '
             l += str(sa(Chem.MolFromSmiles(s))) + ' '
             l += str(1)
@@ -418,6 +426,7 @@ for mol_idx in range(start_idx, end_idx):
             l = str(Chem.MolFromSmiles(s).GetNumAtoms()) + ' ' + s + ' '
             for x in r:
                 l += str(x) + ' '
+	    l += str(mols_calc.rges(Chem.MolFromSmiles(s))) + ' '
             l += str(qed(Chem.MolFromSmiles(s))) + ' '
             l += str(sa(Chem.MolFromSmiles(s))) + ' '
             l += str(0)

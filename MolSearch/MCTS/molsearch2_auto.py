@@ -14,26 +14,6 @@ parser.add_argument('--goals', type=str, help='plogp,qed,sa,rges,bbbp use _ to c
 parser.add_argument('--sig_name', type=str, help='name of signature for rges_module', default='None')
 args = parser.parse_args()
 
-if args.sig_name != 'None':
-
-    rges_path = Path("score_modules/RGES_Score/rges.py")
-    new_lines = []
-
-    with rges_path.open("r") as f:
-        for line in f:
-            if "dzde = pd.read_csv" in line:
-                line = f"        dzde = pd.read_csv(f'libs/rges_input/DZSIG__{args.sig_name}.csv', index_col='Symbol')\n"
-            elif "permt_bgrd = pd.read_csv" in line:
-                line = f"        permt_bgrd = pd.read_csv(f'libs/rges_input/BGRD__{args.sig_name}.csv', index_col=0)\n"
-            elif "with open('libs/rges_input/NA_IDX" in line:
-                line = f"        with open('libs/rges_input/NA_IDX_{args.sig_name}.pkl', 'rb') as f:\n"
-            elif "gene_df = pd.read_csv" in line:
-                line = f"        gene_df = pd.read_csv('libs/rges_input/{args.sig_name}_gene_feature.csv', index_col=0)\n"
-            new_lines.append(line)
-
-    with rges_path.open("w") as f:
-        f.writelines(new_lines)
-
 currpathname = os.path.dirname(sys.argv[0])        
 curr_path = os.path.abspath(currpathname)
 
@@ -43,7 +23,7 @@ def parra(argi):
     stage1_path = f'{previous_goals}_stage1/{sample_name}/{previous_goals}_maxchild_5_sim_20_scalar_0.7_t_0.98_idx_{num}_seed_0.txt'
     stage1_df = pd.read_csv(curr_path + '/results_visulization/' + stage1_path, sep=' ')
 
-    cmd = ['python', 'frag_mcts_mo_stage2.py', '--goal', goals, '--num', str(num),'--start_mols', sample_name, '--max_child', '5', '--num_sims', '20', '--group_idx', '0', '--group_length', str(len(stage1_df.index)), '--seed', '0', '--scalar', '0.7', '--stage1_result', stage1_path]
+    cmd = ['python', 'frag_mcts_mo_stage2.py', '--goal', goals, '--num', str(num),'--start_mols', sample_name, '--max_child', '5', '--num_sims', '20', '--group_idx', '0', '--group_length', str(len(stage1_df.index)), '--seed', '0', '--scalar', '0.7', '--stage1_result', stage1_path, '--sig_name', args.sig_name]
     try:
         output = subprocess.check_call(cmd)
         print(num, 'complete')

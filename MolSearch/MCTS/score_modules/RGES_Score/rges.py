@@ -1,4 +1,5 @@
 import torch
+device = "cuda" if torch.cuda.is_available() else "cpu"
 from torch.autograd import Variable
 import torch.nn.functional as F
 
@@ -16,8 +17,9 @@ from scipy.stats import zscore
 
 class RGESCalculator():
 
-    def __init__(self, **kwargs):
+    def __init__(self, gen_df_path, **kwargs):
         super(RGESCalculator, self).__init__(**kwargs)
+        self.gen_df_path = gen_df_path
         self.gene_names, self.gene_features, self.n_genes = self._get_gene_df() # gene_features are pre_loaded
         self.gene_na_idx = self._get_gene_na_idx()
         self.current_fp = Path(__file__)
@@ -33,11 +35,11 @@ class RGESCalculator():
         # print("reg size: ", reg.shape)
 
         ## load disease signature and background
-        dzde = pd.read_csv(f'score_modules/RGES_Score/DZSIG__puy.csv', index_col='Symbol')
+        dzde = pd.read_csv(f'libs/rges_input/DZSIG__{self.gen_df_path}.csv', index_col='GeneSymbol')
         dzde['RANK'] = dzde['Value'].rank(ascending=False)
         
         # permt_bgrd: the background distribution of raw rges values for a specific dysregulated gene number of a drug.
-        permt_bgrd = pd.read_csv(f'score_modules/RGES_Score/BGRD__puy.csv', index_col=0)
+        permt_bgrd = pd.read_csv(f'libs/rges_input/BGRD__{self.gen_df_path}.csv', index_col=0)
 
         # get profile
         profile = reg.iloc[0]
@@ -120,7 +122,7 @@ class RGESCalculator():
 
         data = np.concatenate([drug_features, self.gene_features], axis=1)
         data = torch.from_numpy(data)
-        data = Variable(data).cuda()
+        data = Variable(data).to(device)
 
         logits = model(data)
         output = F.softmax(logits, dim=1)
@@ -146,12 +148,12 @@ class RGESCalculator():
         return finger_print
 
     def _get_gene_na_idx(self):
-        with open('score_modules/RGES_Score/NA_IDX_puy.pkl', 'rb') as f:
+        with open(f'libs/rges_input/NA_IDX_{self.gen_df_path}.pkl', 'rb') as f:
             gene_na_idx = pkl.load(f)
         return gene_na_idx
 
     def _get_gene_df(self):
-        gene_df = pd.read_csv('score_modules/RGES_Score/puy_gene_feature.csv', index_col=0)
+        gene_df = pd.read_csv(f'libs/rges_input/{self.gen_df_path}_gene_feature.csv', index_col=0)
         gene_names = gene_df.index
         gene_features = gene_df.to_numpy().astype(np.float32)
         nrow, ncol = gene_features.shape
@@ -166,7 +168,7 @@ class RGESCalculator():
         models = dict()
         for cl in cell_lines:
             model_str = self.current_fp.parent / "models/{:s}_model.pkl".format(cl)
-            all_models = torch.load(model_str)
+            all_models = torch.load(model_str, map_location=device)
 
             model = all_models['model0']
             model.eval()

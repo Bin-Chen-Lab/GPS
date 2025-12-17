@@ -98,7 +98,7 @@ Then:
 ### Step 2. Run Stage 1 optimization
 
 ```bash
-sudo docker run --rm --gpus all \
+sudo docker run --rm \
     -v $(pwd)/input:/app/MCTS/libs/start_mols \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     -v $(pwd)/rges_input:/app/MCTS/libs/rges_input \
@@ -126,7 +126,7 @@ Stage 2 further optimizes compounds generated in Stage 1 by incorporating additi
 ### Run Stage 2 optimization
 
 ```bash
-sudo docker run --rm --gpus all \
+sudo docker run --rm \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     -v $(pwd)/rges_input:/app/MCTS/libs/rges_input \
     leshchi4/molsearch:latest \

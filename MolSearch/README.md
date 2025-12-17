@@ -25,11 +25,6 @@ pip install -U scikit-learn==0.21.3 (RF scorer of GSK3B and JNK3 requires this v
 
 Download file [here](https://figshare.com/articles/dataset/chemblDB3_sqlitdb/12912080) and place into MCTS folder.
 
-### Install nvidia-docker
-
-To use MolSearch, install nvidia-docker:
-[Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
-
 ### In medchem_moves folder
 
 ```bash
@@ -172,7 +167,7 @@ mkdir -p input output
 Run the container with your input file mounted:
 
 ```bash
-sudo docker run --rm --gpus all \
+sudo docker run --rm \
     -v $(pwd)/input:/app/MCTS/libs/start_mols \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     leshchi4/molsearch:latest \
@@ -185,10 +180,34 @@ sudo docker run --rm --gpus all \
 Run the container with your output file mounted:
 
 ```bash
-sudo docker run --rm --gpus all \
+sudo docker run --rm \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     leshchi4/molsearch:latest \
     python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_goals bbbp_rges --pool_cores 1 --goals plogp_qed_sa_rges --sig_name <sig_name>
 ```
 
 ---
+
+### Running with GPU
+
+## Install nvidia-docker
+
+To use MolSearch, install nvidia-docker:
+[Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+
+## Command
+
+Replace first line of docker command with:
+
+```bash
+sudo docker run --rm --gpus all \
+```
+
+For older GPUs try:
+
+```bash
+sudo docker run --rm --gpus all --runtime=nvidia \
+```
+
+---
+

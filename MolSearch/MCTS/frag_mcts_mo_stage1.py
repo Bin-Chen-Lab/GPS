@@ -19,6 +19,10 @@ import pickle as pkl
 
 import pandas as pd
 
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--goal', type=str, default='gsk3b_jnk3')
 parser.add_argument('--start_mols', type=str, default='task1130')
@@ -28,10 +32,12 @@ parser.add_argument('--num_sims', help='number of iteration in simulation', type
 parser.add_argument('--scalar', help='exploration scalar', type=float, default=0.7)
 parser.add_argument('--seed', type=int, default=0)
 parser.add_argument('--t', type=float, default=0.98)
+parser.add_argument('--sig_name', type=str, help='name of signature for rges_module', default='None')
 args = parser.parse_args()
 print(args.goal)
 print(__file__)
 
+mols_calc = MolSCalculators(sig_path=args.sig_name)
 
 def get_score_function(name):
     if name == 'plogp':
@@ -43,7 +49,7 @@ def get_score_function(name):
     elif name == 'sa':
         sf = sa
     elif name == 'rges':
-        sf = rges
+        sf = mols_calc.rges
     elif name == 'gsk3b':
         sf = gsk3b
     elif name == 'jnk3':
@@ -340,11 +346,11 @@ def UCTSEARCH(budget, root):
     return root  # BESTCHILD(root, 0) # exploration_scalar=0
 
 
-start_mols_fn = 'libs/start_mols/' + args.start_mols + '.csv'
+start_mols_fn = '/app/MCTS/libs/start_mols/' + args.start_mols + '.csv'
 start_mols_df = pd.read_csv(start_mols_fn)
 start_mol_list = start_mols_df['smiles'].tolist()
 
-save_dir = 'results_visulization/' + args.goal + '_stage1/' + args.start_mols
+save_dir = '/app/MCTS/results_visulization/' + args.goal + '_stage1/' + args.start_mols
 if not os.path.exists(save_dir):
     os.system('mkdir -p {:s}'.format(save_dir))
 
@@ -381,7 +387,7 @@ with open(fn, "a") as f:
         l = str(Chem.MolFromSmiles(s).GetNumAtoms()) + ' ' + s + ' '
         for x in r:
             l += str(x) + ' '
-        l += str(rges(Chem.MolFromSmiles(s))) + ' '
+        l += str(mols_calc.rges(Chem.MolFromSmiles(s))) + ' '
         l += str(qed(Chem.MolFromSmiles(s))) + ' '
         l += str(sa(Chem.MolFromSmiles(s))) + ' '
         l += str(1)
@@ -392,7 +398,7 @@ with open(fn, "a") as f:
         l = str(Chem.MolFromSmiles(s).GetNumAtoms()) + ' ' + s + ' '
         for x in r:
             l += str(x) + ' '
-        l += str(rges(Chem.MolFromSmiles(s))) + ' '
+        l += str(mols_calc.rges(Chem.MolFromSmiles(s))) + ' '
         l += str(qed(Chem.MolFromSmiles(s))) + ' '
         l += str(sa(Chem.MolFromSmiles(s))) + ' '
         l += str(0)
