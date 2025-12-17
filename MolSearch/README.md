@@ -162,7 +162,7 @@ sudo docker run --rm \
     -v $(pwd)/input:/app/MCTS/libs/start_mols \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     leshchi4/molsearch:latest \
-    python MCTS/molsearch1_auto.py --num_drugs 1 --sample_name <sample_name> --pool_cores 1 --goals bbbp_rges --sig_name <sig_name>
+    python MCTS/molsearch1_auto.py --num_drugs 1 --sample_name <sample_name> --pool_cores 1 --goals <stage1_goals> --sig_name <sig_name>
 ```
 ---
 
@@ -174,7 +174,7 @@ Run the container with your output file mounted:
 sudo docker run --rm \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     leshchi4/molsearch:latest \
-    python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_goals bbbp_rges --pool_cores 1 --goals plogp_qed_sa_rges --sig_name <sig_name>
+    python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_goals <stage1_goals> --pool_cores 1 --goals <stage2_goals> --sig_name <sig_name>
 ```
 
 ---

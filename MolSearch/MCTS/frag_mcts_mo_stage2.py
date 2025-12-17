@@ -417,7 +417,7 @@ for mol_idx in range(start_idx, end_idx):
             l = str(Chem.MolFromSmiles(s).GetNumAtoms()) + ' ' + s + ' '
             for x in r:
                 l += str(x) + ' '
-	    l += str(mols_calc.rges(Chem.MolFromSmiles(s))) + ' '
+            l += str(mols_calc.rges(Chem.MolFromSmiles(s))) + ' '
             l += str(qed(Chem.MolFromSmiles(s))) + ' '
             l += str(sa(Chem.MolFromSmiles(s))) + ' '
             l += str(1)
