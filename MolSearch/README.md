@@ -188,14 +188,14 @@ sudo docker run --rm \
 
 ---
 
-### Running with GPU
+## Running with GPU
 
-## Install nvidia-docker
+### Install nvidia-docker
 
 To use MolSearch, install nvidia-docker:
 [Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
-## Command
+### Command
 
 Replace first line of docker command with:
 
