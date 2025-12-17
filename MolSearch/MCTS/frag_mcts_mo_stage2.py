@@ -30,7 +30,7 @@ parser.add_argument('--goal', type=str, default='qed_sa')
 parser.add_argument('--num', type=str, default='20')
 parser.add_argument('--stage1_result', type=str,
                     default='bbbp_rges_stage1/task1120/bbbp_rges_maxchild_5_sim_20_scalar_0.7_idx_0_seed_0.txt')
-parser.add_argument('--constraint', type=str, default='gsk3b_jnk3')  # ignore, does not use for simulation.
+# parser.add_argument('--constraint', type=str, default='gsk3b_jnk3')  # ignore, does not use for simulation.
 parser.add_argument('--start_mols', type=str, default='task1')
 # parser.add_argument('--mol_idx', type = int, default = 0)
 # parser.add_argument('--start_idx', type = int, default = 0)
@@ -65,10 +65,10 @@ def get_score_function(name):
         sf = sa
     elif name == 'rges':
         sf = mols_calc.rges
-    elif name == 'gsk3b':
-        sf = gsk3b
-    elif name == 'jnk3':
-        sf = jnk3
+#    elif name == 'gsk3b':
+#        sf = gsk3b
+#    elif name == 'jnk3':
+#        sf = jnk3
     elif name == 'bbbp':
         sf = bbbp
     else:
@@ -77,16 +77,16 @@ def get_score_function(name):
 
 
 goals = args.goal.split("_")
-constraints = args.constraint.split("_")
+# constraints = args.constraint.split("_")
 print(goals)
-print(constraints)
+# print(constraints)
 functions = []
 for g in goals:
     functions.append(get_score_function(g))
 
-constraint_functions = []
-for c in constraints:
-    constraint_functions.append(get_score_function(c))
+# constraint_functions = []
+# for c in constraints:
+#    constraint_functions.append(get_score_function(c))
 
 n_obj = len(goals)
 MAX_LEVEL = 5
