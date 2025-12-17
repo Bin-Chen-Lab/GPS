@@ -93,23 +93,14 @@ Output file: Output of Stage 2 is stored in MCTS/results_visulization.
 
 # Molecular Search Docker Image
 
-This Docker image runs Molecular Search for lead optimization using GPU acceleration.  
+This Docker image runs Molecular Search for lead optimization using CPU for GPU refer to Running with GPU.  
 It comes with all dependencies pre-installed and organized project directories.
-
----
-# MolSearch with Docker
-
-## Installation
-
-To install **NVIDIA Container Toolkit**, follow the official guide:  
-[Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
 To pull the MolSearch Docker image from DockerHub:
 
 ```bash
 sudo docker pull leshchi4/molsearch:latest
 ```
-
 ---
 
 ## Input Files
@@ -192,7 +183,7 @@ sudo docker run --rm \
 
 ### Install nvidia-docker
 
-To use MolSearch, install nvidia-docker:
+To install **NVIDIA Container Toolkit**, follow the official guide:  
 [Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
 ### Command

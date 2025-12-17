@@ -68,6 +68,19 @@ sudo docker run --rm \
 > Due to randomization, results may vary slightly. However, the compound **ZINC000000086363** should appear within the **top 100 ranked hits**.
 
 ---
+## Using Docker MolSearch
+
+To pull the MolSearch Docker image from DockerHub:
+
+```bash
+sudo docker pull leshchi4/molsearch:latest
+```
+
+Detailed instructions are available on the [MolSearch](https://github.com/Bin-Chen-Lab/GPS/tree/main/MolSearch) page.
+
+We recommend adjusting the ```--pool_cores``` flag depending on the machine user is using.
+
+---
 
 ## Stage 1: Optimization of Compounds
 
