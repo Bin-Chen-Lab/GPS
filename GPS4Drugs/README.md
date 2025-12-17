@@ -253,4 +253,10 @@ For debugging, replace your output mount with logs:
 
 Send the logfile to the us at contact@octad.org to help diagnose issues.
 
+If the py27 environment causes issues try:
+
+```bash
+conda env update --prune -n py27 -f py27.yml
+```
+
 ---
