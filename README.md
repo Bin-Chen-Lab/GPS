@@ -51,16 +51,11 @@ Drug repurposing web portal is available http://octad.org/ and the R package oct
 
 ---
 
-## GPS Documentation and Demo
+## GPS Documentation and Tutorial
 
 Detailed documentation is available for each component within its respective folder.
 
-A demo file is also available in the **`demo`** folders:
-
-- for [GPS4Drugs](https://github.com/Bin-Chen-Lab/GPS/tree/main/GPS4Drugs/demo)
-- for [MolSearch](https://github.com/Bin-Chen-Lab/GPS/tree/main/MolSearch/demo)
-
-This file is the recommended starting point, and together with the documentation, can be used as input to run each pipeline starting from the first step.
+An example of the workflow is available in the Tutorial folder.
 
 ---
 
