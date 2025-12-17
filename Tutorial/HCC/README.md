@@ -86,7 +86,7 @@ Create the following folders in the working directory:
 Then:
 
 - Place the file `taskhcc` (containing the SMILES structure of the hit compound) into `input/`
-- Place all required `*.csv` files into `rges_input/`
+- Place all `*.csv` and `*.pkl` files into `rges_input/`
 
 > **Note**  
 > To apply this workflow to other disease signatures, you must create a corresponding **RGES module** following the MolSearch instructions:
