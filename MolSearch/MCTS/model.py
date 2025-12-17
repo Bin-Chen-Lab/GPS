@@ -1,3 +1,10 @@
+import warnings
+warnings.simplefilter("ignore", category=UserWarning)
+warnings.simplefilter("ignore", category=DeprecationWarning)
+warnings.simplefilter("ignore", category=FutureWarning)
+from rdkit import RDLogger
+RDLogger.DisableLog('rdApp.warning')
+
 import torch
 from torch_geometric.nn import MessagePassing
 from torch_geometric.utils import add_self_loops, degree, softmax

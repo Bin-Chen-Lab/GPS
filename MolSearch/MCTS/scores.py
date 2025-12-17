@@ -1,3 +1,10 @@
+import warnings
+warnings.simplefilter("ignore", category=UserWarning)
+warnings.simplefilter("ignore", category=DeprecationWarning)
+warnings.simplefilter("ignore", category=FutureWarning)
+from rdkit import RDLogger
+RDLogger.DisableLog('rdApp.warning')
+
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit.Chem import Descriptors

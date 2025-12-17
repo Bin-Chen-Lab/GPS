@@ -1,3 +1,10 @@
+import warnings
+warnings.simplefilter("ignore", category=UserWarning)
+warnings.simplefilter("ignore", category=DeprecationWarning)
+warnings.simplefilter("ignore", category=FutureWarning)
+from rdkit import RDLogger
+RDLogger.DisableLog('rdApp.warning')
+
 import torch
 device = "cuda" if torch.cuda.is_available() else "cpu"
 from torch.autograd import Variable

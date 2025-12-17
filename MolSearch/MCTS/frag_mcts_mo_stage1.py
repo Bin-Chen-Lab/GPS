@@ -1,6 +1,12 @@
 """
 code adapted from https://github.com/jensengroup/GB-GM/blob/master/GB-GM-MCTS.py by Jan H. Jensen 2019
 """
+import warnings
+warnings.simplefilter("ignore", category=UserWarning)
+warnings.simplefilter("ignore", category=DeprecationWarning)
+warnings.simplefilter("ignore", category=FutureWarning)
+from rdkit import RDLogger
+RDLogger.DisableLog('rdApp.warning')
 
 from actions import get_actions, get_mo_actions, get_constraint_actions
 from scores import *
@@ -18,10 +24,6 @@ import time, os, datetime
 import pickle as pkl
 
 import pandas as pd
-
-import warnings
-warnings.filterwarnings("ignore", category=UserWarning)
-warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--goal', type=str, default='gsk3b_jnk3')

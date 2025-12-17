@@ -1,4 +1,10 @@
 """Tools for manipulating graphs and converting from atom and pair features."""
+import warnings
+warnings.simplefilter("ignore", category=UserWarning)
+warnings.simplefilter("ignore", category=DeprecationWarning)
+warnings.simplefilter("ignore", category=FutureWarning)
+from rdkit import RDLogger
+RDLogger.DisableLog('rdApp.warning')
 
 from __future__ import absolute_import
 from __future__ import division
