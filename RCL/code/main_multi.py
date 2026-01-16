@@ -49,7 +49,7 @@ def seed_everything(seed):
 # Hyper Parameters
 batch_size = 128
 learning_rate = args.lr
-input_size = 2131
+input_size = 2131 #This parameter needs revision
 num_classes = args.num_classes
 args.top_bn = False
 
@@ -57,12 +57,12 @@ args.top_bn = False
 # load dataset
 train_dataset = DrugGene(root='../data/output',
                          train=True,
-                         cl=args.cl, num_classes=num_classes)
+                         num_classes=num_classes)
 num_iter_per_epoch = int(len(train_dataset.train_labels)/batch_size)
 print('num_iter_per_epoch {:d}'.format(num_iter_per_epoch))
 test_dataset = DrugGene(root='../data/output',
                          train=False,
-                         cl=args.cl, num_classes=num_classes)
+                         num_classes=num_classes)
 
 if args.forget_rate is None:
     forget_rate=0.2
