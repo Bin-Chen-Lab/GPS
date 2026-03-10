@@ -120,7 +120,7 @@ It comes with all dependencies pre-installed and organized project directories.
 To pull the image from DockerHub run:
 
 ```bash
-sudo docker pull leshchi4/gpsimage:latest
+sudo docker pull binchengroup/gpsimage:latest
 ```
 
 ### Input Files
@@ -157,7 +157,7 @@ mkdir -p input output
 sudo docker run --rm \
     -v $(pwd)/input:/app/input \
     -v $(pwd)/output:/app/data/profile_pred/MEDIAN/preds_all \
-    leshchi4/gpsimage:latest \
+    binchengroup/gpsimage:latest \
     python code/GPS_runPredProfile.py --cmpd_input input/cmpd__<sample_name>.csv
 ```
 
@@ -187,7 +187,7 @@ You can find `molsearch_rges.ipynb` here:
 sudo docker run --rm \
     -v $(pwd)/input:/app/input \
     -v $(pwd)/output:/app/data/reversal_score \
-    leshchi4/gpsimage:latest \
+    binchengroup/gpsimage:latest \
     python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__<sample_name>.csv --cmpdLibID HTS
 ```
 
@@ -200,7 +200,7 @@ If you want to run a screen against your prediction, copy the file
 sudo docker run --rm \
     -v $(pwd)/input:/app/input \
     -v $(pwd)/output:/app/data/reversal_score \
-    leshchi4/gpsimage:latest \
+    binchengroup/gpsimage:latest \
     python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__<sample_name>.csv --cmpdLibID input/<sample_name>_MEDIAN_GeneExpressionChange.csv
 ```
 
@@ -218,7 +218,7 @@ sudo docker run --rm \
     -v $(pwd)/input:/app/input \
     -v $(pwd)/library:/app/data/profile_pred/MEDIAN \
     -v $(pwd)/output:/app/data/reversal_score \
-    leshchi4/gpsimage:latest \
+    binchengroup/gpsimage:latest \
     python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__<sample_name>.csv --cmpdLibID ZINC
 ```
 
@@ -237,7 +237,7 @@ Run with GPU support:
 sudo docker run --rm --gpus all --runtime=nvidia \
     -v $(pwd)/input:/app/input \
     -v $(pwd)/output:/app/data/profile_pred/MEDIAN/preds_all \
-    leshchi4/gpsimage:latest \
+    binchengroup/gpsimage:latest \
     python code/GPS_runPredProfile.py --cmpd_input input/cmpd__<sample_name>.csv
 ```
 
