@@ -62,7 +62,7 @@ From the working directory, execute the following command:
 sudo docker run --rm \
     -v $(pwd)/input:/app/input \
     -v $(pwd)/output:/app/data/profile_pred/MEDIAN/preds_all \
-    leshchi4/gpsimage:latest \
+    binchengroup/gpsimage:latest \
     python code/GPS_runPredProfile.py --cmpd_input input/cmpd__HTS.csv
 ```
 
@@ -90,7 +90,7 @@ From the working directory, execute the following command:
 sudo docker run --rm \
     -v $(pwd)/input:/app/input \
     -v $(pwd)/output:/app/data/reversal_score \
-    leshchi4/gpsimage:latest \
+    binchengroup/gpsimage:latest \
     python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__MUC5B+.csv --cmpdLibID HTS
 ```
 
