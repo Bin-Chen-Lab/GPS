@@ -99,7 +99,7 @@ It comes with all dependencies pre-installed and organized project directories.
 To pull the MolSearch Docker image from DockerHub:
 
 ```bash
-sudo docker pull leshchi4/molsearch:latest
+sudo docker pull binchengroup/molsearch:latest
 ```
 ---
 
@@ -161,7 +161,7 @@ Run the container with your input file mounted:
 sudo docker run --rm \
     -v $(pwd)/input:/app/MCTS/libs/start_mols \
     -v $(pwd)/output:/app/MCTS/results_visulization \
-    leshchi4/molsearch:latest \
+    binchengroup/molsearch:latest \
     python MCTS/molsearch1_auto.py --num_drugs 1 --sample_name <sample_name> --pool_cores 1 --goals <stage1_goals> --sig_name <sig_name>
 ```
 ---
@@ -173,7 +173,7 @@ Run the container with your output file mounted:
 ```bash
 sudo docker run --rm \
     -v $(pwd)/output:/app/MCTS/results_visulization \
-    leshchi4/molsearch:latest \
+    binchengroup/molsearch:latest \
     python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_goals <stage1_goals> --pool_cores 1 --goals <stage2_goals> --sig_name <sig_name>
 ```
 
