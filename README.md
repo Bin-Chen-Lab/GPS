@@ -36,8 +36,8 @@ Don't forget to download large files for each folder. See specific documentation
 
 For ease of use, we provide DockerHub repositories:  
 
-- [GPS4Drugs DockerHub](https://hub.docker.com/repository/docker/leshchi4/gpsimage/general)  
-- [MolSearch DockerHub](https://hub.docker.com/repository/docker/leshchi4/molsearch)  
+- [GPS4Drugs DockerHub](https://hub.docker.com/repository/docker/binchengroup/gpsimage/general)  
+- [MolSearch DockerHub](https://hub.docker.com/repository/docker/binchengroup/molsearch)  
 
 Detailed instructions on how to run Docker available inside respective folders.
 
