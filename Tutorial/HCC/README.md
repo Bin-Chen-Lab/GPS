@@ -54,7 +54,7 @@ sudo docker run --rm \
     -v $(pwd)/input:/app/input \
     -v $(pwd)/library:/app/data/profile_pred/MEDIAN \
     -v $(pwd)/output:/app/data/reversal_score \
-    leshchi4/gpsimage:latest \
+    binchengroup/gpsimage:latest \
     python code/GPS_runDrugScreenRges.py --dzSigFile input/DZSIG__<sample_name>.csv --cmpdLibID ZINC
 ```
 
@@ -73,7 +73,7 @@ sudo docker run --rm \
 To pull the MolSearch Docker image from DockerHub:
 
 ```bash
-sudo docker pull leshchi4/molsearch:latest
+sudo docker pull binchengroup/molsearch:latest
 ```
 
 Detailed instructions are available on the [MolSearch](https://github.com/Bin-Chen-Lab/GPS/tree/main/MolSearch) page.
@@ -115,7 +115,7 @@ sudo docker run --rm \
     -v $(pwd)/input:/app/MCTS/libs/start_mols \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     -v $(pwd)/rges_input:/app/MCTS/libs/rges_input \
-    leshchi4/molsearch:latest \
+    binchengroup/molsearch:latest \
     python MCTS/molsearch1_auto.py --num_drugs 1 --sample_name taskhcc --pool_cores 1 --goals rges --sig_name HCC
 ```
 
@@ -142,7 +142,7 @@ Stage 2 further optimizes compounds generated in Stage 1 by incorporating additi
 sudo docker run --rm \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     -v $(pwd)/rges_input:/app/MCTS/libs/rges_input \
-    leshchi4/molsearch:latest \
+    binchengroup/molsearch:latest \
     python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name taskhcc --previous_goals rges --pool_cores 1 --goals plogp_qed_sa_rges --sig_name HCC
 ```
 
