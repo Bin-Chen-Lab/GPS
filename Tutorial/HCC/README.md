@@ -27,6 +27,10 @@ Create a working directory and initialize the following subfolders:
 
 ### Step 2. Prepare the disease signature
 
+Optional:
+- Run octad_HCC_signature.R to generate DZSIG__HCC.csv using our OCTAD package
+- Code maybe be modified to create other disease signatures
+  
 Place the file `DZSIG__HCC.csv` into the `input/` folder.
 
 - `DZSIG__HCC` refers to the HCC disease signature
