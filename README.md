@@ -73,8 +73,9 @@ RNA-seq data are deposited in the GEO under accession number (GSE291867, GSE2911
 
 ## Authors
 
-Jing Xing, et. al., Deep learning-based screening and design of novel therapeutics that reverse disease-associated transcriptional phenotypes, submitted.
-
+Jing Xing, Mingdian Tan, Dmitry Leshchiner, Mengying Sun, Mohamed Abdelgied, Li Huang, Shreya Paithankar, Katie Uhl, Rama Shankar, Erika Lisabeth, Bilal Aleiwi, Tara Jager, Cameron Lawson, Ruoqiao Chen, Matthew Giletto, Reda Girgis, Richard R. Neubig, Samuel So, Edmund Ellsworth, Xiaopeng Li, Mei-Sze Chua, Jiayu Zhou, Bin Chen,
+Deep-learning-based de novo discovery and design of therapeutics that reverse disease-associated transcriptional phenotypes,
+Cell, 2026, ISSN 0092-8674,https://doi.org/10.1016/j.cell.2026.02.016.(https://www.sciencedirect.com/science/article/pii/S0092867426002230)
 ---
 
 ## Contact
