@@ -238,9 +238,10 @@ sudo docker run --rm \
     binchengroup/gpsimage:latest \
     python code/GPS_runPredProfile.py --cmpd_input input/cmpd__<sample_name>.csv
 ```
+
 > [!WARNING]
 GPS4Drugs was developed with GPU accelaration in mind, we cannnot guarantee consitency of results with CPU only predictions.
-Please use an own discretion. If you do not have access to an appropriate GPU we recommed you use the [GPS webportal](https://apps.octad.org/GPS/)
+Please use at own discretion. If you do not have access to an appropriate GPU we recommed you use the [GPS webportal](https://apps.octad.org/GPS/)
 
 ---
 
