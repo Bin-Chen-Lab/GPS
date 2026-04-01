@@ -9,13 +9,13 @@ This tutorial provides a **simplified, end‑to‑end workflow** for transcripto
 
 ## Overview of the Workflow
 
-1. **Predict GPS transcriptomic profiles** for novel compounds from the ZINC library
+1. **GPS Drug Screening of Novel Compounds** for novel compounds from the ZINC library
 2. **Stage 1 optimization**: refine initial hits based on RGES and explore basic structure and RGES relationships.
 3. **Stage 2 optimization**: further optimize compounds for drug‑like and ADME‑related properties
 
 ---
 
-## GPS Profile Prediction on Novel Compounds from the ZINC Library
+## GPS Drug Screening of Novel Compounds from the ZINC Library
 
 ### Step 1. Set up the working directory
 
@@ -115,7 +115,7 @@ Then:
 ### Step 2. Run Stage 1 optimization
 
 ```bash
-sudo docker run --rm \
+sudo docker run --rm --gpus all \
     -v $(pwd)/input:/app/MCTS/libs/start_mols \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     -v $(pwd)/rges_input:/app/MCTS/libs/rges_input \
@@ -143,7 +143,7 @@ Stage 2 further optimizes compounds generated in Stage 1 by incorporating additi
 ### Run Stage 2 optimization
 
 ```bash
-sudo docker run --rm \
+sudo docker run --rm --gpus all \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     -v $(pwd)/rges_input:/app/MCTS/libs/rges_input \
     binchengroup/molsearch:latest \
