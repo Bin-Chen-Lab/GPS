@@ -19,6 +19,9 @@ conda env create --file py27.yml
 
 The `py27.yml` file can be found on GitHub in the **GPS4Drugs** folder.
 
+To use with GPU acceleration (highly recommended), install **nvidia-docker**:  
+[Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+
 ## Download preprocessed libraries
 
 Please download the ZINC library using this link:
@@ -111,7 +114,7 @@ python GPS_runDrugScreenRges.py --dzSigFile DZSIG__<sample_name>.csv --cmpdLibID
 # GPS Prediction Profile Docker Image
 
 This Docker image runs the **GPS_runPredProfile.py** script for compound profiling and **GPS_runDrugScreenRges.py** script for drug screening using GPU acceleration.  
-It comes with all dependencies pre-installed and organized project directories.
+It comes with all dependencies pre-installed and organized project directories. You will need a GPU that supports **CUDA 10.1**.
 
 ---
 
@@ -154,7 +157,7 @@ mkdir -p input output
 ### GPS_runPredProfile.py (predicts expression profile)
 
 ```bash
-sudo docker run --rm \
+sudo docker run --rm --gpus all --runtime=nvidia \
     -v $(pwd)/input:/app/input \
     -v $(pwd)/output:/app/data/profile_pred/MEDIAN/preds_all \
     binchengroup/gpsimage:latest \
@@ -224,22 +227,20 @@ sudo docker run --rm \
 
 ---
 
-## GPU Support
+## CPU Support
 
-To use `GPS_runPredProfile.py` with GPU acceleration, install **nvidia-docker**:  
-[Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
-
-You will also need a GPU that supports **CUDA 10.1**.
-
-Run with GPU support:
+To use `GPS_runPredProfile.py` with CPU support run:
 
 ```bash
-sudo docker run --rm --gpus all --runtime=nvidia \
+sudo docker run --rm \
     -v $(pwd)/input:/app/input \
     -v $(pwd)/output:/app/data/profile_pred/MEDIAN/preds_all \
     binchengroup/gpsimage:latest \
     python code/GPS_runPredProfile.py --cmpd_input input/cmpd__<sample_name>.csv
 ```
+[!WARNING]
+**Warning:** GPS4Drugs was developed with GPU accelaration in mind, we cannnot guarantee consitency of results with CPU only predictions.
+Please use an own discretion. If you do not have access to an appropriate GPU we recommed you use the [GPS webportal](https://apps.octad.org/GPS/)
 
 ---
 
