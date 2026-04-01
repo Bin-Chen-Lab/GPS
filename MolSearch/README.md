@@ -92,6 +92,22 @@ Output file: Output of Stage 2 is stored in MCTS/results_visulization.
 
 ---
 
+
+# Molecular Search Docker Image
+
+This Docker image runs Molecular Search for lead optimization using GPU acceleration.  
+It comes with all dependencies pre-installed and organized project directories.
+
+---
+
+To pull the MolSearch Docker image from DockerHub:
+
+```bash
+sudo docker pull binchengroup/molsearch:latest
+```
+
+---
+
 ## GPU setup
 
 To use GPU acceleration (required) install **NVIDIA Container Toolkit**, follow the official guide:  
@@ -108,20 +124,7 @@ For older GPUs try:
 ```bash
 sudo docker run --rm --gpus all --runtime=nvidia \
 ```
----
 
-# Molecular Search Docker Image
-
-This Docker image runs Molecular Search for lead optimization using GPU acceleration.  
-It comes with all dependencies pre-installed and organized project directories.
-
----
-
-To pull the MolSearch Docker image from DockerHub:
-
-```bash
-sudo docker pull binchengroup/molsearch:latest
-```
 ---
 
 ## Input Files
