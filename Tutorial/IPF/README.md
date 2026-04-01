@@ -47,7 +47,7 @@ This step demonstrates how to construct a **virtual compound library** for downs
 
 Refer to the following documentation to set up transcriptomic profile prediction using GPS:
 
-https://github.com/Bin-Chen-Lab/GPS/tree/main/GPS4Drugs#gps-prediction-profile-docker-image
+https://github.com/Bin-Chen-Lab/GPS/tree/main/GPS4Drugs#environment-setup
 
 ### Step 2.2. Prepare input files
 
@@ -59,7 +59,7 @@ https://github.com/Bin-Chen-Lab/GPS/tree/main/GPS4Drugs#gps-prediction-profile-d
 From the working directory, execute the following command:
 
 ```bash
-sudo docker run --rm \
+sudo docker run --rm --gpus all --runtime=nvidia \
     -v $(pwd)/input:/app/input \
     -v $(pwd)/output:/app/data/profile_pred/MEDIAN/preds_all \
     binchengroup/gpsimage:latest \
