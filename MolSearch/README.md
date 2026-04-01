@@ -97,9 +97,7 @@ Output file: Output of Stage 2 is stored in MCTS/results_visulization.
 To use GPU acceleration (required) install **NVIDIA Container Toolkit**, follow the official guide:  
 [Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
-### Command
-
-First line of docker command with:
+First line of docker command should be:
 
 ```bash
 sudo docker run --rm --gpus all \
