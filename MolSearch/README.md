@@ -90,11 +90,34 @@ python molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_g
 
 Output file: Output of Stage 2 is stored in MCTS/results_visulization.
 
+---
+
+## GPU setup
+
+To use GPU acceleration (required) install **NVIDIA Container Toolkit**, follow the official guide:  
+[Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+
+### Command
+
+First line of docker command with:
+
+```bash
+sudo docker run --rm --gpus all \
+```
+
+For older GPUs try:
+
+```bash
+sudo docker run --rm --gpus all --runtime=nvidia \
+```
+---
 
 # Molecular Search Docker Image
 
-This Docker image runs Molecular Search for lead optimization using CPU for GPU refer to Running with GPU.  
+This Docker image runs Molecular Search for lead optimization using GPU acceleration.  
 It comes with all dependencies pre-installed and organized project directories.
+
+---
 
 To pull the MolSearch Docker image from DockerHub:
 
@@ -158,7 +181,7 @@ mkdir -p input output
 Run the container with your input file mounted:
 
 ```bash
-sudo docker run --rm \
+sudo docker run --rm --gpus all \
     -v $(pwd)/input:/app/MCTS/libs/start_mols \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     binchengroup/molsearch:latest \
@@ -171,33 +194,10 @@ sudo docker run --rm \
 Run the container with your output file mounted:
 
 ```bash
-sudo docker run --rm \
+sudo docker run --rm --gpus all \
     -v $(pwd)/output:/app/MCTS/results_visulization \
     binchengroup/molsearch:latest \
     python MCTS/molsearch2_auto.py --num_drugs 1 --sample_name <sample_name> --previous_goals <stage1_goals> --pool_cores 1 --goals <stage2_goals> --sig_name <sig_name>
-```
-
----
-
-## Running with GPU
-
-### Install nvidia-docker
-
-To install **NVIDIA Container Toolkit**, follow the official guide:  
-[Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
-
-### Command
-
-Replace first line of docker command with:
-
-```bash
-sudo docker run --rm --gpus all \
-```
-
-For older GPUs try:
-
-```bash
-sudo docker run --rm --gpus all --runtime=nvidia \
 ```
 
 ---
